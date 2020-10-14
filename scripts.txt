@@ -1,5 +1,5 @@
-A new version of %s is available=
-Docker=
-Language=
-Notice %s - Version update %s=
-Plugin=
+A new version of %s is available=%sの新しいバージョンが利用可能
+Docker=ドッカー
+Language=言語
+Notice %s - Version update %s=通知 %s - バージョンアップデート %s
+Plugin=プラグイン
