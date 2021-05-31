@@ -17,3 +17,13 @@ Use a password up to 128 characters=128文字までのパスワードを使用�
 Use only lowercase letters, digits, underscores and dashes=小文字、数字、アンダースコア、ダッシュのみを使用して
 User %s has been deleted=ユーザー%sが削除された
 User name=ユーザー名
+
+; New entries (8) - 2021-05-31
+Click Add User to create a user for remote shares access=Click **Add User** to create a user for remote shares access
+Invalid Key=
+Management Access=
+No users are defined=
+Save=
+Shares Access=
+SSH authorized keys=
+Syntax of the key is incorrect=
