@@ -17,3 +17,5 @@ Docker Must Be Enabled For This Module To Operate=
 Time to wait for graceful stop before killing=
 Update All Docker Applications=
 Do not overlap with autoupdate=
+
+; Note: November 15, 2021 - 19 missing translations
