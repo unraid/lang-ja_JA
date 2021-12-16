@@ -10,4 +10,4 @@ A Reboot Is Required For Changes To Take Effect=
 Mitigations will be enabled after a reboot=
 Mitigations will be disabled after a reboot=
 
-; Note: November 15, 2021 - 11 missing translations
+; Note: December 16, 2021 - 11 missing translations
