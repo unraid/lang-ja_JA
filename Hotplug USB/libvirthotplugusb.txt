@@ -21,4 +21,4 @@ No USB devices=
 > Select the VM for the USB device to be attached/detached and the USB device for the selected VM.
 :end
 
-; Note: December 16, 2021 - 16 missing translations
+; Note: January 8, 2022 - 16 missing translations
