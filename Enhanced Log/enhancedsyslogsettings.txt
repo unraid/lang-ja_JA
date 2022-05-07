@@ -161,4 +161,4 @@ Other Highlight Color=
 > undo any changes you make before you have saved the Syslog filter. Click **Done** to exit this page.
 :end
 
-; Note: April 2, 2022 - 33 missing translations
+; Note: May 7, 2022 - 33 missing translations

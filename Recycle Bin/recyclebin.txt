@@ -55,7 +55,6 @@ Update Recycle Bin Size in Background=
 > To hide the Recycle Bin folder, set 'Hide Dot Files to 'Yes' in the SMB settings <a href='/Settings/SMB'>here</a>.
 :end
 
-
 :recycle_bin_background_plug:
 > Set to 'Yes' to enable the Recycle Bin Size to be updated in the background every minute.  This can make the Recycle Bin Settings and Shares pages more responsive and prevent disk spinups when accessing the Recycle Bin.  The Recycle Bin size can take up to a minute to refresh when this is enabled.
 :end
@@ -124,4 +123,4 @@ Update Recycle Bin Size in Background=
 > Click on the 'Clear' button to clear the log.
 :end
 
-; Note: April 2, 2022 - 36 missing translations
+; Note: May 7, 2022 - 36 missing translations

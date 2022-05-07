@@ -18,4 +18,4 @@ Time to wait for graceful stop before killing=
 Update All Docker Applications=
 Do not overlap with autoupdate=
 
-; Note: April 2, 2022 - 19 missing translations
+; Note: May 7, 2022 - 19 missing translations

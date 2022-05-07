@@ -26,4 +26,4 @@ Use only lowercase letters, digits, underscores and dashes=小文字、数字、
 User %s has been deleted=ユーザー%sが削除された
 User name=ユーザー名
 
-; Note: April 2, 2022 - 7 missing translations
+; Note: May 7, 2022 - 7 missing translations
