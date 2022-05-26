@@ -3,4 +3,4 @@ Minor Issues=
 File System=
 Drive Related=
 
-; Note: May 20, 2022 - 4 missing translations
+; Note: May 26, 2022 - 4 missing translations
