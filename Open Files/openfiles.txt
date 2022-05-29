@@ -21,4 +21,4 @@ Cannot get list of open files=
 >Click on 'Program', Process ID', or 'File Name and Path' to change the sort order.
 :end
 
-; Note: May 26, 2022 - 13 missing translations
+; Note: May 29, 2022 - 13 missing translations
