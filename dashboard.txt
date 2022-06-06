@@ -111,4 +111,4 @@ utilization warning=
 View Running Processes=
 Virtual Machines=
 
-; Note: May 29, 2022 - 100 missing translations
+; Note: June 6, 2022 - 100 missing translations
