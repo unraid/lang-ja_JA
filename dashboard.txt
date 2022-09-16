@@ -70,6 +70,7 @@ Nominal power=
 not received=
 Only PNG images are allowed=Only PNG images are allowed!
 Outbound=
+Output voltage=
 Overall Load=
 Parity disk not present=
 Parity disks not present=
@@ -111,4 +112,4 @@ utilization warning=
 View Running Processes=
 Virtual Machines=
 
-; Note: June 6, 2022 - 100 missing translations
+; Note: September 16, 2022 - 101 missing translations
