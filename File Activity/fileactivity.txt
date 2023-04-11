@@ -3,7 +3,7 @@ File Activity Monitoring=
 Start File Activity=
 Stop File Activity Monitoring=
 Clear the File Activity log=
-Refresh log=
+Refresh Page=
 Enable File Activity Monitoring=
 Enable for Unassigned Devices=
 Enable for Cache and Pool Disks=
@@ -34,8 +34,5 @@ Enable for Cache and Pool Disks=
 > Set to **Yes** to enable File Activity monitoring for the Cache and Pool Disks.  Pool disks only apply in Unraid 6.9.
 :end
 
-:file_activity_log_by_plug:
-> Set to **Disk** to log disk activity.  Set to **Share** to log share activity.
-:end
 
 ; Note: June 6, 2022 - 9 missing translations
