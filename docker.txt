@@ -1,9 +1,6 @@
-Array must be Started to view Docker containers=Array must be **Started** to view Docker containers
-CPU Memory load=CPU & Memory load
-ReadWrite - Shared=Read/Write - Shared
-ReadWrite - Slave=Read/Write - Slave
 
-; Note: April 28, 2023 - 131 missing translations
+
+; Note: April 29, 2023 - 135 missing translations
 Access Mode=
 Add another Path, Port, Variable, Label or Device=
 Add Configuration=
@@ -14,6 +11,7 @@ App to Host=
 Application=
 apply update=
 Are you sure=
+Array must be Started to view Docker containers=Array must be **Started** to view Docker containers
 Autostart=
 Back=
 Backup=
@@ -32,6 +30,7 @@ Container Path=
 Container Port=
 Container Size=
 Container=
+CPU Memory load=CPU & Memory load
 CPU Pinning=
 Created=
 Crypto Currency=
@@ -92,6 +91,8 @@ Read Me First=
 Read Only - Shared=
 Read Only - Slave=
 Read Only=
+ReadWrite - Shared=Read/Write - Shared
+ReadWrite - Slave=Read/Write - Slave
 rebuild ready=
 rebuilding=
 Remove template=

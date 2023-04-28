@@ -4,11 +4,10 @@ Yes, delete it=Yes, delete it!
 Yes, update it=Yes, update it!
 
 ; footer messages
-Retry unmounting user shares=Retry unmounting user share(s)
 
 ; docker variables
 
-; Note: April 28, 2023 - 64 missing translations
+; Note: April 29, 2023 - 65 missing translations
 also remove image=
 Apply=
 Cancel=
@@ -57,6 +56,7 @@ Array Clearing=
 Array Starting=
 Array Stopping=
 Mounting disks=
+Retry unmounting user shares=Retry unmounting user share(s)
 Spinning up all drives=
 Stale configuration=
 Starting services=

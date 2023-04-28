@@ -1,6 +1,5 @@
 Add User=ユーザーを追加
 Add=追加
-Click Add User to create a user for remote shares access=Click **Add User** to create a user for remote shares access
 Click to select PNG file=PNGファイルをクリックして選択
 Custom image=カスタム画像
 Description=説明
@@ -19,7 +18,8 @@ Use only lowercase letters, digits, underscores and dashes=小文字、数字、
 User %s has been deleted=ユーザー%sが削除された
 User name=ユーザー名
 
-; Note: April 28, 2023 - 7 missing translations
+; Note: April 29, 2023 - 8 missing translations
+Click Add User to create a user for remote shares access=Click **Add User** to create a user for remote shares access
 Invalid Key=
 Management Access=
 No users are defined=
