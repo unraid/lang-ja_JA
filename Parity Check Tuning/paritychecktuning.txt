@@ -7,7 +7,6 @@
 Donate to plugin author=DONATE
 ParityRead-Check History=Parity/Read-Check History=
 Requires unRaid 67 or later=Requires unRaid 6.7 or later=
-Use increments for Parity-SyncData Rebuild operations=Use increments for Parity-Sync/Data Rebuild operations
 
 ; Parity Problems Assistant page
 ; page intro text
@@ -226,7 +225,7 @@ NonCorrecting Parity Check=Non-Correcting Parity Check
 > sector is displayed and whether the it was being corrected or is a parity error.
 :end
 
-; Note: April 28, 2023 - 179 missing translations
+; Note: April 29, 2023 - 180 missing translations
 Parity Check Tuning=
 automatic=
 Basic=
@@ -264,6 +263,7 @@ Testing=
 Unscheduled=
 Use increments for %s %s=
 Use increments for disk Clear operations=
+Use increments for Parity-SyncData Rebuild operations=Use increments for Parity-Sync/Data Rebuild operations
 You require a parity disk present for this option to be relevant=
 Parity Problems Assistant=
 Click to show Error Sectors from syslog=
