@@ -7,23 +7,23 @@ Description=説明
 Do not use reserved names=予約名は使用しないで
 Drag-n-drop a PNG file or click the image at the left=PNGファイルをドラッグアンドドロップするか、左側の画像をクリックして
 Edit User=ユーザーの編集
-Invalid Key=
 Invalid user name=無効なユーザー名
-Management Access=
-No users are defined=
 Only PNG images are allowed=PNG画像のみ許可
 Password too long=パスワードが長すぎ
 Password=パスワード
 Restore default image=デフォルトの画像を復元
 Retype password=パスワードを再入力
-Save=
-Shares Access=
 Show Hide password=パスワードの表示/非表示
-SSH authorized keys=
-Syntax of the key is incorrect=
 Use a password up to 128 characters=128文字までのパスワードを使用して
 Use only lowercase letters, digits, underscores and dashes=小文字、数字、アンダースコア、ダッシュのみを使用して
 User %s has been deleted=ユーザー%sが削除された
 User name=ユーザー名
 
-; Note: June 6, 2022 - 7 missing translations
+; Note: April 28, 2023 - 7 missing translations
+Invalid Key=
+Management Access=
+No users are defined=
+Save=
+Shares Access=
+SSH authorized keys=
+Syntax of the key is incorrect=
