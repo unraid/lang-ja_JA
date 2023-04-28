@@ -1,4 +1,3 @@
-Serial Number Mount Point=Serial Number (Mount Point)
 
 :unassigned_devices_general_help_plug:
 > **Unassigned Devices is called UD for short.**
@@ -51,7 +50,7 @@ Serial Number Mount Point=Serial Number (Mount Point)
 > Be careful using the /dev/sdX designation because it can change after a reboot.
 :end
 
-; Note: April 28, 2023 - 142 missing translations
+; Note: April 29, 2023 - 143 missing translations
 Add ISO File Share=
 Add Remote SMB=
 Add Root Share=
@@ -156,6 +155,7 @@ Search for Servers, or enter the Server nameIP address manually=
 Search for Shares or enter the Share name manually=
 Searching=
 Select the Mount Point to Root Share=
+Serial Number Mount Point=Serial Number (Mount Point)
 Shares=
 Share Type=
 share for=
