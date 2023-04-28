@@ -1,40 +1,3 @@
-Add=
-Auto Mount USB Devices=
-Change Disk UUID=
-Change UUID=
-Change the disk UUID=
-Command times=
-Common Script=
-Common Settings=
-Destructive Mode=
-Disk spin down is managed by Unraid=
-Enable NFS export=
-Enable SMB Security=
-Enter Disk Password=
-Enter Pool Mount Point=
-Legacy Mount Point Compatibility=
-Mount SSDs with discard option=
-NFS Security=
-NFS Settings=
-NFS must be enabled in Settings->NFS to enable NFS Export=
-NFS Version to use when Mounting Remote Shares=
-Refresh and Update=
-Rule=
-SMB Security=
-Select Disk=
-Set Encrypted Disk Password=
-Set Password=
-Set Pool Mount Point=
-Set the Pool Mount Point for this disk=
-Set the disk Password=
-Specify SMB Version when Mounting Remote Shares=
-Spin down disks=
-The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=
-to SMB share config=
-Udev and Hotplug=
-Unassigned Devices=
-Unraid 6.10 or later is required for NFSv4 support=
-Use only when directed for support=
 
 ; Help
 ;
@@ -129,4 +92,41 @@ Use only when directed for support=
 > Select the disk that you want to change the UUID.  This is useful when a disk has been removed from the array and has the same UUID as an array disk.  Drive must be unmounted to change the UUID.
 :end
 
-; Note: April 11, 2023 - 37 missing translations
+; Note: April 28, 2023 - 37 missing translations
+Add=
+Auto Mount USB Devices=
+Change Disk UUID=
+Change UUID=
+Change the disk UUID=
+Command times=
+Common Script=
+Common Settings=
+Destructive Mode=
+Disk spin down is managed by Unraid=
+Enable NFS export=
+Enable SMB Security=
+Enter Disk Password=
+Enter Pool Mount Point=
+Legacy Mount Point Compatibility=
+Mount SSDs with discard option=
+NFS Security=
+NFS Settings=
+NFS must be enabled in Settings->NFS to enable NFS Export=
+NFS Version to use when Mounting Remote Shares=
+Refresh and Update=
+Rule=
+SMB Security=
+Select Disk=
+Set Encrypted Disk Password=
+Set Password=
+Set Pool Mount Point=
+Set the Pool Mount Point for this disk=
+Set the disk Password=
+Specify SMB Version when Mounting Remote Shares=
+Spin down disks=
+The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=
+to SMB share config=
+Udev and Hotplug=
+Unassigned Devices=
+Unraid 6.10 or later is required for NFSv4 support=
+Use only when directed for support=

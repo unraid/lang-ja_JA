@@ -1,3 +1,11 @@
+;
+; Help
+;
+:libvirt_hot_plug:
+> Select the VM for the USB device to be attached/detached and the USB device for the selected VM.
+:end
+
+; Note: April 28, 2023 - 16 missing translations
 Hotplug USB=
 Running VMs=
 Attach=
@@ -14,11 +22,3 @@ Detaching Please wait=
 Attaching Please wait=
 No VM Selected=
 No USB devices=
-;
-; Help
-;
-:libvirt_hot_plug:
-> Select the VM for the USB device to be attached/detached and the USB device for the selected VM.
-:end
-
-; Note: June 6, 2022 - 16 missing translations

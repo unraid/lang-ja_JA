@@ -1,3 +1,6 @@
+
+
+; Note: April 28, 2023 - 19 missing translations
 Docker Auto Update Settings=
 Plugin Auto Update Settings=
 Autoupdate ON=
@@ -17,5 +20,3 @@ Docker Must Be Enabled For This Module To Operate=
 Time to wait for graceful stop before killing=
 Update All Docker Applications=
 Do not overlap with autoupdate=
-
-; Note: June 6, 2022 - 19 missing translations

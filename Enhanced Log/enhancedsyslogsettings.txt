@@ -1,36 +1,3 @@
-Configuration=
-Colors=
-Syslog Colors=
-Custom Match=
-Custom Syslog Match Strings=
-Syslog Filter=
-Syslog Configuration=
-Syslog Filter Strings=
-Show All Lines in Log=
-Number of Lines to Display=
-Enable Error Highlighting=
-Enable Minor Issues Highlighting=
-Enable Lime Tech Highlighting=
-Enable Array Highlighting=
-Enable System Highlighting=
-Enable File System Highlighting=
-Enable Drive Related Highlighting=
-Enable Network Highlighting=
-Enable Login Highlighting=
-Enable emhttp Highlighting=
-Enable Other Highlighting=
-Color Selection Chart=
-Error Highlight Color=
-Minor Issues Highlight Color=
-Lime Tech Highlight Color=
-Array Highlight Color=
-System Highlight Color=
-File System Highlight Color=
-Drive Related Highlight Color=
-Network Highlight Color=
-Login Highlight Color=
-emhttp Highlight Color=
-Other Highlight Color=
 ;
 ; Help
 ;
@@ -161,4 +128,37 @@ Other Highlight Color=
 > undo any changes you make before you have saved the Syslog filter. Click **Done** to exit this page.
 :end
 
-; Note: June 6, 2022 - 33 missing translations
+; Note: April 28, 2023 - 33 missing translations
+Configuration=
+Colors=
+Syslog Colors=
+Custom Match=
+Custom Syslog Match Strings=
+Syslog Filter=
+Syslog Configuration=
+Syslog Filter Strings=
+Show All Lines in Log=
+Number of Lines to Display=
+Enable Error Highlighting=
+Enable Minor Issues Highlighting=
+Enable Lime Tech Highlighting=
+Enable Array Highlighting=
+Enable System Highlighting=
+Enable File System Highlighting=
+Enable Drive Related Highlighting=
+Enable Network Highlighting=
+Enable Login Highlighting=
+Enable emhttp Highlighting=
+Enable Other Highlighting=
+Color Selection Chart=
+Error Highlight Color=
+Minor Issues Highlight Color=
+Lime Tech Highlight Color=
+Array Highlight Color=
+System Highlight Color=
+File System Highlight Color=
+Drive Related Highlight Color=
+Network Highlight Color=
+Login Highlight Color=
+emhttp Highlight Color=
+Other Highlight Color=

@@ -1,40 +1,3 @@
-Age Days=
-Array=
-Array is stopped=
-Browse the Share Recycle Bin=
-Deleted Files=
-Deleted Files Log=
-Empty=
-Empty the=
-Empty All Trash=
-Empty Trash=
-Enable on Unassigned Devices=
-Enable Recycle Bin=
-Excluded Directories=
-Excluded Files=
-Excluded Shares=
-Log Deleted Files=
-Recycle Bin=
-Recycle Bin is empty=
-Recycle Bin Log=
-Recycle Bin parameters=
-Recycle Bin permissions=
-Recycle Bin Total Size=
-Refresh the Recycle Bin page=
-Remove Aged Files=
-Remove aged files from the Recycle Bin=
-Remove Aged Files Notification=
-Remove Aged Files on Schedule=
-Remove all files from the Recycle Bin=
-Restart the Recycle Bin=
-Share Type=
-SMB Share=
-Start the Recycle Bin=
-Starting and stopping the Recycle Bin can cause SMB shares to go offline for a short period=
-Stop the Recycle Bin=
-These actions apply to all shares=
-Trash Size=
-Update Recycle Bin Size in Background=
 ;
 ; Help
 ;
@@ -124,4 +87,41 @@ Update Recycle Bin Size in Background=
 > Click on the 'Clear' button to clear the log.
 :end
 
-; Note: June 6, 2022 - 37 missing translations
+; Note: April 28, 2023 - 37 missing translations
+Age Days=
+Array=
+Array is stopped=
+Browse the Share Recycle Bin=
+Deleted Files=
+Deleted Files Log=
+Empty=
+Empty the=
+Empty All Trash=
+Empty Trash=
+Enable on Unassigned Devices=
+Enable Recycle Bin=
+Excluded Directories=
+Excluded Files=
+Excluded Shares=
+Log Deleted Files=
+Recycle Bin=
+Recycle Bin is empty=
+Recycle Bin Log=
+Recycle Bin parameters=
+Recycle Bin permissions=
+Recycle Bin Total Size=
+Refresh the Recycle Bin page=
+Remove Aged Files=
+Remove aged files from the Recycle Bin=
+Remove Aged Files Notification=
+Remove Aged Files on Schedule=
+Remove all files from the Recycle Bin=
+Restart the Recycle Bin=
+Share Type=
+SMB Share=
+Start the Recycle Bin=
+Starting and stopping the Recycle Bin can cause SMB shares to go offline for a short period=
+Stop the Recycle Bin=
+These actions apply to all shares=
+Trash Size=
+Update Recycle Bin Size in Background=

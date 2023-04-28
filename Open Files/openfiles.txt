@@ -1,3 +1,14 @@
+;
+; Help
+;
+:open_files_help_plug:
+> Click on the 'Kill' button to stop the process that is holding the files open.
+>  A dialog box will open showing you the progress of killing the process holding those files open.
+>
+>Click on 'Program', Process ID', or 'File Name and Path' to change the sort order.
+:end
+
+; Note: April 28, 2023 - 13 missing translations
 Process=
 Kill Process=
 Process ID=
@@ -11,14 +22,3 @@ No open files=
 Kill=
 Command timed out=
 Cannot get list of open files=
-;
-; Help
-;
-:open_files_help_plug:
-> Click on the 'Kill' button to stop the process that is holding the files open.
->  A dialog box will open showing you the progress of killing the process holding those files open.
->
->Click on 'Program', Process ID', or 'File Name and Path' to change the sort order.
-:end
-
-; Note: June 6, 2022 - 13 missing translations
