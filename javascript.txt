@@ -1,15 +1,6 @@
-Are you sure=Are you sure?
-Log for=Log for:
-Yes, delete it=Yes, delete it!
-Yes, update it=Yes, update it!
-
-; footer messages
-
-; docker variables
-
-; Note: April 29, 2023 - 65 missing translations
 also remove image=
 Apply=
+Are you sure=Are you sure?
 Cancel=
 checking=
 Completely REMOVE=
@@ -24,6 +15,7 @@ Edit=
 Execution error=
 Force Stop=
 Hibernate=
+Log for=Log for:
 log=
 Logs=
 More Info=
@@ -50,7 +42,11 @@ Updating all Containers=
 Updating the container=
 VNC Remote=
 WebUI=
+Yes, delete it=Yes, delete it!
+Yes, update it=Yes, update it!
 Yes=
+
+; footer messages
 Array Copying=
 Array Clearing=
 Array Starting=
@@ -68,8 +64,12 @@ Unmounting disks=
 Autostart disabled=
 Missing encryption key=
 Opening encrypted volumes=
+
+; docker variables
 Container Path=
 Container Port=
 Container Variable=
 Container Label=
 Container Device=
+
+; Note: April 29, 2023 - 65 missing translations
