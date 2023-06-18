@@ -30,6 +30,11 @@
 > If you do not need the backwards compatibility, leave it set to **No**.
 :end
 
+:ud_settings_remote_share_wait_plug:
+> This is the time in seconds to wait before mounting remote shares when the array is first started.
+>
+:end
+
 :ud_settings_specify_smb_vers_plug:
 > Set to **No** for Unassigned Devices to first try to mount remote shares by not setting the SMB version when mounting.
 >
@@ -80,6 +85,10 @@
 > The down side is that it overrides Linux group permissions.  If you are unsure about whether or not this is necessary, leave it enabled.
 :end
 
+:ud_settings_nfs_security_plug:
+> Set to **Yes** to export Unassigned Devices with NFS sharing. Shares are exported Public with read and write access or Private with the rule you set. Access is controlled with permission settings on files and folders.
+:end
+
 :ud_settings_nfs_shares_plug:
 > Set to **Yes** to export NFS shares.  Shares are exported Public with read and write access or Private with the rule you set.  Access is controlled with permission settings on files and folders.
 :end
@@ -92,16 +101,17 @@
 > Select the disk that you want to change the UUID.  This is useful when a disk has been removed from the array and has the same UUID as an array disk.  Drive must be unmounted to change the UUID.
 :end
 
-; Note: April 28, 2023 - 37 missing translations
+; Note: June 18, 2023 - 42 missing translations
 Add=
 Auto Mount USB Devices=
 Change Disk UUID=
 Change UUID=
-Change the disk UUID=
+Change Disk UUID=
 Command times=
 Common Script=
 Common Settings=
 Destructive Mode=
+Disabled=
 Disk spin down is managed by Unraid=
 Enable NFS export=
 Enable SMB Security=
@@ -113,9 +123,13 @@ NFS Security=
 NFS Settings=
 NFS must be enabled in Settings->NFS to enable NFS Export=
 NFS Version to use when Mounting Remote Shares=
+Public=
+Private=
+Private Hidden=
 Refresh and Update=
+Remote Share Mount Wait Time=
 Rule=
-SMB Security=
+SMB Settings=
 Select Disk=
 Set Encrypted Disk Password=
 Set Password=
@@ -129,4 +143,4 @@ to SMB share config=
 Udev and Hotplug=
 Unassigned Devices=
 Unraid 6.10 or later is required for NFSv4 support=
-Use only when directed for support=
+Use only when directed for support because the messages can flood the log=
