@@ -101,6 +101,10 @@
 > Select the disk that you want to change the UUID.  This is useful when a disk has been removed from the array and has the same UUID as an array disk.  Drive must be unmounted to change the UUID.
 :end
 
+:ud_settings_zfs_upgrade_plug:
+> Select the disk that you want to upgrade to the latest ZFS version. Drive must be mounted to upgrade ZFS.
+:end
+
 ; Note: June 18, 2023 - 42 missing translations
 Add=
 Auto Mount USB Devices=
