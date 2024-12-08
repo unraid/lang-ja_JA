@@ -91,7 +91,7 @@
 > Click on the 'Clear' button to clear the log.
 :end
 
-; Note: April 28, 2023 - 37 missing translations
+; Note: December 8, 2024 - 40 missing translations
 Age Days=
 Array=
 Array is stopped=
@@ -102,8 +102,11 @@ Empty=
 Empty the=
 Empty All Trash=
 Empty Trash=
+Enable Empty All Trash Button=
+Enable Empty Share Trash Button=
 Enable on Unassigned Devices=
 Enable Recycle Bin=
+Enable Remove Aged Files Button=
 Excluded Directories=
 Excluded Files=
 Excluded Shares=

@@ -8,9 +8,11 @@
 >Click on 'Program', Process ID', or 'File Name and Path' to change the sort order.
 :end
 
-; Note: April 28, 2023 - 13 missing translations
+; Note: December 8, 2024 - 15 missing translations
+Enable Kill Button=
 Process=
 Kill Process=
+Kill this Process holding files open=
 Process ID=
 Open=
 May prevent shutdown=
