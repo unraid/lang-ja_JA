@@ -1,10 +1,11 @@
 
 
-; Note: July 9, 2023 - 42 missing translations
+; Note: April 21, 2025 - 43 missing translations
 %s An update is available=%s: An update is available.
 Alert Message=
 anonymous=
 Author=
+cannot check=
 Check For Updates=
 Checking connectivity=
 checking=

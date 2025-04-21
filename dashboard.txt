@@ -147,6 +147,7 @@ Select Case Model=
 Select time frame=
 Services=
 Share count %s with %s cache only and %s encrypted=Share count: %s with %s cache only and %s encrypted
+Share count %s with %s public SMB and %s public NFS=Share count: %s with %s public SMB and %s public NFS
 Shares Information=
 Show details=
 Show Information=
@@ -198,4 +199,4 @@ W=
 Warnings=
 ZFS=
 
-; Note: December 29, 2024 - 184 missing translations
+; Note: April 21, 2025 - 185 missing translations
