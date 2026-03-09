@@ -1,7 +1,4 @@
-
-
-; Note: April 28, 2023 - 4 missing translations
-Enhanced System Log=
-Minor Issues=
-File System=
-Drive Related=
+Enhanced System Log=拡張システムログ
+Minor Issues=軽微な問題
+File System=ファイルシステム
+Drive Related=ドライブ関連

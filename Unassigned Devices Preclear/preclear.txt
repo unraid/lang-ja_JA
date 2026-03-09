@@ -1,0 +1,79 @@
+A disk must be cleared of all partitions before it can be precleared=ディスクをプレクリアする前に、すべてのパーティションをクリアする必要があります
+Cannot Preclear=プレクリアできません
+Clear Disk=ディスクをクリア
+Clear Signature=署名をクリア
+Clear Stats=統計をクリア
+Click to show reports=クリックしてレポートを表示
+Concurrent Sessions=同時セッション数
+Cycles=サイクル
+Device Model=デバイスモデル
+Disk Log Information=ディスクログ情報
+Disk Size=ディスクサイズ
+Download Logs=ログをダウンロード
+Enable Testing for debugging=デバッグ用テストを有効化
+Fast Post-read=高速ポストリード
+Firmware=ファームウェア
+Fix Preclear=プレクリアを修正
+Identification=識別情報
+If you set a queue limit, all running preclear sessions above that limit will be paused and remain in the queue until a session finishes=キュー制限を設定すると、その制限を超えるすべての実行中のプレクリアセッションが一時停止され、セッションが完了するまでキューに残ります
+Notifications=通知
+On every cycle and step end=すべてのサイクルとステップの終了時
+On every 25% of progress=進行状況の 25% ごと
+On every cycle end=すべてのサイクルの終了時
+On preclear end=プレクリア終了時
+Operation=操作
+Post-read Verify=ポストリード検証
+Preclear Disks=ディスクをプレクリア
+Preclear Disk Log=プレクリアディスクログ
+Preclear Log=プレクリアログ
+Preclear Status=プレクリアステータス
+Preview Progress=進行状況をプレビュー
+Read size=読み取りサイズ
+Remove Report=レポートを削除
+Resume all Sessions=すべてのセッションを再開
+Resume Preclear=プレクリアを再開
+Preview Progress Report=進行状況レポートをプレビュー
+Select Disks=ディスクを選択
+Serial Number=シリアル番号
+Set Preclear Queue=プレクリアキューを設定
+Show Preclear Report=プレクリアレポートを表示
+Skip Pre-read=プレリードをスキップ
+Skip Post-Read=ポストリードをスキップ
+Start Multiple Sessions=複数セッションを開始
+Start New=新規開始
+Start Preclear=プレクリアを開始
+Stop all Sessions=すべてのセッションを停止
+Stop Preclear=プレクリアを停止
+Temp=温度
+Testing=テスト中
+There are no disks that can be precleared=プレクリア可能なディスクがありません
+Verify Signature=署名を検証
+Write size=書き込みサイズ
+You can use Unassigned Devices to clear the disk=未割り当てデバイスを使用してディスクをクリアできます
+
+:preclear_general_help_plug:
+> Unassigned Devices プレクリアは、アレイに含めるためのディスクの準備、廃棄用のディスククリア、およびアレイで使用する前のストレステストを実行するために使用できます。
+>
+> アレイで使用されておらず、ファイルシステムを持つパーティションがないディスクのみが、プレクリアの候補としてリストされます。
+>
+> ディスクがプレクリアされている間、このページ、未割り当てデバイスページ、または Unraid Web ページのフッターにあるプレクリアステータスアイコンでステータスを確認できます。
+> 
+> プレクリアには複数の選択肢があります：
+>
+> ユーザー **gfjardim** が作成した **Enhanced** スクリプトは、一時停止や再開などの拡張機能をサポートしているという利点があります。また、広範なログ記録機能も備えています。
+>
+> **Docker** オプションは、プレクリアを実行する binhex Docker コンテナを指します。利点は、プレクリアがコンテナ内で分離されることです。
+>
+> プレクリア操作：
+>
+> + Clear Disk - ディスクがクリアされ、Unraid 署名がディスクに書き込まれます。これにより、ディスクに空のパーティションが作成されます。
+> + Erase Disk - すべてゼロを書き込んでディスク全体を消去します。プレクリア署名は削除されます。
+> + Erase and Clear Disk - ランダムパターンがディスクに書き込まれ、その後ゼロが書き込まれます。これは、ファイルのすべての痕跡を確実に削除するために廃棄するディスクに適した選択です。
+> + Verify Signature - ディスク署名がチェックされます。
+> + Verify Disk - ディスク署名がチェックされ、ディスクがゼロ化されていることが検証されます。
+> + Post-read Verify - ポストリード検証を実行してディスクをチェックします。
+> + Clear Signature - ディスクからプレクリア署名を削除します。
+>
+> ディスクシリアル番号の横にある <em style='color:#00BE37;'>Pre-cleared</em> というテキストは、ディスクにプレクリア署名があることを示します。これは、ディスクがプレクリアされ、プレクリア統計が削除された場合にのみ表示されます。
+:end
+

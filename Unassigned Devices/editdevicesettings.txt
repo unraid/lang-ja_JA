@@ -1,104 +1,101 @@
+Abort Device Script=デバイススクリプトを中止
+Attach=アタッチ
+Attach This Disk=このディスクをアタッチ
+Attaching=アタッチ中
+Automount=自動マウント
+Click to select file or click Default button for the Device Script File=ファイルを選択するか、デフォルトボタンをクリックしてデバイススクリプトファイルを設定
+Default=デフォルト
+Delete Device Script File=デバイススクリプトファイルを削除
+Detach=デタッチ
+Detach This Disk=このディスクをデタッチ
+Detaching=デタッチ中
+Device Script=デバイススクリプト
+Device Script content=デバイススクリプトの内容
+Disable Mount and Unmount Button=マウント/アンマウントボタンを無効化
+Disable Mount Button=マウントボタンを無効化
+Disk Name=ディスク名
+Disk Serial=ディスクシリアル
+Edit Device Script=デバイススクリプトを編集
+Enter Device Script File Name=デバイススクリプトファイル名を入力
+Enter and Edit the Device Script that runs when a udev or operator event occurs=udevまたはオペレーターイベント発生時に実行されるデバイススクリプトを入力・編集
+Enter the User Script File Name=ユーザースクリプトファイル名を入力
+Enter the User Script that will be using this device=このデバイスを使用するユーザースクリプトを入力
+Enter the volume to mount on this apfs partition=このAPFSパーティションにマウントするボリュームを入力
+Load the default Device Script=デフォルトのデバイススクリプトを読み込む
+Run in background=バックグラウンドで実行
+Mark this Device as passed through to a VM or Docker=このデバイスをVMまたはDockerにパススルーとしてマーク
+Mount Device Read only=デバイスを読み取り専用でマウント
+Mount Device when Plugged in or Array is Started=プラグイン時またはアレイ起動時にデバイスをマウント
+Mount ISO File when Array is Started=アレイ起動時にISOファイルをマウント
+Mount Point=マウントポイント
+Mount Remote Share Read only=リモート共有を読み取り専用でマウント
+Mount Remote SMB or NFS Share when Array is Started=アレイ起動時にリモートSMBまたはNFS共有をマウント
+Note: Enable SMB Sharing or NFS Export in Unassigned Devices Settings to share this device=注意：このデバイスを共有するには、Unassigned Devices設定でSMB共有またはNFSエクスポートを有効にしてください
+Passed Through=パススルー済み
+Read Only=読み取り専用
+Run Device Script File in the background=デバイススクリプトファイルをバックグラウンドで実行
+Save your Device Script File=デバイススクリプトファイルを保存
+Save your Device Script File changes=デバイススクリプトファイルの変更を保存
+Share Device with SMB and NFS=SMBとNFSでデバイスを共有
+Share Remote Mount with SMB and NFS=SMBとNFSでリモートマウントを共有
+Show all partitions on this device by default=デフォルトでこのデバイスのすべてのパーティションを表示
+Show Partitions=パーティションを表示
+Source=ソース
+Unassigned Devices Settings=Unassigned Devices設定
+Undo your changes since last Save=最後の保存以降の変更を元に戻す
+User Script=ユーザースクリプト
+Volume=ボリューム
+ZFS Volume=ZFSボリューム
 
 ;
 ; Help
 ;
 :ud_edit_script_device_settings_plug:
-> Select the options for this device and mount point.
+> このデバイスとマウントポイントのオプションを選択します。
 :end
 
 :ud_edit_script_detach_plug:
-> Click **Detach** to detach the device.  The device will then show in Historical Devices and can be Attached from the device settings there.
+> **デタッチ**をクリックしてデバイスをデタッチします。デバイスは履歴デバイスに表示され、そこのデバイス設定からアタッチできます。
 :end
 
 :ud_edit_script_attach_plug:
-> Click **Attach** to attach a device that has been detached.  This will act like the device was just installed and will auto mount if 'Auto Mount' is on.  It will take a while for the device to show up in UD.
+> **アタッチ**をクリックしてデタッチされたデバイスをアタッチします。これはデバイスがインストールされたばかりのように動作し、「自動マウント」がオンの場合は自動マウントされます。デバイスがUDに表示されるまで時間がかかります。
 :end
 
 :ud_edit_script_abort_plug:
-> Click **Abort** to abort the device script.
+> **中止**をクリックしてデバイススクリプトを中止します。
 :end
 
 :ud_disk_name_plug:
-> Enter the alias name for this device.  This is the name you want to use to refer to this drive.  Leave the name blank and the 'devX' will be assigned.
+> このデバイスのエイリアス名を入力します。これはこのドライブを参照するために使用する名前です。名前を空白のままにすると「devX」が割り当てられます。
 >
-> **Name:** 8 characters max, spaces converted to '_', minimal special characters allowed, name is case sensitive.
+> **名前：** 最大8文字、スペースは「_」に変換、最小限の特殊文字が許可、名前は大文字小文字を区別します。
 >
-> **Note:** Cannot contain "dev" as the first characters.  This is reserved for the 'devX' devices.
+> **注意：** 最初の文字に「dev」を含めることはできません。これは「devX」デバイス用に予約されています。
 :end
 
 :ud_edit_script_choose_name_plug:
-> This is the Script File that runs when the device is mounted. Choose your Script File name from the file selection dropdown, or enter your desired script.
+> これはデバイスがマウントされたときに実行されるスクリプトファイルです。ファイル選択ドロップダウンからスクリプトファイル名を選択するか、希望のスクリプトを入力してください。
 :end
 
 :ud_edit_user_script_choose_name_plug:
-> If you have the User Scripts plugin installed, you can have
-Unassigned Devices show the running status of the User Script that will be using this device. This field will only be enabled when a Device Script File exists.
+> User Scriptsプラグインがインストールされている場合、Unassigned Devicesでこのデバイスを使用するユーザースクリプトの実行状態を表示できます。このフィールドはデバイススクリプトファイルが存在する場合にのみ有効になります。
 :end
 
 :ud_edit_script_run_background_plug:
-> Set to **Yes** to have the Device Script run as a background task.  This can keep the Unassigned Devices UI from hanging when the script is run from the UI.
+> **はい**に設定すると、デバイススクリプトがバックグラウンドタスクとして実行されます。これにより、UIからスクリプトを実行したときにUnassigned Devices UIがハングするのを防ぐことができます。
 :end
 
 :ud_edit_script_buttons_plug:
-> Click **Default** to initialize the edit box with a default Device Script. You still need to click **Save** in order to commit the change.
+> **デフォルト**をクリックして、デフォルトのデバイススクリプトで編集ボックスを初期化します。変更をコミットするには、**保存**をクリックする必要があります。
 >
-> Click **Save** to save your Device Script file.
+> **保存**をクリックして、デバイススクリプトファイルを保存します。
 >
-> Click **Delete** to delete the Device Script file.
+> **削除**をクリックして、デバイススクリプトファイルを削除します。
 >
-> Click **Reset** to undo any changes you make (before Saving).
+> **リセット**をクリックして、（保存前に）行った変更を元に戻します。
 >
-> Click **Apply** to commit the current edits.
+> **適用**をクリックして、現在の編集をコミットします。
 >
-> Click **Done** to exit this page.
+> **完了**をクリックして、このページを終了します。
 :end
-
-; Note: April 21, 2025 - 48 missing translations
-Abort Device Script=
-Attach=
-Attach This Disk=
-Attaching=
-Automount=
-Click to select file or click Default button for the Device Script File=
-Default=
-Delete Device Script File=
-Detach=
-Detach This Disk=
-Detaching=
-Device Script=
-Device Script content=
-Disable Mount and Unmount Button=
-Disable Mount Button=
-Disk Name=
-Disk Serial=
-Edit Device Script=
-Enter Device Script File Name=
-Enter and Edit the Device Script that runs when a udev or operator event occurs=
-Enter the User Script File Name=
-Enter the User Script that will be using this device=
-Enter the volume to mount on this apfs partition=
-Load the default Device Script=
-Run in background=
-Mark this Device as passed through to a VM or Docker=
-Mount Device Read only=
-Mount Device when Plugged in or Array is Started=
-Mount ISO File when Array is Started=
-Mount Point=
-Mount Remote Share Read only=
-Mount Remote SMB or NFS Share when Array is Started=
-Note: Enable SMB Sharing or NFS Export in Unassigned Devices Settings to share this device=
-Passed Through=
-Read Only=
-Run Device Script File in the background=
-Save your Device Script File=
-Save your Device Script File changes=
-Share Device with SMB and NFS=
-Share Remote Mount with SMB and NFS=
-Show all partitions on this device by default=
-Show Partitions=
-Source=
-Unassigned Devices Settings=
-Undo your changes since last Save=
-User Script=
-Volume=
-ZFS Volume=

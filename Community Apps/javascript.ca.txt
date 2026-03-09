@@ -1,17 +1,14 @@
-
-
-; Note: April 28, 2023 - 14 missing translations
-Search for %s=
-DockerHub Search for %s=
-Are you sure you want to delete %s from the list of previously installed applications=
-Are you sure you want to uninstall %s=
-Are you sure you want to remove the private application %s by %s=
-Removing %s=
-Uninstalling %s=
-Install %s Selected Application=
-Install %s Selected Applications=
-Are you sure you want to install %s docker and %s plugin applications=
-Install Application=
-Install Applications=
-Something really wrong went on during %s=
-Are you sure you want to delete %s applications from the previously installed list=
+Search for %s=%sを検索
+DockerHub Search for %s=DockerHubで%sを検索
+Are you sure you want to delete %s from the list of previously installed applications=以前インストールしたアプリのリストから%sを削除してもよろしいですか
+Are you sure you want to uninstall %s=%sをアンインストールしてもよろしいですか
+Are you sure you want to remove the private application %s by %s=プライベートアプリ %s （作成者: %s）を削除してもよろしいですか
+Removing %s=%sを削除中
+Uninstalling %s=%sをアンインストール中
+Install %s Selected Application=選択した%s個のアプリをインストール
+Install %s Selected Applications=選択した%s個のアプリをインストール
+Are you sure you want to install %s docker and %s plugin applications=%1$s個のDockerと%2$s個のプラグインアプリをインストールしてもよろしいですか
+Install Application=アプリをインストール
+Install Applications=アプリをインストール
+Something really wrong went on during %s=%s中に重大なエラーが発生しました
+Are you sure you want to delete %s applications from the previously installed list=以前インストールしたリストから%s個のアプリを削除してもよろしいですか

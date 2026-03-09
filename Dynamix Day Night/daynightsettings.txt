@@ -1,0 +1,31 @@
+Automatic theming=自動テーマ設定
+Bing API key=Bing APIキー
+Bing=Bing
+City name=市区町村名
+Country name=国名
+Day theme=昼間テーマ
+Geocoding service=ジオコーディングサービス
+Google API key=Google APIキー
+Google=Google
+MapQuest API key=MapQuest APIキー
+MapQuest=MapQuest
+Night theme=夜間テーマ
+No geographical coordinates found for the given address=指定された住所の地理座標が見つかりません
+Please adjust=調整してください
+Postal code=郵便番号
+See=参照
+Street address=番地
+this site=このサイト
+to obtain a Bing API key=Bing APIキーを取得するには
+to obtain a Google API key=Google APIキーを取得するには
+to obtain a MapQuest API key=MapQuest APIキーを取得するには
+
+:day_night_plug:
+> 住所情報（番地、市区町村、国）を入力してください。これは、あなたの場所の日の出と日の入りの時刻を計算するために使用されます。
+>
+> ジオコーディングサービスは、住所を地理座標（緯度と経度）に変換するために使用されます。<br>
+> 利用可能なサービスのいずれかに登録し、そのサービスを利用するための固有のAPIキーを取得する必要があります。
+>
+> **昼間**テーマは日の出から日の入りの間に選択されます<br>
+> **夜間**テーマは日の入りから日の出の間に選択されます
+:end

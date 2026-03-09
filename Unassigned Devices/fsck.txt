@@ -1,13 +1,11 @@
-
-
 ; Note: April 21, 2025 - 10 missing translations
-Cannot determine file system on an encrypted disk=
-Dirty log detected=
-Executing file system check=
-Executing file system scrub=
-File system corruption detected=
-File system corruption fixed=
-Force Log Zeroing=
-No file system corruption detected=
-Note: While there is some risk, if it is not possible to first mount the filesystem to clear the log, zeroing it is the only option to try and repair the filesystem, and in most cases it results in little or no data loss=
-Run with Correct flag=
+Cannot determine file system on an encrypted disk=暗号化されたディスクのファイルシステムを判定できません
+Dirty log detected=ダーティログが検出されました
+Executing file system check=ファイルシステムチェックを実行中
+Executing file system scrub=ファイルシステムスクラブを実行中
+File system corruption detected=ファイルシステムの破損が検出されました
+File system corruption fixed=ファイルシステムの破損を修復しました
+Force Log Zeroing=ログの強制ゼロ化
+No file system corruption detected=ファイルシステムの破損は検出されませんでした
+Note: While there is some risk, if it is not possible to first mount the filesystem to clear the log, zeroing it is the only option to try and repair the filesystem, and in most cases it results in little or no data loss=注意：リスクはありますが、ログをクリアするためにファイルシステムをマウントできない場合、ゼロ化がファイルシステムの修復を試みる唯一の選択肢です。ほとんどの場合、データ損失はほとんどまたは全くありません
+Run with Correct flag=修正フラグ付きで実行

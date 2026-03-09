@@ -1,260 +1,262 @@
-Add ISO File Share=
-Add Remote SMB=
-Add Root Share=
-All Unassigned Devices configurations will be updated=
-All disks will be refreshed using udev=
-An XFS, BTRFS, or ZFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=
-Any data on this disk will be lost=
-Are you sure=
-Auto mount=
-Back=
-Browse Disk Share=
-Browse ISO File Share=
-Browse Remote SMB=
-Check the syslog for details=
-Choose File System Format=
-Choose ISO File=
-Choose NFS Server=
-Choose SMB Server=
-Choose Share=
-Click on Icon to Choose Protocol=
-Change Disk Mount Point=
-Change ISO File Mount Point=
-Change Remote Share Mount Point=
-Change SMB=
-Changing the Mount Point will also change the disk label on all disks and the pool name on a ZFS disk=
-Clear=
-Click to select ISO file=
-Click to view/hide partitions and mount points=
-Complete=
-Device=
-Disks=
-Disk Label=
-Disk Log Information=
-Disk Sharing must be disabled to add a Root Share=
-Do NOT use a remote share local mount in a Docker container or VM for critical data=
-Do not put files or folders into the /mnt/rootshare/ folder=
-Domain=
-Edit Device Script=
-Edit ISO File Script=
-Edit Remote SMB=
-Encrypt CIFS Mount=
-Enter the Domain for the share if on a Domain=
-Enter the Password if the share is password protected=
-Enter the Username if the share is password protected=
-Enter the password to use for this disk=
-Enter the server name and it will be added to the local DNS names and will then resolve by name=
-Exclusive Share files will not be accessible in a Root Share=
-Execute Script as udev simulating a device being installed=
-Fail=
-failed to=
-Failed to get data to refresh page=
-file share for=
-File System Check=
-File System Scrub=
-Format=
-Formatting=
-Free=
-from disk=
-Go to Settings->Global Share Settings and set Enable Disk Shares to Auto or Off=
-Historical=
-Historical Unassigned Devices=
-Historical Device is=
-Identification=
-If SMB shares do not show, check your credentials=
-If the IP address of the server shows in the list after searching, your DNS server is not resolving the name=
-If this disk was pre-cleared, you will remove the pre-clear signature=
-If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=
-Invalid Configuration - Remove and Re-add=
-is offline=
-ISO File is=
-ISO File Shares=
-If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=
-Device=
-Leave blank to use the array passwordpassphrase=
-Load Shares=
-Loading=
-Log=
-Mount=
-Mount Point=
-Mounting=
-Next=
-NFS Mount Point=
-NFS or ISO File Shares configured=
-NFS Script=
-NFS Share=
-NFS Shares=
-No Remote SMB=
-No script file to execute=
-No Unassigned Disks available=
-Not Enabled=
-not installed=
-Note=
-offline=
-User Shares=
-User Shares without Pools=
-You must enable NFS in Settings->NFS to mount NFS shares=
-You must enable SMB in Settings->SMB to mount SMB shares=
-Open=
-Partition=
-Partition and Format Disk=
-Passed=
-Passed Through=
-Password=
-Pool=
-Preclear=
-Read only=
-Reboot=
-Refresh Disks and Configuration=
-Remember your password It cannot be recovered=
-Remote Server is=
-Remote Shares=
-Remote Shares online status will be reset=
-Remote share mounts are dependent on a solid and reliable network connection and that can be difficult to achieve=
-Remove Device configuration=
-Remove ISO File Share=
-Remove Partition=
-Remove Remote SMB=
-Remove partition=
-Running=
-Script=
-Script is already running=
-Search For Servers=
-Script Log=
-Search for Servers, or enter the Server name or IP address manually=
-Search for Shares or enter the Share name manually=
-Searching=
-Select the Root Share=
-Serial Number Mount Point=Serial Number (Mount Point)
-Shares=
-Share Type=
-share for=
-Show/Hide Historical Unassigned Devices=
-Show/Hide SMB/NFS/ISO Shares=
-Show/Hide Unassiged Disk Devices=
-Simple=
-SMB Shares=
-Source=
-SSD cannot be spun down=
-Success=
-Show Historical Devices=
-Show SMB/NFS/ISO Shares=
-Show Disk Devices=
-This is a way to gather Unraid shares into one Root Share=
-This will remove the ISO file share for=
-This will remove the=
-This will remove the saved configuration of=
-This will remove the=
-Timeout: Failed to get unassigned devices information - check the syslog=
-to confirm=
-to format=
-Unassigned Devices Settings=
-Unassigned Disk Devices=
-Unassigned Disks=
-Unmount=
-Unmounting=
-Use caution when gathering shares into one Root Share=
-Used=
-User Shares=
-User Shares without Pools=
-User Shares - allow access to User Shares, including Cache and Pool files=
-User Shares without Pools - allow access to User Shares, but the Root Share will not include Cache and Pool files=
-Username=
-View Device Script Log=
-View ISO File Script Log=
-View NFS Script Log=
-View SMB Script Log=
-WARNING=
-When you copy files between shares in the Root Share, the files may not end up on the expected disks=
-Working=
-You can also subject yourself to security issues like ransomware by exposing all your shares in one Root Share=
-You may need to enter credentials to list the shares=
-You must enable NFS in Settings->NFS to mount NFS shares=
-You must enable SMB in Settings->SMB to mount SMB shares=
-You must enable the Destructive Mode in UD Settings before you can Format this disk=
-You WILL have problems if you do=
-ZFS Pool Name=
-ZFS Volume=
+Add ISO File Share=ISOファイル共有を追加
+Add Remote SMB=リモートSMBを追加
+Add Root Share=ルート共有を追加
+All Unassigned Devices configurations will be updated=すべてのUnassigned Devices設定が更新されます
+All disks will be refreshed using udev=すべてのディスクがudevを使用して更新されます
+An XFS, BTRFS, or ZFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=UDでパーティション分割されたXFS、BTRFS、またはZFSディスクは、アレイディスクのパーティション分割と互換性があり、アレイに追加できます
+Any data on this disk will be lost=このディスク上のすべてのデータが失われます
+Are you sure=よろしいですか
+Auto mount=自動マウント
+Back=戻る
+Browse Disk Share=ディスク共有を参照
+Browse ISO File Share=ISOファイル共有を参照
+Browse Remote SMB=リモートSMBを参照
+Check the syslog for details=詳細はsyslogを確認してください
+Choose File System Format=ファイルシステム形式を選択
+Choose ISO File=ISOファイルを選択
+Choose NFS Server=NFSサーバーを選択
+Choose SMB Server=SMBサーバーを選択
+Choose Share=共有を選択
+Click on Icon to Choose Protocol=アイコンをクリックしてプロトコルを選択
+Change Disk Mount Point=ディスクマウントポイントを変更
+Change ISO File Mount Point=ISOファイルマウントポイントを変更
+Change Remote Share Mount Point=リモート共有マウントポイントを変更
+Change SMB=SMBを変更
+Changing the Mount Point will also change the disk label on all disks and the pool name on a ZFS disk=マウントポイントを変更すると、すべてのディスクのディスクラベルとZFSディスクのプール名も変更されます
+Clear=クリア
+Click to select ISO file=クリックしてISOファイルを選択
+Click to view/hide partitions and mount points=クリックしてパーティションとマウントポイントを表示/非表示
+Complete=完了
+Device=デバイス
+Disks=ディスク
+Disk Label=ディスクラベル
+Disk Log Information=ディスクログ情報
+Disk Sharing must be disabled to add a Root Share=ルート共有を追加するには、ディスク共有を無効にする必要があります
+Do NOT use a remote share local mount in a Docker container or VM for critical data=重要なデータには、DockerコンテナまたはVM内のリモート共有ローカルマウントを使用しないでください
+Do not put files or folders into the /mnt/rootshare/ folder=/mnt/rootshare/フォルダにファイルやフォルダを入れないでください
+Domain=ドメイン
+Edit Device Script=デバイススクリプトを編集
+Edit ISO File Script=ISOファイルスクリプトを編集
+Edit Remote SMB=リモートSMBを編集
+Encrypt CIFS Mount=CIFSマウントを暗号化
+Enter the Domain for the share if on a Domain=ドメイン上にある場合は、共有のドメインを入力
+Enter the Password if the share is password protected=共有がパスワードで保護されている場合は、パスワードを入力
+Enter the Username if the share is password protected=共有がパスワードで保護されている場合は、ユーザー名を入力
+Enter the password to use for this disk=このディスクに使用するパスワードを入力
+Enter the server name and it will be added to the local DNS names and will then resolve by name=サーバー名を入力すると、ローカルDNS名に追加され、名前で解決されます
+Exclusive Share files will not be accessible in a Root Share=排他的共有ファイルは、ルート共有ではアクセスできません
+Execute Script as udev simulating a device being installed=デバイスがインストールされたことをシミュレートするudevとしてスクリプトを実行
+Fail=失敗
+failed to=失敗
+Failed to get data to refresh page=ページを更新するためのデータの取得に失敗しました
+file share for=ファイル共有
+File System Check=ファイルシステムチェック
+File System Scrub=ファイルシステムスクラブ
+Format=フォーマット
+Formatting=フォーマット中
+Free=空き容量
+from disk=ディスクから
+Go to Settings->Global Share Settings and set Enable Disk Shares to Auto or Off=設定→グローバル共有設定に移動し、ディスク共有を有効化を自動またはオフに設定
+Historical=履歴
+Historical Unassigned Devices=履歴Unassigned Devices
+Historical Device is=履歴デバイス
+Identification=識別
+If SMB shares do not show, check your credentials=SMB共有が表示されない場合は、認証情報を確認してください
+If the IP address of the server shows in the list after searching, your DNS server is not resolving the name=検索後にサーバーのIPアドレスがリストに表示される場合、DNSサーバーが名前を解決していません
+If this disk was pre-cleared, you will remove the pre-clear signature=このディスクがプレクリアされている場合、プレクリア署名が削除されます
+If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=ディスクをアレイに追加し、プレクリア署名が削除されると、Unraidはディスクを再度クリアする長いプロセスを実行します
+Invalid Configuration - Remove and Re-add=無効な設定 - 削除して再追加
+is offline=オフライン
+ISO File is=ISOファイル
+ISO File Shares=ISOファイル共有
+If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=ディスクパスワードを使用する場合は、マウントできるようにUD設定でこのディスクのパスワードを入力してください
+Device=デバイス
+Leave blank to use the array passwordpassphrase=アレイパスワード/パスフレーズを使用する場合は空白のままにします
+Load Shares=共有を読み込む
+Loading=読み込み中
+Log=ログ
+Mount=マウント
+Mount Point=マウントポイント
+Mounting=マウント中
+Next=次へ
+NFS Mount Point=NFSマウントポイント
+NFS or ISO File Shares configured=NFSまたはISOファイル共有が設定されました
+NFS Script=NFSスクリプト
+NFS Share=NFS共有
+NFS Shares=NFS共有
+No Remote SMB=リモートSMBなし
+No script file to execute=実行するスクリプトファイルがありません
+No Unassigned Disks available=利用可能なUnassigned Disksがありません
+Not Enabled=有効化されていません
+not installed=インストールされていません
+Note=注意
+offline=オフライン
+User Shares=ユーザー共有
+User Shares without Pools=プールなしのユーザー共有
+You must enable NFS in Settings->NFS to mount NFS shares=NFS共有をマウントするには、設定→NFSでNFSを有効にする必要があります
+You must enable SMB in Settings->SMB to mount SMB shares=SMB共有をマウントするには、設定→SMBでSMBを有効にする必要があります
+Open=開く
+Partition=パーティション
+Partition and Format Disk=パーティション分割とディスクフォーマット
+Passed=パススルー済み
+Passed Through=パススルー済み
+Password=パスワード
+Pool=プール
+Preclear=プレクリア
+Read only=読み取り専用
+Reboot=再起動
+Refresh Disks and Configuration=ディスクと設定を更新
+Remember your password It cannot be recovered=パスワードを覚えておいてください。復元できません
+Remote Server is=リモートサーバー
+Remote Shares=リモート共有
+Remote Shares online status will be reset=リモート共有のオンライン状態がリセットされます
+Remote share mounts are dependent on a solid and reliable network connection and that can be difficult to achieve=リモート共有マウントは、堅固で信頼性の高いネットワーク接続に依存しており、それを実現するのは困難な場合があります
+Remove Device configuration=デバイス設定を削除
+Remove ISO File Share=ISOファイル共有を削除
+Remove Partition=パーティションを削除
+Remove Remote SMB=リモートSMBを削除
+Remove partition=パーティションを削除
+Running=実行中
+Script=スクリプト
+Script is already running=スクリプトはすでに実行中です
+Search For Servers=サーバーを検索
+Script Log=スクリプトログ
+Search for Servers, or enter the Server name or IP address manually=サーバーを検索するか、サーバー名またはIPアドレスを手動で入力
+Search for Shares or enter the Share name manually=共有を検索するか、共有名を手動で入力
+Searching=検索中
+Select the Root Share=ルート共有を選択
+Serial Number Mount Point=シリアル番号（マウントポイント）
+Shares=共有
+Share Type=共有タイプ
+share for=共有
+Show/Hide Historical Unassigned Devices=履歴Unassigned Devicesを表示/非表示
+Show/Hide SMB/NFS/ISO Shares=SMB/NFS/ISO共有を表示/非表示
+Show/Hide Unassigned Disk Devices=未割り当てディスクデバイスを表示/非表示
+Simple=シンプル
+SMB Shares=SMB共有
+Source=ソース
+SSD cannot be spun down=SSDはスピンダウンできません
+Success=成功
+Show Historical Devices=履歴デバイスを表示
+Show SMB/NFS/ISO Shares=SMB/NFS/ISO共有を表示
+Show Disk Devices=ディスクデバイスを表示
+This is a way to gather Unraid shares into one Root Share=これは、Unraid共有を1つのルート共有に集約する方法です
+This will remove the ISO file share for=次のISOファイル共有が削除されます
+This will remove the=次が削除されます
+This will remove the saved configuration of=次の保存された設定が削除されます
+Timeout: Failed to get unassigned devices information - check the syslog=タイムアウト：Unassigned Devices情報の取得に失敗しました - syslogを確認してください
+to confirm=確認
+to format=フォーマット
+Unassigned Devices Settings=Unassigned Devices設定
+Unassigned Disk Devices=未割り当てディスクデバイス
+Unassigned Disks=未割り当てディスク
+Unmount=アンマウント
+Unmounting=アンマウント中
+Use caution when gathering shares into one Root Share=共有を1つのルート共有に集約する場合は注意してください
+Used=使用済み
+User Shares=ユーザー共有
+User Shares without Pools=プールなしのユーザー共有
+User Shares - allow access to User Shares, including Cache and Pool files=ユーザー共有 - キャッシュとプールファイルを含むユーザー共有へのアクセスを許可
+User Shares without Pools - allow access to User Shares, but the Root Share will not include Cache and Pool files=プールなしのユーザー共有 - ユーザー共有へのアクセスを許可しますが、ルート共有にはキャッシュとプールファイルは含まれません
+Username=ユーザー名
+View Device Script Log=デバイススクリプトログを表示
+View ISO File Script Log=ISOファイルスクリプトログを表示
+View NFS Script Log=NFSスクリプトログを表示
+View SMB Script Log=SMBスクリプトログを表示
+WARNING=警告
+When you copy files between shares in the Root Share, the files may not end up on the expected disks=ルート共有内の共有間でファイルをコピーすると、ファイルが予期したディスクに配置されない場合があります
+Working=作業中
+You can also subject yourself to security issues like ransomware by exposing all your shares in one Root Share=すべての共有を1つのルート共有で公開することで、ランサムウェアなどのセキュリティ問題にさらされる可能性があります
+You may need to enter credentials to list the shares=共有をリストするには、認証情報の入力が必要な場合があります
+You must enable the Destructive Mode in UD Settings before you can Format this disk=このディスクをフォーマットする前に、UD設定で破壊モードを有効にする必要があります
+You WILL have problems if you do=実行すると問題が発生します
+ZFS Pool Name=ZFSプール名
+ZFS Volume=ZFSボリューム
 
 :unassgned_devices_switches_plug:
-> Turn on the **Disks** switch to change the web page to show disk devices. Turn off the **Disks** switch to change the web page to hide disk devices.
+> **ディスク**スイッチをオンにすると、Webページがディスクデバイスを表示するように変更されます。**ディスク**スイッチをオフにすると、Webページがディスクデバイスを非表示にするように変更されます。
 >
-> Turn on the **Shares** switch to change the web page to show shares. Turn off the **Shares** switch to change the web page to hide shares.
+> **共有**スイッチをオンにすると、Webページが共有を表示するように変更されます。**共有**スイッチをオフにすると、Webページが共有を非表示にするように変更されます。
 >
-> Turn on the **Historical** switch to show Historical disk devices. Turn off **Historical** switch to switch back to not show Historical disk devices.
+> **履歴**スイッチをオンにすると、履歴ディスクデバイスが表示されます。**履歴**スイッチをオフにすると、履歴ディスクデバイスが表示されなくなります。
 >
-> Click on the <i class="fa fa-refresh"></i> icon to refresh disks and configuration.
+> <i class="fa fa-refresh"></i>アイコンをクリックして、ディスクと設定を更新します。
 >
-> Click on the <i class="fa fa-gear"></i> icon to go to the UD Settings.
+> <i class="fa fa-gear"></i>アイコンをクリックして、UD設定に移動します。
 >
-> You can spin a disk up or down by clicking on the disk ball <i class='fa fa-circle orb green-orb'></i>or <i class='fa fa-circle orb grey-orb'></i>indicator.  Applies to version 6.9 RC2 and later only.
+> ディスクボール<i class='fa fa-circle orb green-orb'></i>または<i class='fa fa-circle orb grey-orb'></i>インジケーターをクリックして、ディスクをスピンアップまたはスピンダウンできます。バージョン6.9 RC2以降にのみ適用されます。
 >
-> Click on the <i class="fa fa-gears"></i> icon to go to the Device Settings configuration.  This is where you configure a device script and certain device characteristics.
+> <i class="fa fa-gears"></i>アイコンをクリックして、デバイス設定構成に移動します。ここで、デバイススクリプトと特定のデバイス特性を設定します。
 > 
-> Click on the <i class="icon-nvme"></i> or <i class="fa fa-hdd-o"></i> icon to display syslog entries specific to this disk device.
+> <i class="icon-nvme"></i>または<i class="fa fa-hdd-o"></i>アイコンをクリックして、このディスクデバイスに固有のsyslogエントリを表示します。
 >
-> **Mount Point icons:**
+> **マウントポイントアイコン：**
 >
-> When the <i class='fa fa-pencil'></i> icon shows next to the mount point it indicates the mount point can be changed when the mount point is clicked.
+> マウントポイントの横に<i class='fa fa-pencil'></i>アイコンが表示されている場合、マウントポイントをクリックすると変更できることを示しています。
 >
-> When the <i class='fa fa-external-link'></i> icon shows next to the mount point it indicates the clicking on the mount point will browse the files on that partition.
+> マウントポイントの横に<i class='fa fa-external-link'></i>アイコンが表示されている場合、マウントポイントをクリックすると、そのパーティション上のファイルを参照できることを示しています。
 >
-> Click on the <i class="fa fa-align-left"></i> icon to display the device script log.  This is the log specific to the device script.
+> <i class="fa fa-align-left"></i>アイコンをクリックして、デバイススクリプトログを表示します。これは、デバイススクリプトに固有のログです。
 >
-> Click on the <i class="fa fa-check"></i> icon to perform a file system check.  BTRFS and ZFS file systems need to be mounted to do a file check.  The file check on BTRFS and ZFS file systems is a scrub.
+> <i class="fa fa-check"></i>アイコンをクリックして、ファイルシステムチェックを実行します。BTRFSおよびZFSファイルシステムは、ファイルチェックを実行するためにマウントする必要があります。BTRFSおよびZFSファイルシステムのファイルチェックはスクラブです。
 >
-> Click on the <i class="fa fa-flash"></i> icon to run your device script as if it was hot plugged.  This only applies to disk devices.
+> <i class="fa fa-flash"></i>アイコンをクリックして、ホットプラグされたかのようにデバイススクリプトを実行します。これはディスクデバイスにのみ適用されます。
 :end
 
 :unassigned_devices_general_help_plug:
-> **Unassigned Devices is called UD for short.**
+> **Unassigned Devicesは略してUDと呼ばれます。**
 >
-> Hover your mouse over an any active area on the UD page and a tool tip will show you what clicking that area does.
-> You can mount USB devices, sata drives, Remote SMB/NFS shares, and ISO Files with UD.  Any devices with the auto mount switch on will be mounted when the array is started.  All drives and SMB/NFS Mounts are unmounted when the array is stopped on the 'stopping_svcs' event.
-> If you want to share your drive, you can turn on the Share switch.  The default for Remote SMB shares is Public read/write access.  Enable SMB Security by user in the Unassigned Devices Settings.  NFS shares are exported and access is read/write.  The export of NFS devices is enabled in the Unassigned Devices settings. You can also enable a common script that will be executed on every disk mount.  In order to share any UD device, sharing needs to be enabled in the UD Settings and the switch turned on to share the particular device.  SMB/NFS remove shares and ISO mounts are always shared.
-> After entering a mount point, press &lt;Enter&gt; to save the change.
+> UDページのアクティブな領域にマウスを合わせると、その領域をクリックすると何が起こるかを示すツールチップが表示されます。
+> UDを使用すると、USBデバイス、SATAドライブ、リモートSMB/NFS共有、およびISOファイルをマウントできます。自動マウントスイッチがオンになっているデバイスは、アレイが起動されたときにマウントされます。すべてのドライブとSMB/NFSマウントは、「stopping_svcs」イベントでアレイが停止されたときにアンマウントされます。
+> ドライブを共有する場合は、共有スイッチをオンにできます。リモートSMB共有のデフォルトは、パブリック読み取り/書き込みアクセスです。Unassigned Devices設定でユーザーごとにSMBセキュリティを有効にします。NFS共有はエクスポートされ、アクセスは読み取り/書き込みです。NFSデバイスのエクスポートは、Unassigned Devices設定で有効になります。また、すべてのディスクマウントで実行される共通スクリプトを有効にすることもできます。UDデバイスを共有するには、UD設定で共有を有効にし、特定のデバイスを共有するスイッチをオンにする必要があります。SMB/NFSリモート共有とISOマウントは常に共有されます。
+> マウントポイントを入力した後、&lt;Enter&gt;を押して変更を保存します。
 >
-> Additional options are available when you click on the <i style='color:black;font-weight:bold;' class="fa fa-plus-square"></i> icon by device identification.  When the disk is unmounted, the mount point of the device can be changed.  The disk label will also be changed.  A disk can be formatted and an fsck run to check the disk.
+> デバイス識別の横にある<i style='color:black;font-weight:bold;' class="fa fa-plus-square"></i>アイコンをクリックすると、追加のオプションが利用できます。ディスクがアンマウントされている場合、デバイスのマウントポイントを変更できます。ディスクラベルも変更されます。ディスクをフォーマットし、fsckを実行してディスクをチェックできます。
 >
-> The 'Settings->Unassigned Devices' security settings for SMB and NFS must be set correctly for SMB and NFS sharing to work properly.
+> SMBおよびNFS共有が正しく機能するには、「設定→Unassigned Devices」のSMBおよびNFSのセキュリティ設定を正しく設定する必要があります。
 >
-> If the mount button is grayed out for a SMB/NFS remote share, the remote server is not responding to a ping.  The remote share server must respond to a ping or UD will consider it off-line.
+> SMB/NFSリモート共有のマウントボタンがグレー表示されている場合、リモートサーバーがpingに応答していません。リモート共有サーバーはpingに応答する必要があります。そうでない場合、UDはオフラインと見なします。
 >
-> The 'Add Root Share' button is disabled when 'Enable disk shares' is enabled and any Root Shares previously added will not mount.
+> 「ディスク共有を有効化」が有効になっている場合、「ルート共有を追加」ボタンは無効になり、以前に追加されたルート共有はマウントされません。
 >
-> UD has a destructive mode that allows deleting disk partitions and formatting disks.	If Destructive Mode is not turned on in the UD Settings, you WILL NOT be able to format a disk or remove partitions.  Go the the 'Settings->Unassigned Devices' to set the destructive mode.
+> UDには、ディスクパーティションの削除とディスクのフォーマットを可能にする破壊モードがあります。UD設定で破壊モードが有効になっていない場合、ディスクをフォーマットしたり、パーティションを削除したりすることはできません。「設定→Unassigned Devices」に移動して、破壊モードを設定します。
 >
-> **To format a disk:**
+> **ディスクをフォーマットするには：**
 >
-> + Destructive mode must be enabled.
-> + Disk must have all partitions removed.  Unmount disk, click on the <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> icon,, and click on all <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> icons to delete partitions.
-> + If the disk has been precelared and shows a grayed 'Format' button, click on the <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> icon, then click on the <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> icon to delete the preclear status file.
+> + 破壊モードを有効にする必要があります。
+> + ディスクにはすべてのパーティションを削除する必要があります。ディスクをアンマウントし、<i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i>アイコンをクリックしてから、すべての<i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i>アイコンをクリックしてパーティションを削除します。
+> + ディスクがプレクリアされていて、グレー表示された「フォーマット」ボタンが表示されている場合は、<i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i>アイコンをクリックしてから、<i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i>アイコンをクリックして、プレクリアステータスファイルを削除します。
 >
-> **Note: A disk partitioned in UD is compatible with the array disk partitioning and can be added to the array.  Supported file formats are XFS, XFS encrypted, BTRFS and BTRFS encrypted.**
+> **注意：UDでパーティション分割されたディスクは、アレイディスクのパーティション分割と互換性があり、アレイに追加できます。サポートされているファイル形式は、XFS、XFS暗号化、BTRFS、BTRFS暗号化、ZFS、およびZFS暗号化です。**
 >
-> **Encrypted Disks:**
+> **暗号化されたディスク：**
 >
-> + Any disk formatted in UD that is encrypted will use the array password/passphrase and can be incorporated into the array.  Or you can set a unique password when it is formatted.  If you set a password on the disk when it is formatted, you will need to enter a disk password in Unassignd Devices->Settings for that disk.
-> + Any disk that was not encrypted with the Array password/passphrase can be mounted by setting a per disk passord set in Unassigned Devices->Settings.
+> + UDでフォーマットされた暗号化されたディスクは、アレイパスワード/パスフレーズを使用し、アレイに組み込むことができます。または、フォーマット時に一意のパスワードを設定することもできます。フォーマット時にディスクにパスワードを設定した場合、そのディスクのUnassigned Devices→設定でディスクパスワードを入力する必要があります。
+> + アレイパスワード/パスフレーズで暗号化されていないディスクは、Unassigned Devices→設定でディスクごとのパスワードを設定することでマウントできます。
 >
-> **Unassigned devices script:**
+> **Unassigned devicesスクリプト：**
 >
-> UD includes a script that is used for mounting and unmounting devices and SMB/NFS mounts. These scripts can be used from the command line or in your scripts as necessary.
+> UDには、デバイスとSMB/NFSマウントのマウントとアンマウントに使用されるスクリプトが含まれています。これらのスクリプトは、コマンドラインまたは必要に応じてスクリプトで使用できます。
 >
-> + '/usr/local/sbin/rc.unassigned mount autodevices' - all devices set to auto mount will be mounted.
-> + '/usr/local/sbin/rc.unassigned mount autoshares' - all SMB/NFS mounts set to auto mount will be mounted.
-> + '/usr/local/sbin/rc.unassigned umount auto' - all devices and SMB/NFS mounts set to auto mount will be unmounted.
-> + '/usr/local/sbin/rc.unassigned umount all' - all devices and SMB/NFS mounts are unmounted in preparation for shutting down the array.
-> + '/usr/local/sbin/rc.unassigned mount /dev/sdX or devX' - mount device sdX where 'X' is the device designator.  The devX is the device name in the UD page.  If the device name is 'Dev 1', then use dev1 as the device to mount.
-> + '/usr/local/sbin/rc.unassigned mount name=diskname' - mount device by disk name.
-> + '/usr/local/sbin/rc.unassigned umount /dev/sdX or devX' - unmount device sdX where 'X' is the device designator. The devX is the device name in the UD page.  If the device name is 'Dev 1', then use dev1 as the device to unmount. You can use this command in a UD script to unmount the device when the script has completed.
-> + '/usr/local/sbin/rc.unassigned umount name=diskname' - unmount device by disk name.
-> + '/usr/local/sbin/rc.unassigned spindown devX' - spin down a disk.  The devX is the device name in the UD page.  If the device name is 'Dev 1', then use dev1 as the device to spin down.  SSDs will not spin down.
-> + '/usr/local/sbin/rc.unassigned spindown name=diskname' - spin down a disk by disk name.
-> + '/usr/local/sbin/rc.unassigned mount SOURCE' - where SOURCE is the SMB/NFS source.
-> + '/usr/local/sbin/rc.unassigned umount SOURCE' - where SOURCE is the SMB/NFS source.
+> + '/usr/local/sbin/rc.unassigned mount autodevices' - 「auto mount（自動マウント）」に設定されているすべてのデバイスをマウントします。
+> + '/usr/local/sbin/rc.unassigned mount autoshares' - 「auto mount」に設定されているすべてのSMB/NFSマウントをマウントします。
+> + '/usr/local/sbin/rc.unassigned umount auto' - 「auto mount」に設定されているすべてのデバイスとSMB/NFSマウントをアンマウントします。
+> + '/usr/local/sbin/rc.unassigned umount all' - アレイのシャットダウンの準備として、すべてのデバイスとSMB/NFSマウントをアンマウントします。
+> + '/usr/local/sbin/rc.unassigned mount /dev/sdX or devX' - ディスクデバイスをマウントします。
+> + '/usr/local/sbin/rc.unassigned mount name=diskname' - ディスク名でディスクデバイスをマウントします。
+> + '/usr/local/sbin/rc.unassigned umount /dev/sdX or devX' - ディスクデバイスをアンマウントします。スクリプトの完了時にデバイスをアンマウントするため、このコマンドをUDスクリプト内で使用できます。
+> + '/usr/local/sbin/rc.unassigned umount name=diskname' - ディスク名でデバイスをアンマウントします。
+> + '/usr/local/sbin/rc.unassigned spindown /dev/sdX or devX' - ディスクデバイスをスピンダウンします。
+> + '/usr/local/sbin/rc.unassigned spindown name=diskname' - ディスク名でディスクをスピンダウンします。
+> + '/usr/local/sbin/rc.unassigned detach /dev/sdX or devX' - USBディスクデバイスをデタッチします。スクリプトの完了時にデバイスをデタッチするため、このコマンドをUDスクリプト内で使用できます。
+> + '/usr/local/sbin/rc.unassigned detach name=diskname' - 名前でUSBディスクデバイスをデタッチします。スクリプトの完了時にデバイスをデタッチするため、このコマンドをユーザースクリプト内で使用できます。
+> + '/usr/local/sbin/rc.unassigned attach serial' - ディスクデバイスをアタッチします。デバイスをアタッチするため、このコマンドをスクリプト内で使用できます。デバイスがデタッチされている場合、「diskname」は利用できません。
+> + '/usr/local/sbin/rc.unassigned mount source' - sourceにはSMB/NFSのソースを指定します。
+> + '/usr/local/sbin/rc.unassigned umount source' - sourceにはSMB/NFSのソースを指定します。
 >
-> Be careful using the /dev/sdX designation because it can change after a reboot.
+> 注：'/dev/sdX' の 'X' はデバイス指定子です。'devX' はUDページ上のデバイス名です。デバイス名が「Dev 1」の場合、スピンダウンするデバイスとして「dev1」を使用します。ユーザースクリプトでディスクに対してUD操作を実行する必要がある場合は、name=disknameを使用すると便利です。
+> 
+> '/dev/sdX' や 'devX' の指定は、再起動後に変わる可能性があるため使用には注意してください。UDスクリプトに渡される 'sdX' (DEVICE) および 'devX' (UD_DEVICE) の値を使用することをお勧めします。
 :end
 
 ; Note: April 21, 2025 - 177 missing translations

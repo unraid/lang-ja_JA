@@ -1,0 +1,40 @@
+Any=任意
+Daily schedule=毎日スケジュール
+Day Date=曜日 / 日付
+Hour=時
+Hourly schedule=毎時スケジュール
+Minute=分
+Monthly schedule=毎月スケジュール
+Scheduled Tasks=スケジュールされたタスク
+Weekly schedule=毎週スケジュール
+Day of the month=日付
+Day of the week=曜日
+Every 2 hours=2時間ごと
+Every 3 hours=3時間ごと
+Every 4 hours=4時間ごと
+Every 6 hours=6時間ごと
+Every 8 hours=8時間ごと
+Every hour=1時間ごと
+HHMM=HH:MM
+SSD TRIM schedule=SSD TRIMスケジュール
+Time of the day=時刻
+
+:trim_schedule_plug:
+> 毎時、毎日、毎週、毎月の範囲からtrimスケジュールを選択してください。
+>
+> 間隔はSSD trimがどのくらいの頻度で実行されるかを決定します。バックグラウンドで実行されます。
+:end
+
+:trim_day_of_the_week_plug:
+> 毎週スケジュールが選択されている場合は曜日を選択してください。それ以外の場合は無効です。
+:end
+
+:trim_day_of_the_month_plug:
+> 毎月スケジュールが選択されている場合は日付を選択してください。それ以外の場合は無効です。
+:end
+
+:trim_time_of_the_day_plug:
+> 毎時スケジュールが選択されている場合、これは時間単位の間隔を設定します。間隔は常に正時（分0）から始まります。
+>
+> その他のスケジュールの場合は、trimを開始する時刻をここで選択してください。
+:end

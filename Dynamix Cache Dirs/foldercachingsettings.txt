@@ -1,0 +1,137 @@
+Adaptive=アダプティブ
+Cache pressure of directories on system=システム上のディレクトリのキャッシュプレッシャー
+Check HELP for filter example=フィルタの例についてはヘルプを確認
+Disk Idle Timer=ディスクアイドルタイマー
+Folder caching function=フォルダキャッシング機能
+for adaptive depth=アダプティブ深度用
+Important - check HELP if disks spin up=重要 - ディスクがスピンアップする場合はヘルプを確認
+Included folders=含めるフォルダ
+Memory available to the 'cache_dirs' script increase if it dies='cache_dirs'スクリプトで利用可能なメモリ（停止する場合は増やしてください）
+Logging=ログ記録
+Maximum interval between folder scans=フォルダスキャン間の最大間隔
+Maximum level depth=最大レベル深度
+Minimum interval between folder scans=フォルダスキャン間の最小間隔
+Minimum level depth=最小レベル深度
+or see=または参照
+Run scan of each disk in a separate thread=各ディスクのスキャンを別スレッドで実行
+Timeout during disk-idle period=ディスクアイドル期間中のタイムアウト
+Timeout during initial startup or less-idle period=初期起動時または低アイドル期間中のタイムアウト
+Timeout when all directories have been cached=すべてのディレクトリがキャッシュされた場合のタイムアウト
+Scan user shares mntuser=ユーザー共有フォルダをスキャン（/mnt/user）
+Suspend during Mover process='Mover'プロセス中は一時停止
+unlimited=無制限
+Unraid forum=Unraidフォーラム
+Use Adaptive depth=アダプティブ深度を使用
+User defined options=ユーザー定義オプション
+
+:cachedirs_info_plug:
+> フォルダキャッシング情報
+>
+> フォルダキャッシング（cache_dirs）は、ディレクトリをメモリに保持するために継続的に読み取ります。
+> プログラムは、ディレクトリが既にメモリ内にあるか、ディスクから再読み込みが必要かを判断できません。
+> そのため、Linuxメモリキャッシュがディレクトリを削除し、'cache_dirs'が再スキャンする際に、ディスクのスピンアップを回避できません。
+> 大量のファイルがメモリに保持されている場合、システムに負荷がかかると、一部のディレクトリがキャッシュから削除されることは避けられません。
+>
+> プログラムはデフォルトでアダプティブモードを使用し、メモリに保持しようとするディレクトリ構造の深度を減らします。
+> キャッシュミス（スキャン時間が遅い）を検出すると、ディスクが再びアイドル状態になるまで深度を減らしますが、プログラムが諦めてアイドルディスクを待つまでの1〜2分間、ディスクに負荷をかけるリスクは残ります。
+> キャッシュが保持する必要のあるファイルが少ないほど、プログラムがディスクをスピンアップする可能性は低くなります。
+:end
+
+:cachedirs_function_plug:
+> フォルダキャッシングを有効にするか無効にするかを選択します。キャッシングはアレイが起動されている場合にのみ有効に機能します。
+> キャッシング機能は、アレイがオンラインまたはオフラインになると自動的に再起動または停止されます。
+:end
+
+:cachedirs_pressure_plug:
+> 'cache_pressure'を'NN'に設定します（デフォルト = 10）。値0はキャッシュを再利用しないことを意味します。
+>
+> 値1は多くのユーザーにとって効果的です。ディスクがスピンアップする場合、または'cache_dirs'ログがスキャン後に頻繁にディスクにアクセスしていることを示している場合は、'cache_pressure'を1に下げてみてください。システムのメモリが不足する場合は、'cache_pressure'を増やしてください。
+>
+> CPUとディスクが頻繁に'cache_dirs'の影響を大きく受ける場合、これも'cache_dirs'がすべてを再スキャンする必要があることを示しています。
+>
+> 警告：値0を設定すると、カーネルはディレクトリキャッシュを解放しなくなり、利用可能なメモリが少なすぎる場合、システムがクラッシュする可能性があります。'cache_dirs'は終了後に'cache_pressure'をリセットしません。
+> 'cache_pressure'をリセットするには、'sudo sysctl vm.vfs_cache_pressure=100'を実行するか、'cache_pressure' 100で'cache_dirs'を実行してください。
+>
+> [kernel.org](https://www.kernel.org/doc/Documentation/sysctl/vm.txt)の'vfs_cache_pressure'を参照してください。
+:end
+
+:cachedirs_suspend_plug:
+> 競合を避けるため、Moverの実行中はキャッシングを停止します。アダプティブ深度を使用する場合、NOで問題なく動作する可能性があります。
+> 固定深度の場合、YESを選択するとディスクへの負荷が確実に軽減されます。
+:end
+
+:cachedirs_included_folders_plug:
+> ドロップダウンメニューには利用可能なすべてのフォルダが表示され、デフォルトではすべてのフォルダが含まれます。ここで含めるフォルダの制限リストを選択します。
+>
+> 含まれるフォルダが除外されている場合、そのフォルダは除外されます。含めると除外を同時に使用しないのが最も簡単です。
+:end
+
+:cachedirs_excluded_folders_plug:
+> ドロップダウンメニューには利用可能なすべてのフォルダが表示され、デフォルトではフォルダは除外されません。ここで除外するフォルダを選択します。
+>
+> 含まれるフォルダを除外することも可能です。含めると除外を同時に使用しないのが最も簡単です。
+:end
+
+:cachedirs_adaptive_depth_plug:
+> アダプティブが有効な場合、深度は自動的に調整されますが、最大レベル深度を超えることはありません。
+> 深度1から開始し、スキャンが完了するのに時間がかかりすぎない限り（スキャンタイムアウトを参照）、最大レベルに向けてスキャン深度を増やし続けます。
+> アダプティブが無効な場合、'cache_dirs'は常に最大レベルまでスキャンします。
+:end
+
+:cachedirs_min_level_plug:
+> アダプティブスキャンの最小フォルダレベルを設定します（ユーザー共有フォルダ > 子フォルダ > 孫フォルダは2レベル）。デフォルトは4です。
+:end
+
+:cachedirs_max_level_plug:
+> スキャンの最大フォルダレベルを設定します（親 > 子フォルダ > 孫フォルダ）。最大値を削除するには'unlimited'（または0）に設定します
+:end
+
+:cachedirs_idle_timer_plug:
+> ディスクがこの時間アイドル状態になると、'cache_dirs'アダプティブスキャンがキャッシュの構築に向けて動作を開始します。
+:end
+
+:cachedirs_timeout_scan_plug:
+> スキャンタイムアウトは、現在の深度レベル（アダプティブに変更される可能性があります）ですべてのディレクトリを1回スキャンする最大期間です。
+> 'cache_dirs'がすべてのファイルのキャッシングに失敗する場合は、これを増やしてください。このタイムアウトは、アダプティブが無効な場合に常に使用されます。
+:end
+
+:cachedirs_timeout_initial_plug:
+> 初期スキャンでより多くの時間を与えたい場合、およびファイルシステムがビジー状態の可能性がある場合は、これを増やしてください。
+:end
+
+:cachedirs_timeout_cached_plug:
+> キャッシュがメモリから削除され、ディスクがアイドル状態でない場合に、'cache_dirs'がシステムに与える負荷を減らしたい場合は、これを減らしてください。
+> 'cache_dirs'がディレクトリをメモリに戻す可能性を高めたい場合は、これを増やしてください。
+:end
+
+:cachedirs_min_interval_plug:
+> 低速なシステムの場合、キャッシング間隔を調整できます。デフォルト値は1秒で、ほとんどのシステムで問題ありません。
+:end
+
+:cachedirs_max_interval_plug:
+> 低速なシステムの場合、キャッシング間隔を調整できます。デフォルト値は10秒で、ほとんどのシステムで問題ありません。
+:end
+
+:cachedirs_scan_disk_plug:
+> 各ディスクは別々のスレッドでスキャンされるため、ディスクは同時に読み取られます。ユーザー共有フォルダもスキャンされる場合、ディスクのスラッシングを避けるため、すべてのディスクスキャンが完了した後、ユーザー共有フォルダは単一のスレッドでスキャンされます。
+:end
+
+:cachedirs_limit_memory_plug:
+> ulimitをNNに設定して、スクリプトが使用するメモリを制限します（デフォルト=50000）。'-U 0'はulimitを全く設定せず、シェルのデフォルトを継承します。
+:end
+
+:cachedirs_logging_plug:
+> ログ記録を有効にするか無効にするかを選択します。ログは'/var/log/cache_dirs.log'および'/var/log/cache_dirs_lost_cache.csv'に書き込まれます。
+> 'cache_dirs'ログはUnraidのメモリに保存され、自動的にローテーションされないことに注意してください。
+:end
+
+:cachedirs_user_defined_plug:
+> 'cache_dirs'スクリプトには、使用できる追加オプションがあります。
+> 必要に応じてオンラインドキュメントを参照するか、'/usr/local/emhttp/plugins/dynamix.cache.dirs/scripts/cache_dirs'にある'cache_dirs'スクリプト自体を参照してください。
+>
+> 'cache_dirs'に名前でディレクトリのトラバースを回避するように指示できます。たとえば、次の例では'.Recycle.Bin'、'temp'、'log'フォルダを除外します：
+>
+> <span class="strong orange-text">-a '-noleaf -name .Recycle.Bin -prune -o -name log -prune -o -name temp -prune -o -print'</span>
+>
+> -aの引数を囲む単一引用符が重要であることに注意してください。現在のバージョンでは二重引用符は機能しないため、'-name "*Old" -prune'でフィルタリングすることは現在不可能です。
+:end

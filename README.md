@@ -1,122 +1,120 @@
 # lang-ja_JA
 
-### READ THIS WHEN YOU WANT TO MAKE TRANSLATIONS TO ANOTHER LANGUAGE
+### 他の言語への翻訳を行う際にお読みください
 
-There are sixteen text files included in this repository, each with their own section of translations:
+このリポジトリには16個のテキストファイルが含まれており、それぞれが特定のセクションの翻訳を担当しています：
 
-- translations.txt -- these are general translations and loaded each time
-- helptext.txt     -- these are all help text sections and loaded each time
-- dashboard.txt    -- these are translations for the dashboard section
-- main.txt         -- these are translations for the main section
-- shares.txt       -- these are translations for the shares section
-- users.txt        -- these are translations for the users section
-- settings.txt     -- these are translations for the settings section
-- plugins.txt      -- these are translations for the plugins section
-- docker.txt       -- these are translations for the docker section
-- vms.txt          -- these are translations for the vms section
-- tools.txt        -- these are translations for the tools section
-- javascript.txt   -- these are translations for javascript scripts
-- scripts.txt      -- these are translations for local scripts
-- apps.txt         -- these are translations for the CA section
-- ca_settings      -- these are translations for the CA settings
-- javascript.ca.txt-- these are translations for the CA javascript
+- translations.txt -- 一般的な翻訳であり、毎回ロードされます
+- helptext.txt     -- すべてのヘルプテキストセクションであり、毎回ロードされます
+- dashboard.txt    -- 「Dashboard (ダッシュボード)」セクションの翻訳です
+- main.txt         -- 「Main (メイン)」セクションの翻訳です
+- shares.txt       -- 「Shares (共有)」セクションの翻訳です
+- users.txt        -- 「Users (ユーザー)」セクションの翻訳です
+- settings.txt     -- 「Settings (設定)」セクションの翻訳です
+- plugins.txt      -- 「Plugins (プラグイン)」セクションの翻訳です
+- docker.txt       -- 「Docker」セクションの翻訳です
+- vms.txt          -- 「VMs (仮想マシン)」セクションの翻訳です
+- tools.txt        -- 「Tools (ツール)」セクションの翻訳です
+- javascript.txt   -- JavaScriptスクリプトの翻訳です
+- scripts.txt      -- ローカルスクリプトの翻訳です
+- apps.txt         -- 「CA (Community Applications)」セクションの翻訳です
+- ca_settings      -- CA設定の翻訳です
+- javascript.ca.txt-- CAのJavaScriptの翻訳です
 
-All file names are in lowercase and should be included in the repository to make the translations complete.
+すべてのファイル名は小文字です。翻訳を不備なく完了させるには、これらすべてをリポジトリに含める必要があります。
 
-Removing a particular file, means no translations will be available for that section and the GUI will display text in original English.
+特定のファイルを削除すると、そのセクションの翻訳は利用できなくなり、GUIには元の英語のテキストが表示されます。
 
-### TRANSLATIONS
+### 翻訳 (TRANSLATIONS)
 
-Each text file contains regular text strings stored in UTF-8 format with linux line-endings.
-Use a text editor which supports UTF-8 and linux format, like [notepad++](https://notepad-plus-plus.org/downloads)
+各テキストファイルには、UTF-8形式で保存された、Linuxの改行コード(LF)を持つ標準的なテキスト文字列が含まれています。
+UTF-8およびLinuxの改行形式をサポートするテキストエディタ（[notepad++](https://notepad-plus-plus.org/downloads) など）を使用してください。
 
-The content of each text file is separated into two parts
+各テキストファイルの内容は、2つのパートに分かれています。
 
-### PART 1
+### パート 1 (PART 1)
 
-These are single line entries which are in the format:
+これらは単一行のエントリであり、以下の形式になっています：
 
-`original English text=translated Foreign text`
+`元の英語テキスト=翻訳されたテキスト`
 
-Only modify the text after the equal sign(=) and leave the original English text at the left untouched.
-Removing a line or omitting a translation after the equal sign, results in the GUI displaying this line with the original English text.
+等号(=)の右側のテキストのみを変更し、左側の元の英語テキストはそのままにしてください。
+行を削除したり、等号の後の翻訳を省略したりすると、GUI上ではその行が元の英語テキストで表示されます。
 
-The translated text may have 'special characters', such as slashes, parenthesis or brackets which are not included in the key text,
-but which are used to display text accordingly. E.g.
+翻訳されたテキストには、キーとなるテキスト（左側）には含まれていないものの、テキストを適切に表示するために使用されるスラッシュ、丸括弧、角括弧などの「特殊文字」が含まれる場合があります。 例：
 
-`Options see Help=Options (see Help)`
+`Options see Help=Options (ヘルプを参照)`
 
-The characters \* and \*\* are used to display text in italics and bold respectively. E.g.
+文字 \* と \*\* は、それぞれテキストを斜体（イタリック）と太字（ボールド）で表示するために使用されます。 例：
 
 `Array must be Stopped to change=Array must be **Stopped** to change`
 
-It is recommended to make translations per section, that is one file at the time, and verify the correctness of the translations in the GUI
-before proceeding with the next section.
+セクションごと、つまり一度に1つのファイルごとに翻訳を行い、次のセクションに進む前にGUIで翻訳が正しく表示されるか確認することをお勧めします。
 
-Keep in mind the length of the translations and try to make them similar length as the original text and avoid space issues in the GUI.
+翻訳の長さに注意し、GUIでの表示崩れを避けるため、元のテキストと同程度の長さになるように心がけてください。
 
-### PART 2
+### パート 2 (PART 2)
 
-These are multi line entries used to translate multiple lines at once.
-Multi line translations have a unique opening and closing tag:
+これらは、複数行を一度に翻訳するために使用される複数行のエントリです。
+複数行の翻訳には、固有の開始タグと終了タグがあります：
 
-**:unique_tag_name_plug:** - unique opening tag used for any multi line text section
+**:unique_tag_name_plug:** - 複数行のテキストセクションで使用される固有の開始タグ
 
-**:end**    - closing tag
+**:end** - 終了タグ
 
-Do not remove or alter these tags and only translate the text between the opening and closing tags!
+これらのタグを削除したり変更したりしないでください。開始タグと終了タグの間にあるテキストのみを翻訳してください！
 
-### HELP TEXT
+### ヘルプテキスト (HELP TEXT)
 
-All help text of the GUI is stored in a single file *helptext.txt*.
+GUIのすべてのヘルプテキストは、単一のファイル *helptext.txt* に保存されています。
 
-This file has multiple help text sections. Each section is enclosed by a unique opening tag and corresponding closing tag.
+このファイルには複数のヘルプテキストセクションがあります。各セクションは、固有の開始タグとそれに対応する終了タグで囲まれています。
 
-**:unique_tag_name_help:** - unique opening tag used for a help text section
+**:unique_tag_name_help:** - ヘルプテキストセクションで使用される固有の開始タグ
 
-**:end**    - corresponding closing tag
+**:end** - 対応する終了タグ
 
-Do not remove or alter these tags and only translate the text between the opening and closing tags!
+これらのタグを削除したり変更したりしないでください。開始タグと終了タグの間にあるテキストのみを翻訳してください！
 
-Be aware that Markdown styling syntax is used, this must be preserved.
+Markdownの書式設定構文が使用されていることに留意し、これを維持するようにしてください。
 
-### LOCAL TESTING
+### ローカルでのテスト (LOCAL TESTING)
 
-Once the translations are complete and you want to test locally the (intermediate) results, the text files need to be zipped into a single ZIP file.
-Give the ZIP file the name of your language, e.g. French.zip.
+翻訳が完了し、（途中の）結果をローカルでテストしたい場合、テキストファイルを1つのZIPファイルに圧縮する必要があります。
+ZIPファイルには言語の名前を付けてください（例: Japanese.zip）。
 
-In the GUI go to: Tools -> webGUI -> Language (switch to Developer view)
+GUIで次のように移動します: Tools -> webGUI -> Language （Developer view[開発者ビュー] に切り替えます）
 
-- By default only the English language is installed (built-in)
-- Choose the ZIP file you have created earlier as the source file
-- If the language name is recognized, it will be automatically selected, otherwise chose the name of the language from the dropdown menu to install.
-- Click on "Upload" will add your translations to the GUI under the selected language name
+- デフォルトでは、英語（組み込み）のみがインストールされています。
+- 先ほど作成したZIPファイルをソースファイルとして選択します。
+- 言語名が認識された場合は自動的に選択されます。そうでない場合は、ドロップダウンメニューからインストールする言語名を選択してください。
+- 「Upload」をクリックすると、選択した言語名で翻訳がGUIに追加されます。
 
-NOTE: If your language is not available from the dropdown menu, please make a request on the [Unraid forum](https://forums.unraid.net/forum/75-multi-language-section/)
+注: ドロップダウンメニューに該当する言語がない場合は、[Unraidフォーラム](https://forums.unraid.net/forum/75-multi-language-section/) でリクエストを行ってください。
 
-Now your language is available for local testing!
+これで、あなたの言語をローカルでテストできるようになりました！
 
-In the GUI go to: Settings -> Display Settings -> Language
+GUIで次のように移動します: Settings -> Display Settings -> Language
 
-- Select the preferred language from the dropdown menu. Note that only the available language choices are displayed here.
+- ドロップダウンメニューから希望の言語を選択します。ここには利用可能な言語の選択肢のみが表示されることに注意してください。
 
 ### GITHUB
 
-A language repository will be made available at [Github](https://github.com/unraid), where translators can create Pull Requests (PR) and submit their work.
+言語リポジトリは [Github](https://github.com/unraid) にて公開されており、翻訳者はここでプルリクエスト (PR) を作成し、翻訳作業を提出することができます。
 
-Once you are satisfied with your results, use Github (an account is required) to fork the respective language repository and create a PR with your modifications.
+翻訳結果に満足したら、Github（アカウントが必要です）を使用して対象の言語リポジトリをフォークし、変更を加えたPRを作成してください。
 
-Limetech will review this and merge your work when approved.
+Limetechがこれをレビューし、承認されるとあなたの作業がマージされます。
 
-### UPDATES
+### アップデート (UPDATES)
 
-When updated source text files in English become available in the future, these updates will be made available through Github.
+将来、英語のソーステキストファイルの更新版が利用可能になった場合、それらの更新はGithubを通じて提供されます。
 
-Translators can use the Github system to see which changes are made and update their translations accordingly.
+翻訳者はGithubのシステムを使用して変更箇所を確認し、それに応じて翻訳を更新することができます。
 
-### CREDITS
+### クレジット (CREDITS)
 
-Your efforts are much welcomed and to show our appreciation, your name and language are credited on the Credits page under Tools in the GUI.
-Please let us know which credentials to use.
+皆様のご協力に心より感謝申し上げます。感謝の意を表して、GUIのTools内にあるCreditsページにあなたのお名前と翻訳言語を掲載させていただきます。
+掲載を希望するお名前（クレジット表記）をお知らせください。
 
-Thank you very much!
+本当にありがとうございます！

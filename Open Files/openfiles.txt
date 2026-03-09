@@ -1,26 +1,24 @@
+Enable Kill Button=Kill ボタンを有効化
+Process=プロセス
+Kill Process=プロセスを強制終了
+Kill this Process holding files open=ファイルを開いているこのプロセスを強制終了
+Process ID=プロセス ID
+Open=開く
+May prevent shutdown=シャットダウンを妨げる可能性
+File Name and Path=ファイル名とパス
+An entry for bash means you have a terminal session open with the working directory on the array=bash のエントリは、アレイ上の作業ディレクトリでターミナルセッションが開いていることを示します
+If smbd is listed, it means that another computer has a samba share mounted=smbd がリストされている場合、別のコンピュータが Samba 共有をマウントしていることを示します
+Files open by Samba usually wont prevent array shutdown=Samba によって開かれたファイルは、通常アレイのシャットダウンを妨げません
+No open files=開いているファイルはありません
+Kill=強制終了
+Command timed out=コマンドがタイムアウトしました
+Cannot get list of open files=開いているファイルのリストを取得できません
 ;
 ; Help
 ;
 :open_files_help_plug:
-> Click on the 'Kill' button to stop the process that is holding the files open.
->  A dialog box will open showing you the progress of killing the process holding those files open.
+> **Kill** ボタンをクリックして、ファイルを開いているプロセスを停止します。
+> ダイアログボックスが開き、それらのファイルを開いているプロセスを強制終了する進行状況が表示されます。
 >
->Click on 'Program', Process ID', or 'File Name and Path' to change the sort order.
+> **プロセス**、**プロセス ID**、**シャットダウンを妨げる可能性のあるファイル**、または**ファイル名とパス**をクリックして、並べ替え順序を変更します。
 :end
-
-; Note: December 8, 2024 - 15 missing translations
-Enable Kill Button=
-Process=
-Kill Process=
-Kill this Process holding files open=
-Process ID=
-Open=
-May prevent shutdown=
-File Name and Path=
-An entry for bash means you have a terminal session open with the working directory on the array=
-If smbd is listed, it means that another computer has a samba share mounted=
-Files open by Samba usually wont prevent array shutdown=
-No open files=
-Kill=
-Command timed out=
-Cannot get list of open files=

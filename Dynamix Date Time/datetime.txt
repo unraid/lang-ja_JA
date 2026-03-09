@@ -1,0 +1,41 @@
+Current date and time=現在の日時
+Hide map=地図を非表示
+New date and time=新しい日時
+NTP server=NTPサーバー
+Show map=地図を表示
+Time zone=タイムゾーン
+Use NTP=NTPを使用
+
+:timezone_plug:
+> ドロップダウンリストから該当するタイムゾーンを選択してください。
+:end
+
+:datetime_map_plug:
+> 世界地図は現在選択されているタイムゾーンをハイライト表示します。
+>
+> マウスを地図上で移動し、タイムゾーンを設定したい国をクリックしてください。適切なゾーンがドロップダウンリストで自動的に選択されます。
+:end
+
+:use_ntp_plug:
+> サーバーの時刻を正確に保つためにNetwork Time Protocolを使用する場合は「Yes」を選択してください。
+> 特にActive Directoryを使用する予定がある場合は、ネットワークタイムサーバーの使用を**強く**推奨します。
+:end
+
+:ntp_server1_plug:
+> 使用するプライマリNTPサーバーです。FQDNまたはIPアドレスを入力してください。
+:end
+
+:ntp_server2_plug:
+> NTP Server 1がダウンしている場合に使用する代替NTPサーバーです。
+:end
+
+:ntp_server3_plug:
+> NTP Server 1と2の両方がダウンしている場合に使用する代替NTPサーバーです。
+:end
+
+:ntp_server4_plug:
+> NTP Server 1、2、3のすべてがダウンしている場合に使用する代替NTPサーバーです。
+:end
+:current_time_plug:
+> 現在の時刻を入力してください。形式はYYYY-MM-DD HH:MM:SSです。NTP使用時はグレーアウトされます。
+:end

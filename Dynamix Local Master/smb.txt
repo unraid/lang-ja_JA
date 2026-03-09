@@ -1,0 +1,23 @@
+Current elected master=現在選出されているマスター
+is current local master browser=が現在のローカルマスターブラウザです
+Local master=ローカルマスター
+Monitor local master election=ローカルマスター選出を監視
+please wait, obtaining=お待ちください、取得中
+Workgroup=ワークグループ
+
+:smb_workgroup_plug:
+> ローカルネットワークのワークグループ名を入力してください。通常は「WORKGROUP」です。
+:end
+
+:smb_master_plug:
+> 「Yes」に設定すると、サーバーはブラウザ選出に完全に参加し、他のサーバーが存在しない場合、通常はローカルマスターブラウザになります。
+:end
+
+:smb_master_election_plug:
+> ローカルマスター選出のバックグラウンド監視を有効または無効にします。
+> 監視結果は右上のヘッダーに表示されます。
+:end
+
+:smb_master_current_plug:
+> 現在選出されているローカルマスターブラウザをリアルタイムで表示します。
+:end

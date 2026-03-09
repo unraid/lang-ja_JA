@@ -1,0 +1,5 @@
+Aborted - export file not found=中止されました - エクスポートファイルが見つかりません
+Import=インポート
+Build up-to-date=ビルドは最新です
+Export up-to-date=エクスポートは最新です
+Operation aborted=操作が中止されました

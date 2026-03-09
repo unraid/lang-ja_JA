@@ -1,0 +1,134 @@
+Apple metadata=Appleメタデータ
+Array must be **Started** to use this feature=この機能を使用するにはアレイを**起動**する必要があります
+Automatically protect new and modified files=新規および変更されたファイルを自動的に保護
+BLAKE2=BLAKE2
+Build=ビルド
+Continue=続行
+Corz=Corz
+Custom files=カスタムファイル
+Custom folders=カスタムフォルダ
+Day of the month=日
+Day of the week=曜日
+Disk selection=ディスク選択
+Disk verification schedule=ディスク検証スケジュール
+Don't start=開始しない
+Download Now=今すぐダウンロード
+Dynamix File Integrity=Dynamix File Integrity
+Error logging=エラーログ
+Excluded files=除外ファイル
+Excluded folders and files=除外フォルダとファイル
+Excluded folders=除外フォルダ
+File Duplicates Check=重複ファイルチェック
+Find=検索
+Generate Corz Files=Corzファイルを生成
+hash files=ハッシュファイル
+Hashing method=ハッシュ方式
+Header menu=ヘッダーメニュー
+HH:MM=時:分
+Import=インポート
+Include duplicate file hashes in **Find** command=**検索**コマンドに重複ファイルのハッシュを含める
+log files=ログファイル
+Low=低
+MD5=MD5
+Output file=出力ファイル
+Placement of file integrity control=ファイル整合性制御の配置
+Process priority=プロセス優先度
+Save new hashing results to flash=新しいハッシュ結果をFlashに保存
+saved files=保存済みファイル
+Send notifications=通知を送信
+SHA2=SHA2
+Syslog only=Syslogのみ
+Syslog & Output file=Syslogと出力ファイル
+Task=タスク
+Time of the day=時刻
+Toggle all=すべて切り替え
+Tools menu=ツールメニュー
+Verification tasks=検証タスク
+view hash files=ハッシュファイルを表示
+view log files=ログファイルを表示
+view saved files=保存済みファイルを表示
+When parity operation is running=パリティ操作の実行中
+
+:integrity_control_plug:
+> ファイル整合性制御ページの配置を選択します。デフォルトでは*ツール*メニューに配置されますが、*ヘッダー*メニューに移動することもできます。
+>
+> *ヘッダー*メニューのスペースは限られていることに注意してください。
+:end
+
+:integrity_service_plug:
+> 有効にすると、チェックサム値が自動的に計算され、新規作成または変更されたファイルの拡張属性に追加されます。
+> ファイルの変更が検出されたが、変更時刻が変わっていない場合、自動的にチェックサム検証が実行され、サイレントなファイル破損をチェックします。
+>
+> 対象範囲は、フォルダ（共有）やディスク全体を除外することでフィルタリングできます（下表を参照）。
+>
+> 自動ハッシュが無効の場合、情報を最新の状態に保つには手動制御が必要です。
+:end
+
+:integrity_hashing_plug:
+> 優先するハッシュ方式を選択します。SHA2はファイルごとに256ビットのチェックサム値を生成し、MD5は128ビット、BLAKE2は512ビットのチェックサム値を生成します。
+>
+> MD5は最も一般的に使用される方式で、外部プログラムとの互換性が必要な場合に選択すべきです。BLAKE2は最も高速で最高の検出精度を持ちますが、独自のソリューションです。
+> SHA2は公式標準でデフォルトで選択されています。ただし、3つの方式の中で最も低速です。プロセッサがBLAKE2をサポートしていない場合、このオプションは無効になります。
+> すべての方式はプロセッサから相当な計算能力を必要とし、プロセッサが弱すぎると期待通りのパフォーマンスを発揮できない可能性があります。
+:end
+
+:integrity_flash_plug:
+> 有効にすると、Flashデバイス上に日次ファイルが作成され、その日の新規または変更されたすべてのファイルのチェックサム結果が保持されます。
+> このファイルの形式は標準エクスポートファイルと同じです。日次ファイルは */config/plugins/dynamix.file.integrity/saved/disks.export.&lt;date&gt;.new.hash* として保存されます。
+:end
+
+:integrity_exluded_plug:
+> 自動ハッシュおよび検証機能から除外したいフォルダ（共有）をここで選択します。複数のディスクに存在する共有は、それが存在するすべてのディスクでスキップされます。
+>
+> **カスタムフォルダ / カスタムファイル**を使用して、除外項目を手動で入力します。複数の除外項目はカンマで区切ります。<br>
+> 例：フォルダ名 **`.Recycle.Bin`**、ファイル名 **`my_workfile.tmp`**、ファイル拡張子 **`*.tmp`**
+>
+> **Appleメタデータ**を選択すると、Appleのnetatalkによって作成されたメタデータファイル（.AppleDBおよび.DS_Store）が除外されます。
+:end
+
+:integrity_verification_plug:
+> 有効にすると、バックグラウンドでファイル検証を行うcronスケジュールが作成されます。自動ハッシュおよび検証プロセスに参加するディスクを選択する必要があります（下表を参照）。
+> cronスケジュールは、日次、週次、または月次で実行できます。
+>
+> 1つ以上のタスクを作成でき、各タスクには1つ以上のディスクを含めることができます。同じタスク内のすべてのディスクは並列で検証されます。これにより総実行時間は短縮されますが、
+> プロセッサの負荷が増加します。プロセッサがこの負荷に対応できることを確認し、それに応じてグループ化を変更してください。一方の極端では、すべてのディスクを1つのタスクに入れることで最高の並行性が得られます。
+> もう一方の極端では、各ディスクを独自のタスクに入れることで最低のプロセッサ負荷が得られます。
+>
+> チェックボックスが無効で赤い背景のディスクは、現在このディスクのバックグラウンド検証プロセスが進行中であることを示します。停止することはできません。
+>
+> 複数のタスクが存在する場合、各タスクは次のスケジュールでローテーション方式で実行されます。例えば、3つのタスクを含む週次スケジュールを設定した場合、毎週
+> 別のタスクが実行され、3週間後に検証機能がすべての選択されたディスクを完了します。
+>
+> 検証スケジュールが無効の場合、ファイルの正確性を検証するには手動制御が必要です。
+:end
+
+:integrity_priority_plug:
+> バックグラウンドプロセスは、通常優先度または低優先度モードで実行できます。
+:end
+
+:integrity_parity_plug:
+> 検証タスクが開始される前に、パリティ操作が実行中の場合、通常通り続行するか、検証タスクを全く開始しないかを選択できます。
+> 後者の場合、タスクを実行するには次のスケジュール時刻まで待つ必要があります。
+:end
+
+:integrity_day_of_the_week_plug:
+> 週次スケジュールを選択した場合、ここで実行する曜日を選択します。
+:end
+
+:integrity_day_of_the_month_plug:
+> 月次スケジュールを選択した場合、ここで実行する日付を選択します。
+:end
+
+:integrity_time_of_the_day_plug:
+> スケジュールされたタスクが実行される時刻と分を選択します。粒度は5分です。
+:end
+
+:integrity_notifications_plug:
+> ファイル破損が検出されたときに通知を受け取りたい場合は、YESに設定します。
+> 「アラート」通知の設定と受信方法については、通知設定を参照してください。
+:end
+
+:integrity_logging_plug:
+> ファイル破損検出情報を含むエラーログは、システムログに記録するか、Flash上のファイルとして保存できます。
+> エラーログを無効にするとログの作成が抑制されますが、通知を受け取ることは可能です。
+:end

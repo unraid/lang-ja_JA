@@ -1,0 +1,10 @@
+Click DETECT=検出
+Detect=検出
+Exclude drives=ドライブを除外
+Fan control function=ファン制御機能
+High temperature threshold=高温閾値
+Low temperature threshold=低温閾値
+Minimum PWM value=最小PWM値
+PWM controller=PWMコントローラ
+PWM fan=PWMファン
+Refresh interval=更新間隔

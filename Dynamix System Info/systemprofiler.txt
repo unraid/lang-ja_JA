@@ -1,0 +1,5 @@
+Not available=利用不可
+P + Q algorithm=P+Qアルゴリズム
+System Overview=システム概要
+Unraid server=Unraidサーバー
+Unraid system=Unraidシステム

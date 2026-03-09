@@ -1,14 +1,11 @@
-
-
-; Note: April 28, 2023 - 11 missing translations
-Disabling Spectre, Meltdown and Zombieload MDS mitigations may improve your CPU speed But these are security risks for certain workloads, and disabling the mitigations is purely all at your own risk=
-Mitigations currently disabled=
-Mitigations currently enabled=
-Status=
-will be updated after rebooting the server=
-Enable Mitigations=
-Disable Mitigations=
-Disable Security Mitigations A Reboot Is Required For Changes To Take Effect=
-A Reboot Is Required For Changes To Take Effect=
-Mitigations will be enabled after a reboot=
-Mitigations will be disabled after a reboot=
+Disabling Spectre, Meltdown and Zombieload MDS mitigations may improve your CPU speed But these are security risks for certain workloads, and disabling the mitigations is purely all at your own risk=Spectre、Meltdown、Zombieload MDSの緩和策を無効にすると、CPUの速度が向上する可能性があります。ただし、特定のワークロードではセキュリティリスクとなり、緩和策を無効にすることは完全に自己責任となります
+Mitigations currently disabled=緩和策は現在無効
+Mitigations currently enabled=緩和策は現在有効
+Status=ステータス
+will be updated after rebooting the server=サーバー再起動後に更新されます
+Enable Mitigations=緩和策を有効化
+Disable Mitigations=緩和策を無効化
+Disable Security Mitigations A Reboot Is Required For Changes To Take Effect=セキュリティ緩和策を無効化 - 変更には再起動が必要です
+A Reboot Is Required For Changes To Take Effect=変更には再起動が必要です
+Mitigations will be enabled after a reboot=再起動後に緩和策が有効になります
+Mitigations will be disabled after a reboot=再起動後に緩和策が無効になります

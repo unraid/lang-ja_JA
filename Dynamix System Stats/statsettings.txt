@@ -1,0 +1,85 @@
+30 seconds=30秒
+1 minute=1分
+2 minutes=2分
+5 minutes=5分
+10 minutes=10分
+30 minutes=30分
+1 hour=1時間
+2 hours=2時間
+Bits per second=bits/s
+Bytes per second=Bytes/s
+CPU graph scaling=CPUグラフのスケーリング
+Disk Stats=ディスク統計
+Ethernet interface=イーサネットインターフェース
+Four=4つ
+Header menu=ヘッダーメニュー
+Initial graphing mode=初期グラフモード
+Initial real-time sliding window=初期リアルタイムスライディングウィンドウ
+Last day=過去1日
+Last 2 days=過去2日
+Last 3 days=過去3日
+Last week=過去1週間
+Last 2 weeks=過去2週間
+Last 3 weeks=過去3週間
+Last month=過去1ヶ月
+Network graph display unit=ネットワークグラフ表示単位
+Opening page=開始ページ
+Pair=2つ
+Placement of Stats menu=統計メニューの配置
+Position of disk utilization percentage=ディスク使用率の位置
+Real-time=リアルタイム
+Show disk size=ディスクサイズを表示
+Since start=起動時から
+Single=1つ
+Storage=ストレージ
+System graphs view per row=1行あたりのシステムグラフ表示数
+System Stats=システム統計
+Three=3つ
+Tools menu=ツールメニュー
+Viewable system graphs=表示可能なシステムグラフ
+
+:stats_utilization_plug:
+> ディスク使用率のパーセンテージ数値は、バーの開始位置（左）または終了位置（右）に配置できます。
+>
+> 左に配置するとすべての数値が揃いますが、右に配置すると数値がその値に応じて浮動します。
+:end
+
+:stats_graphs_plug:
+> 表示するシステム情報を選択します。内部的にはすべての情報が常に収集され保存されます。
+>
+> この設定は表示内容にのみ影響します。
+:end
+
+:stats_scaling_plug:
+> CPUグラフのスケーリングを自動または100%固定に設定します。
+:end
+
+:stats_view_plug:
+> 1行に表示するグラフの数を選択します。幅はグラフの数と画面解像度に応じて自動的に調整されます。
+>
+> グラフサンプルは内部的に1分間隔で実行されます。この設定は解像度を変更するのではなく、グラフの幅のみを変更します。
+:end
+
+:stats_disk_size_plug:
+> ディスク使用状況グラフの右側に各ディスクのサイズを表示します。サイズは常に最大可能な単位で表示されます。
+:end
+
+:stats_ethernet_plug:
+> 複数のインターフェースが存在する場合は、表示するインターフェースを選択します。内部的にはすべての利用可能なインターフェースの統計が保持されます。
+:end
+
+:stats_unit_plug:
+> インターフェース（ネットワーク）速度の表示方法を選択します。一般的にはbits per secondです。
+:end
+
+:stats_initial_plug:
+> システムグラフは異なる期間で表示できます。ここで初期期間を選択します。システム統計ページ自体で他の選択肢に変更できます。
+>
+> 内部的には、情報は月次ローテーション機構で保持されます。各日は個別のファイルに保存されます。
+:end
+
+:stats_realtime_plug:
+> リアルタイムグラフはスライディングウィンドウ方式で実行されます。例えば、5分間が最初に埋められ、次に新しいサンプルが末尾に追加されるたびにスライドを開始します。
+>
+> この設定はスライディングウィンドウの初期期間を設定します。システム統計ページ自体で変更できます。
+:end

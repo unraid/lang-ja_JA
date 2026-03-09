@@ -1,191 +1,222 @@
+Add=追加
+Auto Mount USB Devices=USB デバイスを自動マウント
+Case-sensitive names=大文字小文字を区別する名前
+Change Disk UUID=ディスク UUID を変更
+Change UUID=UUID を変更
+Command times=コマンド実行時間
+Common Script=共通スクリプト
+Common Settings=共通設定
+Destructive Mode=破壊モード
+Disabled=無効
+Disk spin down is managed by Unraid=ディスクのスピンダウンは Unraid によって管理されます
+Enable NFS export=NFS エクスポートを有効化
+Enable SMB Security=SMB セキュリティを有効化
+Enable Time Machine=Time Machine を有効化
+Enter Disk Password=ディスクパスワードを入力
+Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the Result text area=リモートサーバー名または IP アドレスを入力すると、リモートサーバーテストの結果が**結果**テキストエリアに表示されます
+Enter Pool Mount Point=プールマウントポイントを入力
+Legacy Mount Point Compatibility=レガシーマウントポイント互換性
+Mount SSDs with discard option=SSD を discard オプションでマウント
+NFS Security=NFS セキュリティ
+NFS Settings=NFS 設定
+NFS must be enabled in Settings->NFS to enable NFS Export=NFS エクスポートを有効にするには、設定→NFS で NFS を有効にする必要があります
+NFS Version to use when Mounting Remote Shares=リモート共有をマウントする際に使用する NFS バージョン
+Public=公開
+Private=プライベート
+Private Hidden=プライベート非表示
+Refresh and Update=更新とアップデート
+Remote Share Mount Wait Time=リモート共有マウント待機時間
+Rule=ルール
+Select Disk=ディスクを選択
+See Help=ヘルプを参照
+Set Encrypted Disk Password=暗号化ディスクパスワードを設定
+Set Password=パスワードを設定
+Set Pool Mount Point=プールマウントポイントを設定
+Set the Pool Mount Point for this disk=このディスクのプールマウントポイントを設定
+Set the disk Password=ディスクパスワードを設定
+SMB Settings=SMB 設定
+SMB Sharing=SMB 共有
+Specify SMB Version when Mounting Remote Shares=リモート共有をマウントする際に SMB バージョンを指定
+Spin down disks=ディスクをスピンダウン
+Test=テスト
+Testing=テスト中
+Test the Remote Server=リモートサーバーをテスト
+The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=破壊モードを有効にするには、Unassigned Devices Plus プラグインをインストールする必要があります
+This is a tool to help troubleshoot Remote Servers ability to serve SMB and NFS shares=これは、リモートサーバーが SMB および NFS 共有を提供する能力のトラブルシューティングを支援するツールです
+Time Machine volume size limit=Time Machine ボリュームサイズ制限
+to SMB share config=SMB 共有設定へ
+Udev and Hotplug=Udev とホットプラグ
+Unassigned Devices=未割り当てデバイス
+Unraid 6.10 or later is required for NFSv4 support=NFSv4 サポートには Unraid 6.10 以降が必要です
+Upgrade ZFS Pool=ZFS プールをアップグレード
+Use only when directed for support because the messages can flood the log=サポートから指示された場合にのみ使用してください。メッセージがログを埋め尽くす可能性があります
+Warning=警告
+Windows may require a valid User to be defined even for Public shares=Windows では、公開共有であっても有効なユーザーの定義が必要な場合があります
+Working=作業中
 
 ; Help
 ;
 :ud_settings_plus_plug:
-> **Note:** The 'Unassigned Devices Plus' plugin must be installed in order to mount HFS+ and exFAT disk formats, and enable desctrctive mode.
+> **注意：** HFS+およびexFATディスク形式をマウントし、破壊モードを有効にするには、「Unassigned Devices Plus」プラグインをインストールする必要があります。
 :end
 
 :ud_settings_common_script_plug:
-> If set, this script will run before the device script.  The action is in the environment variable **$ACTION**. Be sure you reference all commands with their full path.
+> 設定されている場合、このスクリプトはデバイススクリプトの前に実行されます。アクションは環境変数**$ACTION**にあります。すべてのコマンドをフルパスで参照してください。
 :end
 
 :ud_settings_destructive_plug:
-> If enabled, this will allow you to erase and format partitions using Unassigned Devices. This cannot be enabled unless the 'Unassigned Devices Plus' plugin is installed.
+> 有効にすると、Unassigned Devicesを使用してパーティションを消去およびフォーマットできるようになります。「Unassigned Devices Plus」プラグインがインストールされていない限り、これを有効にすることはできません。
 :end
 
 :ud_settings_mount_usb_devices_plug:
-> When set to **Yes**, will auto mount a new USB device and share it without user intervention.
+> **はい**に設定すると、新しいUSBデバイスを自動的にマウントし、ユーザーの介入なしで共有します。
 :end
 
 :ud_settings_discard_plug:
-> Mount SSDs that support discard with 'discard' option.  If you are using the SSD Trim Settings to do a periodic trim of SSDs you can set this to **No**.
+> discardをサポートするSSDを「discard」オプションでマウントします。SSD Trim設定を使用してSSDの定期的なtrimを実行している場合は、これを**いいえ**に設定できます。
 :end
 
 :ud_settings_symlinks_plug:
-> Set to **Yes** to create symlinks for /mnt/remotes/ at /mnt/disks/.
+> **はい**に設定すると、/mnt/remotes/のシンボリックリンクを/mnt/disks/に作成します。
 >
-> This is for backwards compatibility of VM and Docker Container mappings to the /mnt/disks/ mount point.
-> You are encouraged to change your mappings to the /mnt/remotes/ mount point.
+> これは、/mnt/disks/マウントポイントへのVMおよびDockerコンテナマッピングの下位互換性のためのものです。
+> マッピングを/mnt/remotes/マウントポイントに変更することをお勧めします。
 >
-> If you do not need the backwards compatibility, leave it set to **No**.
+> 下位互換性が必要ない場合は、**いいえ**に設定したままにしてください。
 :end
 
 :ud_settings_remote_share_wait_plug:
-> This is the time in seconds to wait before mounting remote shares when the array is first started.
+> これは、アレイが最初に起動されたときにリモート共有をマウントする前に待機する秒数です。
 >
 :end
 
 :ud_settings_specify_smb_vers_plug:
-> Set to **No** for Unassigned Devices to first try to mount remote shares by not setting the SMB version when mounting.
+> **いいえ**に設定すると、Unassigned Devicesはマウント時にSMBバージョンを設定せずに、最初にリモート共有のマウントを試みます。
 >
-> Set to **Yes** for Unassigned Devices to only mount SMB remote shares specifying the SMB version.
+> **はい**に設定すると、Unassigned DevicesはSMBバージョンを指定してSMBリモート共有のみをマウントします。
 >
-> Some remote servers need to have the version specified.
+> 一部のリモートサーバーでは、バージョンを指定する必要があります。
 :end
 
 :ud_settings_debug_level_plug:
-> Setting a Debug Log Level adds additional logging in specific areas of UD for troubleshooting.
+> デバッグログレベルを設定すると、トラブルシューティングのためにUDの特定領域で追加のログ記録が有効になります。UDの特定領域をデバッグするには、デバッグログレベルを設定します。
 >
-> Set to **None** to turn off debug logging.
+> **なし**に設定すると、デバッグログ記録がオフになります。
 >
-> Set the Debug Log Level to a numeric value to debug a specific area of UD.
+> **UdevとHotplug** udev、ディスク検出、およびホットプラグのデバッグ。
 >
-> **Note:** Don't leave the Debug Log Level on for extended periods of time.  It can add a lot of log messages to the syslog.
+> **更新とアップデート** UDがハングする問題を見つけます。
+>
+> **コマンド実行時間** コマンドの実行時間。**警告：** 非常に冗長です。
+>
+> **注意：** デバッグログレベルを長期間有効にしないでください。syslogに大量のメッセージが生成される可能性があります。
 :end
 
 :ud_settings_specify_nfs_vers_plug:
-> Set to **NFSv3** to mount all NFS Remote Shares with NFSv3.
+> **自動**に設定すると、すべてのNFSリモート共有をマウントする際に、使用するNFSバージョンを自動ネゴシエーションします。
 >
-> Set to **NFSv4** to mount all NFS Remote Shares with NFSv4.
->
-> All NFS remote shares will be mounted with the specified version.
+> **自動**設定が機能しない場合、またはNFSv3のみがマウントされる場合は、**NFSv4**設定を使用してください。お使いのUnraidバージョンがNFSv4を自動ネゴシエーションできないためです。
 :end
 
 :ud_settings_smb_security_plug:
-> Set the user level of SMB Security.
+> SMB共有のユーザーレベルを設定します：
 >
-> + Set to **Yes** to enable SMB Security on SMB shares.  Set access by user to allow access and whether or not the user can write to the share.
-> + Set to **Hidden** to enable SMB Security on SMB shares that will not be visible.  Set access by user to allow access and whether or not the user can write to the share.
-> + Set to **No** will share devices, SMB/NFS, and iso Mounts Public with read and write access.
+> + **無効**に設定すると、SMB共有が無効になります。
+> + **公開**に設定すると、デバイス、リモートSMB/NFS共有、およびISOマウントが読み取り/書き込みアクセスで公開共有されます。
+> + **プライベート**に設定すると、SMB共有でSMBセキュリティが有効になります。ユーザーごとにアクセスを設定し、ユーザーが共有に書き込めるかどうかを設定します。
+> + **プライベート非表示**に設定すると、表示されないSMB共有でSMBセキュリティが有効になります。ユーザーごとにアクセスを設定し、ユーザーが共有に書き込めるかどうかを設定します。
+>
+> Windowsサーバー署名：
+>
+> Windows 11バージョン24H2以降でSMB共有を参照できない場合は、サーバー署名と呼ばれる新機能に対応するために設定を調整する必要がある場合があります。サーバー署名はUnraidで有効になっているため、公開共有にアクセスするには追加の手順が必要になる場合があります。
+> <a href='https://techcommunity.microsoft.com/t5/storage-at-microsoft/accessing-a-third-party-nas-with-smb-in-windows-11-24h2-may-fail/ba-p/4154300' target='_blank' rel='noopener noreferrer'>Windowsで無効にする</a>か、サーバー署名を有効にしたままUnraidで動作させるには、使用しているWindowsアカウントと同じ名前のユーザー（パスワードを設定）をUnraidで作成するのが最も簡単な方法です。Windowsは認証情報を要求します。
+> Microsoftアカウントを使用している場合は、Unraidでシンプルなユーザー名のユーザーを作成してパスワードを設定し、Windowsで「コントロールパネル→資格情報マネージャー→Windows資格情報→Windows資格情報の追加」に移動して、正しいUnraidサーバー名と認証情報を追加する方が良いでしょう。
 :end
 
 :ud_settings_case_sensitive_plug:
-> Controls whether filenames are case-sensitive.
+> ファイル名で大文字と小文字を区別するかどうかを制御します。
 >
-> The default setting of **Auto** allows clients that support case sensitive filenames (Linux CIFSVFS) to tell the Samba server on a per-packet basis that they wish to access the file system in a case-sensitive manner (to support UNIX case sensitive semantics). No Windows system supports case-sensitive filenames so setting this option to auto is the same as setting it to No for them; however, the case of filenames passed by a Windows client will be preserved. This setting can result in reduced performance with very large directories because Samba must do a filename search and match on passed names.
+> デフォルト設定の**自動**では、大文字と小文字を区別するファイル名をサポートするクライアント（Linux CIFSおよびNFS）が、パケット単位でSambaサーバーに対して、大文字と小文字を区別する方法でファイルシステムにアクセスしたいことを伝えることができます（UNIXの大文字と小文字を区別するセマンティクスをサポートするため）。Windowsシステムは大文字と小文字を区別するファイル名をサポートしていないため、このオプションを自動に設定することは、Windowsの場合は「いいえ」に設定することと同じです。ただし、Windowsクライアントから渡されたファイル名の大文字と小文字は保持されます。この設定では、Sambaが渡された名前のファイル名検索と一致を行う必要があるため、非常に大きなディレクトリではパフォーマンスが低下する可能性があります。
 >
-> A setting of **Yes** means that files are created with the case that the client passes, and only accessible using this same case. This will speed very large directory access, but some Windows applications may not function properly with this setting. For example, if "MyFile" is created but a Windows app attempts to open "MYFILE" (which is permitted in Windows), it will not be found.
+> **はい**に設定すると、ファイルはクライアントが渡した大文字と小文字で作成され、この同じ大文字と小文字を使用してのみアクセスできます。これにより、非常に大きなディレクトリへのアクセスが高速化されますが、この設定では一部のWindowsアプリケーションが正しく機能しない場合があります。たとえば、「MyFile」が作成されているのに、Windowsアプリが「MYFILE」を開こうとした場合（Windowsでは許可されています）、見つかりません。
 >
-> A value of **Forced lower** is special: the case of all incoming client filenames, not just new filenames, will be set to lower-case. In other words, no matter what mixed case name is created on the Windows side, it will be stored and accessed in all lower-case. This ensures all Windows apps will properly find any file regardless of case, but case will not be preserved in folder listings.
+> **強制小文字**の値は特別です：新しいファイル名だけでなく、すべての受信クライアントファイル名の大文字と小文字が小文字に設定されます。つまり、Windows側でどのような大文字と小文字の混在した名前が作成されても、すべて小文字で保存およびアクセスされます。これにより、すべてのWindowsアプリが大文字と小文字に関係なくファイルを正しく見つけることができますが、フォルダリストでは大文字と小文字は保持されません。
 :end
 
 :ud_time_machine_plug:
-> Set to **Yes** to enable Time Machine settings on the SMB shares.
+> **はい**に設定すると、SMB共有でTime Machine設定が有効になります。
 :end
 
 :ud_time_machine_vol_size_plug:
-> This limits the reported volume size, preventing Time Machine from using the entire real disk space for backup. For example, setting this value to "1024" would limit the reported disk space to 1GB.
+> これにより、報告されるボリュームサイズが制限され、Time Machineがバックアップに実際のディスク容量全体を使用するのを防ぎます。たとえば、この値を「1024」に設定すると、報告されるディスク容量が1GBに制限されます。
 :end
 
 :ud_settings_force_user_plug:
-> There are times when permissions on SMB shares aren't handled as expected.  Turning this feature on can help with those permissions.
-> This applies to all devices mounted with Unassigned Devices.
-> The down side is that it overrides Linux group permissions.  If you are unsure about whether or not this is necessary, leave it enabled.
+> SMB共有の権限が期待どおりに処理されない場合があります。**ユーザーを強制**設定を有効にすると役立ちます。
+> これは、Unassigned Devicesでマウントされたすべてのデバイスに適用されます。
+> 欠点は、Linuxグループ権限が上書きされることです。これが必要かどうかわからない場合は、無効のままにしてください。
 :end
 
 :ud_settings_nfs_security_plug:
-> Set to **Yes** to export Unassigned Devices with NFS sharing. Shares are exported Public with read and write access or Private with the rule you set. Access is controlled with permission settings on files and folders.
+> **はい**に設定すると、NFS共有で未割り当てデバイスをエクスポートします。共有は、読み取りおよび書き込みアクセスで公開としてエクスポートされるか、設定したルールでプライベートとしてエクスポートされます。アクセスは、ファイルとフォルダの権限設定で制御されます。
 :end
 
 :ud_settings_nfs_rules_plug:
-> **Note:** The normal rule used by UD is '*(rw,sec=sys,insecure,anongid=100,anonuid=99,no_root_squash)'.
+> 各IPアドレスのルールを別々の行に記述し、ルールを改行で終了します。
+> IP1,IP2(...)の形式でルールを入力することはできません。Unraidはその形式でエクスポートファイルをフォーマットしません。
+
+> すべてのNFSルールのデフォルトルールは、asyncおよびno_subtree_checkです。
+
+> **注意：**
+>
+> 公開で使用されるデフォルトルールは「*(rw,sec=sys,insecure,anongid=100,anonuid=99,all_squash)」です。
+>
+> プライベートで使用されるデフォルトルールは「*(rw,sec=sys,insecure,anongid=100,anonuid=99,no_root_squash)」です。
 :end
 
 :ud_settings_disk_pass_plug:
-> Select the disk that you want to set a Password.  This is the password for this disk only and does not affect the array password/passphrase.  Leave password blank to use the array password/passphrase.
+> パスワードを設定するディスクを選択します。これはこのディスク専用のパスワードであり、アレイパスワード/パスフレーズには影響しません。luks暗号化ディスクにアレイパスワード/パスフレーズを使用する場合は、パスワードを空白のままにします。
 :end
 
 :ud_settings_change_uuid_plug:
-> Select the disk that you want to change the UUID.  This is useful when a disk has been removed from the array and has the same UUID as an array disk.  Drive must be unmounted to change the UUID.
+> UUIDを変更するディスクを選択します。これは、XFSフォーマットのディスクがアレイから削除され、アレイディスクと同じUUIDを持っている場合に役立ちます。UUIDを変更するには、ドライブをアンマウントする必要があります。
+>
+> **注意：** プールされたディスクのUUIDは変更しないでください。
 :end
 
 :ud_settings_zfs_upgrade_plug:
-> Select the disk that you want to upgrade to the latest ZFS version. Drive must be mounted to upgrade ZFS.
+> 最新のZFSバージョンにアップグレードするディスクを選択します。ZFSプールをアップグレードするには、ドライブをマウントする必要があります。
 :end
 
 :ud_remote_server_test_plug:
-> Remote Servers need to have SMB and/or NFS enabled.  This will check that the SMB and/or NFS ports are open.  The 'showmount -e <server>' command on Unraid must also show NFS mounts available.
-> For SMB to be considered online, the Remote Server has to have the SMB port open.
-> For NFS to be considered online, the Remote Server has to have the NFS port open and the 'showmount -e' command has to show NFS shares.
-> There can be a case where the port is open and 'showmount -e' doesn't show NFS shares and NFS will not work.
-> If showmount does not return any NFS shares on a reachable remote server like a Synology, it generally means one of the following:
-> No NFS Shares Exported:
-> The server might not have any directories configured for NFS export. Check the NFS configuration on the Synology device and ensure that folders intended for NFS sharing are explicitly exported.
-> Access Restrictions:
-> NFS shares may be configured with IP-based access restrictions. Synology devices allow you to specify which IP addresses or networks can access each NFS share. If your IP address is not allowed, the NFS share will not appear in showmount output.
-> NFS Service Not Enabled:
-> The NFS service on the Synology might not be enabled. Verify this in the Synology DSM settings under Control Panel > File Services > NFS. Enable NFS if it is currently disabled.
-> Firewall or Network Configuration:
-> The Synology device may have firewall rules blocking the showmount request or the required RPC communication. Ensure that the firewall settings allow traffic on NFS-related ports (typically 2049 for NFS and 111 for RPC).
-> Synology Export Options:
-> The Synology NFS settings can sometimes require enabling Enable NFS at the top level and specifying Allow NFSv3 if you are using clients that expect NFSv3. Check Control Panel > File Services > NFS to ensure proper configuration.
-> By ensuring that NFS is enabled, configured with the correct permissions, and exported directories are allowed for your client IP, showmount should list the available exports.
-:end
+> リモートサーバーはSMBおよび/またはNFSを有効にする必要があります。これにより、SMBおよび/またはNFSポートが開いているかどうかが確認されます。Unraidの「showmount -e <server>」コマンドでも、利用可能なNFSマウントが表示される必要があります。
 
-; Note: December 8, 2024 - 56 missing translations
-Add=
-Auto Mount USB Devices=
-Case-sensitive names=
-Change Disk UUID=
-Change UUID=
-Change Disk UUID=
-Command times=
-Common Script=
-Common Settings=
-Destructive Mode=
-Disabled=
-Disk spin down is managed by Unraid=
-Enable NFS export=
-Enable SMB Security=
-Enable Time Machine=
-Enter Disk Password=
-Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the Result text area=Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the **Result** text area
-Enter Pool Mount Point=
-Legacy Mount Point Compatibility=
-Mount SSDs with discard option=
-NFS Security=
-NFS Settings=
-NFS must be enabled in Settings->NFS to enable NFS Export=
-NFS Version to use when Mounting Remote Shares=
-Public=
-Private=
-Private Hidden=
-Refresh and Update=
-Remote Share Mount Wait Time=
-Rule=
-Select Disk=
-See Help=
-Set Encrypted Disk Password=
-Set Password=
-Set Pool Mount Point=
-Set the Pool Mount Point for this disk=
-Set the disk Password=
-SMB Settings=
-SMB Sharing=
-Specify SMB Version when Mounting Remote Shares=
-Spin down disks=
-Test=
-Testing=
-Test the Remote Server=
-The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=
-This is a tool to help troubleshoot Remote Servers ability to serve SMB and NFS shares=
-Time Machine volume size limit=
-to SMB share config=
-Udev and Hotplug=
-Unassigned Devices=
-Unraid 6.10 or later is required for NFSv4 support=
-Upgrade ZFS Pool=
-Use only when directed for support because the messages can flood the log=
-Warning=
-Windows may require a valid User to be defined even for Public shares=
-Working=
+> SMBがオンラインと見なされるには、リモートサーバーのSMBポートが開いている必要があります。
+
+> NFSがオンラインと見なされるには、リモートサーバーのNFSポートが開いており、「showmount -e」コマンドでNFS共有が表示される必要があります。
+> ポートは開いているかもしれませんが、「showmount -e」がNFS共有をリストしない場合、NFSは機能しません。
+
+> Synologyのような到達可能なリモートサーバーでshowmountがNFS共有を返さない場合、通常は次のいずれかを意味します：
+
+> NFSエクスポートなし：
+
+> サーバーにNFSエクスポート用に設定されたディレクトリがない可能性があります。SynologyデバイスのNFS設定を確認し、NFS共有用のフォルダが明示的にエクスポートされていることを確認してください。
+
+> アクセス制限：
+
+> NFS共有は、IPベースのアクセス制限で設定されている場合があります。Synologyデバイスでは、各NFS共有にアクセスできるIPアドレスまたはネットワークを指定できます。IPアドレスが許可されていない場合、NFS共有はshowmount出力に表示されません。
+
+> NFSサービスが有効になっていない：
+
+> SynologyのNFSサービスが有効になっていない可能性があります。Synology DSM設定の「コントロールパネル」>「ファイルサービス」>「NFS」で確認してください。現在無効になっている場合は、NFSを有効にしてください。
+
+> ファイアウォールまたはネットワーク設定：
+
+> Synologyデバイスには、showmountリクエストまたは必要なRPC通信をブロックするファイアウォールルールがある場合があります。ファイアウォール設定で、NFS関連ポート（通常、NFSの場合は2049、RPCの場合は111）のトラフィックが許可されていることを確認してください。
+
+> Synologyエクスポートオプション：
+
+> Synology NFS設定では、トップレベルでNFSを有効にし、NFSv3を期待するクライアントを使用している場合はNFSv3を許可するように指定する必要がある場合があります。「コントロールパネル」>「ファイルサービス」>「NFS」を確認して、適切に設定されていることを確認してください。
+
+> NFSが有効になっており、正しい権限で設定され、エクスポートされたディレクトリがクライアントIPに対して許可されていることを確認することで、showmountは利用可能なエクスポートをリストするはずです。
+:end

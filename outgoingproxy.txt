@@ -1,36 +1,33 @@
+Enable Outgoing Proxy=アウトゴーイングプロキシを有効化
+Name=名前
+Optional=オプション
+Outgoing Proxy=アウトゴーイングプロキシ
+Password=パスワード
+Please match the requested format=要求された形式に一致させてください
+Required=必須
+Select Proxy=プロキシを選択
+User=ユーザー
 
 :outgoing_proxy_enable_plug:
-> Select the Proxy to use.  Only online Proxies will be selectable.
+> 使用するプロキシを選択します。オンラインのプロキシのみが選択可能です。
 >
-> If your network environment requires an outgoing http proxy, define that here.
+> ネットワーク環境でアウトゴーイング HTTP プロキシが必要な場合は、ここで定義します。
 >
-> Outgoing connections from the webgui and some system processes will use the specified http proxy.  Docker container installs and updates will use the proxy, but the container itself will not, neither will any VMs.
+> WebGUI および一部のシステムプロセスからの外部接続は、指定された HTTP プロキシを使用します。Docker コンテナのインストールとアップデートはプロキシを使用しますが、コンテナ自体および仮想マシンは使用しません。
 >
-> For a more comprehensive solution you might consider setting up <u><a href='https://docs.unraid.net/unraid-os/manual/security/vpn/#configuring-vpn-tunneled-access-for-system/' target='_blank'>_(VPN tunnel access for System)_</a></u>.
+> より包括的なソリューションについては、<u><a href='https://docs.unraid.net/unraid-os/manual/security/vpn/#configuring-vpn-tunneled-access-for-system/' target='_blank'>_(システム用 VPN トンネルアクセス)_</a></u> の設定を検討してください。
 :end
 
 :outgoing_proxy_name_plug:
-> Outgoing Proxy name for this Proxy
+> このプロキシのアウトゴーイングプロキシ名
 :end
 
 :outgoing_proxy_url_plug:
-> Outgoing Proxy URL for this Proxy.  The URL can be entered with or without credentials.  The credentials will be parsed from the URL.
+> このプロキシのアウトゴーイングプロキシ URL。URL は認証情報の有無にかかわらず入力できます。認証情報は URL から解析されます。
 >
-> If you enter a User and Password, they will be used as new credentials.
+> ユーザーとパスワードを入力すると、それらが新しい認証情報として使用されます。
 :end
 
 :outgoing_proxy_user_plug:
-> Outgoing Proxy User Name for this Proxy
+> このプロキシのアウトゴーイングプロキシユーザー名
 :end
-
-
-; Note: December 29, 2024 - 9 missing translations
-Enable Outgoing Proxy=
-Name=
-Optional=
-Outgoing Proxy=
-Password=
-Please match the requested format=
-Required=
-Select Proxy=
-User=

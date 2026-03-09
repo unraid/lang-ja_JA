@@ -1,4 +1,1 @@
-
-
-; Note: April 28, 2023 - 1 missing translations
-Script Log=
+Script Log=スクリプトログ

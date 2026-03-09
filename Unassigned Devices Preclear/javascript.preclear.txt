@@ -1,0 +1,23 @@
+Do you want to pause all running preclear sessions=実行中のすべてのプレクリアセッションを一時停止しますか？
+Do you want to proceed=続行しますか？
+Do you want to resume all running preclear sessions=実行中のすべてのプレクリアセッションを再開しますか？
+Do you want to resume it instead of starting a new one=新しいセッションを開始する代わりに再開しますか？
+Do you want to stop all running preclear sessions=実行中のすべてのプレクリアセッションを停止しますか？
+Fail=失敗
+Fix=修正
+Fix Preclear=プレクリアを修正
+Pause All Preclear Sessions=すべてのプレクリアセッションを一時停止
+Preclear Log=プレクリアログ
+Resume=再開
+Resume All Preclear Sessions=すべてのプレクリアセッションを再開
+Resume Preclear=プレクリアを再開
+Set=設定
+Set Queue Limit=キュー制限を設定
+Start New=新規開始
+Start Preclear=プレクリアを開始
+Stop All Preclear Sessions=すべてのプレクリアセッションを停止
+Stop Preclear=プレクリアを停止
+Success=成功
+There is a previous preclear session available for this drive=このドライブには以前のプレクリアセッションが利用可能です
+This will stop all running sessions, halt all processes and remove all related files=これにより、実行中のすべてのセッションが停止され、すべてのプロセスが停止し、関連するすべてのファイルが削除されます
+

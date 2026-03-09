@@ -1,24 +1,22 @@
+Hotplug USB=ホットプラグUSB
+Running VMs=実行中の仮想マシン
+Attach=接続
+Attach the USB device to the selected VM=選択した仮想マシンにUSBデバイスを接続
+Detach=切断
+Refresh this page=このページを更新
+Detach the USB device from the selected VM=選択した仮想マシンからUSBデバイスを切断
+Result=結果
+Result of attachdetach operation=接続/切断操作の結果
+Note=注意
+Some USB Devices require detaching and attaching multiple times to be properly detected by VMs=一部のUSBデバイスは、仮想マシンに正しく認識されるために複数回の切断と接続が必要です
+If you disconnected the USB device while it was attached to a VM, you will have to detach it and then re-attach it=仮想マシンに接続中のUSBデバイスを物理的に取り外した場合は、一度切断してから再接続する必要があります
+Detaching Please wait=切断中、お待ちください
+Attaching Please wait=接続中、お待ちください
+No VM Selected=仮想マシンが選択されていません
+No USB devices=USBデバイスがありません
 ;
 ; Help
 ;
 :libvirt_hot_plug:
-> Select the VM for the USB device to be attached/detached and the USB device for the selected VM.
+> USBデバイスを接続または切断する仮想マシンと、対象のUSBデバイスを選択してください。
 :end
-
-; Note: April 28, 2023 - 16 missing translations
-Hotplug USB=
-Running VMs=
-Attach=
-Attach the USB device to the selected VM=
-Detach=
-Refresh this page=
-Detach the USB device from the selected VM=
-Result=
-Result of attachdetach operation=
-Note=
-Some USB Devices require detaching and attaching multiple times to be properly detected by VMs=
-If you disconnected the USB device while it was attached to a VM, you will have to detach it and then re-attach it=
-Detaching Please wait=
-Attaching Please wait=
-No VM Selected=
-No USB devices=

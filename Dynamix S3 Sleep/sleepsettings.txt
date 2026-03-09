@@ -1,0 +1,117 @@
+Console=コンソール
+Counters only=カウンターのみ
+Custom commands after wake-up=ウェイクアップ後のカスタムコマンド
+Custom commands before sleep=スリープ前のカスタムコマンド
+Device activity monitoring=デバイスアクティビティ監視
+DHCP renewal after wake-up=ウェイクアップ後のDHCP更新
+Enable DEBUG mode=DEBUGモードを有効化
+Enter custom commands here=ここにカスタムコマンドを入力
+Ethernet interface=イーサネットインターフェース
+Excluded days=除外日
+Excluded hours=除外時間
+Execute function=実行機能
+Extra delay after array inactivity=アレイ非アクティブ後の追加遅延
+Force gigabit speed after wake-up=ウェイクアップ後にギガビット速度を強制
+High traffic=高トラフィック
+IP address=IPアドレス
+Local Remote=ローカル&リモート
+Local=ローカル
+Log will be stored in bootlogss3_sleeplog=ログは **/boot/logs/s3_sleep.log** に保存されます
+Low traffic=低トラフィック
+Medium traffic=中トラフィック
+Mega traffic=超高トラフィック
+Monitor disks outside array=アレイ外のディスクを監視
+Network idle threshold=ネットワークアイドル閾値
+no host=ホストなし
+Remote=リモート
+Set WOL options before sleep=スリープ前にWOLオプションを設定
+Silent traffic=無音トラフィック
+Status counters=ステータス&カウンター
+Status only=ステータスのみ
+Syslog and flash=SyslogとFlash
+Syslog=Syslog
+Wait for array inactivity=アレイの非アクティブを待機
+Wait for host inactivity=ホストの非アクティブを待機
+Wait for network inactivity=ネットワークの非アクティブを待機
+Wait for user login inactivity=ユーザーログインの非アクティブを待機
+Yes, exclude Cache=はい、キャッシュを除外
+
+:s3sleep_function_plug:
+> 動作モードを選択してください。システムをスリープ（およびウェイクアップ）させるか、完全にシャットダウンすることができます。
+>
+> 次の設定は、システムがスリープまたはシャットダウンされる条件を決定します。
+:end
+
+:s3sleep_excluded_days_plug:
+> デフォルトではすべての曜日が含まれます。スリープまたはシャットダウンが有効でない曜日をここで選択してください。この設定は除外時間と組み合わせて機能します。
+:end
+
+:s3sleep_excluded_hours_plug:
+> デフォルトではすべての時間が含まれます。スリープまたはシャットダウンが有効でない時間をここで選択してください。この設定は除外日と組み合わせて機能します。
+:end
+
+:s3sleep_inactivity_plug:
+> スリープまたはシャットダウンが実行される前に、アレイが完全に非アクティブ（すべてのディスクがスピンダウン）である必要があるかどうかを選択してください。
+>
+> キャッシュディスクをこの設定に含めるか除外するかを選択できます。例えば、キャッシュディスクが継続的に使用され、スピンダウンしない場合などです。
+:end
+
+:s3sleep_activity_plug:
+> *ステータス*はデバイスのハードウェアステータスを監視します
+>
+> *カウンター*はデバイスの読み取り/書き込みカウンターを監視します
+:end
+
+:s3sleep_outside_plug:
+> アレイ外に他のディスクが存在する場合、これらを個別に監視できます。
+:end
+
+:s3sleep_extra_delay_plug:
+> アレイが非アクティブになった後の追加遅延を指定してください。遅延なしの場合は 0 を指定できます。
+:end
+
+:s3sleep_network_plug:
+> スリープまたはシャットダウンの前にネットワークアクティビティを条件として考慮するかどうかを選択してください。
+:end
+
+:s3sleep_ethernet_plug:
+> 複数のネットワークインターフェースがある場合、ネットワークアクティビティをチェックするために使用するインターフェースをここで選択してください。
+:end
+
+:s3sleep_idle_plug:
+> ネットワークアクティビティは、無音から超高トラフィックまでの閾値に対して評価されます。環境に適したバランスを見つけるために実験してください。
+:end
+
+:s3sleep_host_plug:
+> 外部ホストを監視し、応答がないことをスリープまたはシャットダウンの条件とするかどうかを選択してください。
+>
+> 外部ホストをIPアドレスで指定してください。複数のIPはカンマで区切ります。いずれかのホストがpingに応答する場合、スリープまたはシャットダウンは実行されません。
+:end
+
+:s3sleep_login_plug:
+> スリープまたはシャットダウンを実行する前に、ローカル（コンソール）またはリモート（telnet または ssh）でログインしているユーザーが最初にログアウトする必要があるかどうかを選択してください。
+:end
+
+:s3sleep_wol_plug:
+> S3スリープの適切なサポートのために追加のWOLオプションを設定します。可能性についてはシステムドキュメントを参照してください。
+:end
+
+:s3sleep_before_plug:
+> スリープまたはシャットダウンの前に実行する追加コマンドをここに入力してください（例：クリーンアップやその他のタスク）。
+:end
+
+:s3sleep_after_plug:
+> ウェイクアップ後に実行する追加コマンドをここに入力してください。これにより、以前の状態を復元できます。
+:end
+
+:s3sleep_gigabit_plug:
+> デフォルトでは OFF のままにしてください。ウェイクアップ後にインターフェースが正常に起動しない場合は、この設定を有効にしてみてください。
+:end
+
+:s3sleep_dhcp_plug:
+> デフォルトでは OFF のままにしてください。ウェイクアップ後にシステムが正常に起動しない場合は、この設定を有効にしてみてください。
+:end
+
+:s3sleep_debug_plug:
+> デフォルトでは debug は OFF です。トラブルシューティングの場合にのみこの設定を使用してください。s3_sleep スクリプト内のさまざまな段階を報告する追加メッセージが生成されます。
+:end

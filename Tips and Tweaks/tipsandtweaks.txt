@@ -1,231 +1,229 @@
-After a reboot from a lockup or hung server, you can view the saved log using the Syslog viewer=
-Check the=
-Available User Watches=
-Click on Help for more information=
-Correct any problems that are identified before doing any tweaking=
-Current Disk Cache Settings=
-Current Inotify Settings=
-Current NIC settings=
-Current User Watches=
-Disable NIC Flow Control=
-Disable NIC Offload=
-Disk Cache=
-Dont change the Disk Cache settings until you read and understand this=
-Driver=
+After a reboot from a lockup or hung server, you can view the saved log using the Syslog viewer=ロックアップまたはハングしたサーバーの再起動後、Syslog ビューアを使用して保存されたログを表示できます
+Check the=確認してください
+Available User Watches=利用可能なユーザーウォッチ
+Click on Help for more information=詳細についてはヘルプをクリックしてください
+Correct any problems that are identified before doing any tweaking=調整を行う前に、特定された問題を修正してください
+Current Disk Cache Settings=現在のディスクキャッシュ設定
+Current Inotify Settings=現在の Inotify 設定
+Current NIC settings=現在の NIC 設定
+Current User Watches=現在のユーザーウォッチ
+Disable NIC Flow Control=NIC フロー制御を無効化
+Disable NIC Offload=NIC オフロードを無効化
+Disk Cache=ディスクキャッシュ
+Dont change the Disk Cache settings until you read and understand this=Don't change the Disk Cache settings until you read and understand this
+Driver=ドライバ
 Enable Intel TurboAMD Performance Boost=Enable Intel Turbo/AMD Performance Boost
-Enable syslog Archiving=
-Ethernet NIC Rx Buffer=
-Ethernet NIC Tx Buffer=
-Ethernet NICS=
-Flow Control=
-for additional ideas on improving your Unraid performance and solving problems=
-for information on the issue=
-Go to Settings->Syslog Server and enable the Syslog Server=
-Governor=
-Guide=
-If you are experiencing OOM errors, try adjusting the Disk Cache settings on the Tweaks page=
-If you configure VLANs on Unraid, you should make Unraid the Master Browser=
-If you dont Unraid may not detect the Master Browser for all network interfaces correctly=
-If you have an Intel Processor, it may appear that all CPUs are constantly running at full speed=
-If you set the 'Power Save' CPU Governor, you may see your processors stuck at 800 MHz=
-Install the Fix Common Problems plugin and resolve any Unraid configuration problems=
+Enable syslog Archiving=syslog アーカイブを有効化
+Ethernet NIC Rx Buffer=イーサネット NIC Rx バッファ
+Ethernet NIC Tx Buffer=イーサネット NIC Tx バッファ
+Ethernet NICS=イーサネット NIC
+Flow Control=フロー制御
+for additional ideas on improving your Unraid performance and solving problems=Unraid のパフォーマンス向上と問題解決のための追加のアイデアについて
+for information on the issue=この問題に関する情報について
+Go to Settings->Syslog Server and enable the Syslog Server=Go to 'Settings → Syslog Server' and enable the Syslog Server.
+Governor=ガバナー
+Guide=ガイド
+If you are experiencing OOM errors, try adjusting the Disk Cache settings on the Tweaks page=OOM エラーが発生している場合は、Tweaks ページでディスクキャッシュ設定を調整してみてください
+If you configure VLANs on Unraid, you should make Unraid the Master Browser=Unraid で VLAN を設定する場合は、Unraid をマスターブラウザにする必要があります
+If you dont Unraid may not detect the Master Browser for all network interfaces correctly=If you don't, Unraid may not detect the Master Browser for all network interfaces correctly
+If you have an Intel Processor, it may appear that all CPUs are constantly running at full speed=Intel プロセッサをお持ちの場合、すべての CPU が常にフルスピードで動作しているように見えることがあります
+If you set the Power Save CPU Governor, you may see your processors stuck at 800 MHz=If you set the 'Power Save' CPU Governor, you may see your processors stuck at 800 MHz.
+Install the Fix Common Problems plugin and resolve any Unraid configuration problems=Fix Common Problems プラグインをインストールし、Unraid の設定に関する問題を解決してください
 Intel TurboAMD Performance Boost=Intel Turbo/AMD Performance Boost
-It is recommended that you update Unraid to the latest stable version to get the latest features, bug fixes, and security updates=
-It is recommended to use the pstate driver on Intel processors if you want the most performance=
-It is recommended you use the 'Performance' Governor for best performance and power savings=
-Make changes slowly=
-Make one change at a time and verify if it improves your situation=
-Making changes here can briefly interrupt your network operation=
-Many plugins are no longer compatible with older Unraid versons=
-Max SMB Open Files=
-Max User Instances=
-Max User Watches=
-NIC Offload=
-NIC Rx Buffer=
-NIC Tx Buffer=
-Normal CPU Scaling Governor=
-Note=
-Number of syslogs to Archive=
-post=
-Power Saving Settings=
-Power Saving CPU Scaling Governor=
-Processes to kill before Array is Stopped=
-Put the IP address of your server in the Remote syslog server field=
-Read this=
-Schedule CPU Power Saving Mode=
-Some have reported better VM performance with media streaming and gaming VMs with the suggestions on this=
-Some have reported faster and more consistent network performance by making changes in networking parameters on the Tweaks tab of this plugin=
-Some of the settings will consume RAM and may end up causing Linux to terminate some processes to free up RAM=
-Some people are reporting OOM out of memory errors=
-Support for older versions of Unraid is being phased out=
-The dashboard shows CPU loading and not CPU frequency=
-The feature is not available on any of your NICs=
-The first thing you should do is to install the Fix Common Problems plugin to find and fix common problems=
-The Tips below are suggestions, workarounds for known problems, and potential fixes=
-There is a very cool feature in Unraid 6 and up that can be used to capture your logs and help in troubleshooting a situation where your server locks up or becomes unresponsive=
-This will identify potential problems to be solved before you upgrade the Unraid OS=
-This will log all your server log enries to the Syslog Server and save the log to an array share=
-This seems to be occurring more now because of the large amounts of memory being installed in Unraid and the default Disk Cache settings too high=
-Time to set Normal CPU Scaling=
-Time to set Power Saving CPU Scaling=
+It is recommended that you update Unraid to the latest stable version to get the latest features, bug fixes, and security updates=最新の機能、バグ修正、セキュリティアップデートを入手するために、Unraid を最新の安定版に更新することをお勧めします
+It is recommended to use the pstate driver on Intel processors if you want the most performance=最高のパフォーマンスを求める場合は、Intel プロセッサで pstate ドライバを使用することをお勧めします
+It is recommended you use the 'Performance' Governor for best performance and power savings=最高のパフォーマンスと省電力のために 'Performance' ガバナーを使用することをお勧めします
+Make changes slowly=変更はゆっくりと行ってください
+Make one change at a time and verify if it improves your situation=一度に 1 つの変更を行い、状況が改善されるか確認してください
+Making changes here can briefly interrupt your network operation=ここで変更を行うと、ネットワーク操作が一時的に中断される可能性があります
+Many plugins are no longer compatible with older Unraid versions=多くのプラグインは古い Unraid バージョンと互換性がなくなっています
+Max SMB Open Files=最大 SMB オープンファイル数
+Max User Instances=最大ユーザーインスタンス数
+Max User Watches=最大ユーザーウォッチ数
+NIC Offload=NIC オフロード
+NIC Rx Buffer=NIC Rx バッファ
+NIC Tx Buffer=NIC Tx バッファ
+Normal CPU Scaling Governor=通常の CPU スケーリングガバナー
+Note=注意
+Number of syslogs to Archive=アーカイブする syslog の数
+post=投稿
+Power Saving Settings=省電力設定
+Power Saving CPU Scaling Governor=省電力 CPU スケーリングガバナー
+Processes to kill before Array is Stopped=アレイ停止前に終了するプロセス
+Put the IP address of your server in the Remote syslog server field=リモート syslog サーバーフィールドにサーバーの IP アドレスを入力してください
+Read this=これを読んでください
+Schedule CPU Power Saving Mode=CPU 省電力モードをスケジュール
+Some have reported better VM performance with media streaming and gaming VMs with the suggestions on this=Some users have reported better VM performance, especially for media streaming and gaming VMs, when applying the suggestions here.
+Some have reported faster and more consistent network performance by making changes in networking parameters on the Tweaks tab of this plugin=このプラグインの Tweaks タブでネットワークパラメータを変更することで、より高速で安定したネットワークパフォーマンスが報告されています
+Some of the settings will consume RAM and may end up causing Linux to terminate some processes to free up RAM=一部の設定は RAM を消費し、Linux が RAM を解放するために一部のプロセスを終了させる可能性があります
+Some people are reporting OOM out of memory errors=一部のユーザーが OOM（メモリ不足）エラーを報告しています
+Support for older versions of Unraid is being phased out=古いバージョンの Unraid のサポートは段階的に廃止されています
+The dashboard shows CPU loading and not CPU frequency=ダッシュボードは CPU 負荷を表示し、CPU 周波数は表示しません
+The feature is not available on any of your NICs=この機能はいずれの NIC でも利用できません
+The first thing you should do is to install the Fix Common Problems plugin to find and fix common problems=最初に行うべきことは、Fix Common Problems プラグインをインストールして一般的な問題を見つけて修正することです
+The Tips below are suggestions, workarounds for known problems, and potential fixes=以下のヒントは提案、既知の問題の回避策、および潜在的な修正です
+There is a very cool feature in Unraid 6 and up that can be used to capture your logs and help in troubleshooting a situation where your server locks up or becomes unresponsive=Unraid 6 以降には、ログをキャプチャし、サーバーがロックアップまたは応答しなくなった状況のトラブルシューティングに役立つ非常に便利な機能があります
+This will identify potential problems to be solved before you upgrade the Unraid OS=これにより、Unraid OS をアップグレードする前に解決すべき潜在的な問題が特定されます
+This will log all your server log enries to the Syslog Server and save the log to an array share=これにより、すべてのサーバーログエントリが Syslog サーバーに記録され、ログがアレイ共有フォルダに保存されます
+This seems to be occurring more now because of the large amounts of memory being installed in Unraid and the default Disk Cache settings too high=これは、Unraid に大量のメモリが搭載され、デフォルトのディスクキャッシュ設定が高すぎることが原因で、現在より頻繁に発生しているようです
+Time to set Normal CPU Scaling=通常の CPU スケーリングを設定する時刻
+Time to set Power Saving CPU Scaling=省電力 CPU スケーリングを設定する時刻
 Time to set TurboPerformance Boost Off=Time to set Turbo/Performance Boost Off
 Time to set TurboPerformance Boost On=Time to set Turbo/Performance Boost On
-Tips=
-Tips and Tweaks wiki=
-Tweaks=
-Use the Update Assistant that is part of the Fix Common Problems plugin=
-Version 6.11.4 and later=
-You can check CPU frequencies on the command line with=
-You may actually cause more problems than you solve if there are problems with your Unraid configuration=
+Tips=ヒント
+Tips and Tweaks wiki=Tips and Tweaks wiki
+Tweaks=調整
+Use the Update Assistant that is part of the Fix Common Problems plugin=Fix Common Problems プラグインの一部である Update Assistant を使用してください
+Version 6.11.4 and later=バージョン 6.11.4 以降
+You can check CPU frequencies on the command line with=コマンドラインで CPU 周波数を確認できます
+You may actually cause more problems than you solve if there are problems with your Unraid configuration=Unraid の設定に問題がある場合、解決するよりも多くの問題を引き起こす可能性があります
 
 ;
 ; Help
 ;
 :tips_tweaks_general_plug:
-> Some General Recommendations:
+> 一般的な推奨事項：
 >
-> + Use of a static IP address can help in certain cases.  NFS shares are referenced by IP address.  Be sure you reserve the IP address on your router, or set a very high IP address to prevent conflicts.
-> + Use of Jumbo Frames is discouraged.  Jumbo Frames have been known to cause issues with some Dockers.
-> + Don't set vm.dirty.ratio above 20% unless you have a UPS backup for your Unraid.  You may lose data that has not been written to disk on a power failure.
-> + A value of vm.dirty_background_ratio over 1/2 of vm.dirty_ratio is not recommended unless using single digits for both values.
+> + 静的 IP アドレスの使用は、特定の場合に役立ちます。NFS 共有フォルダは IP アドレスで参照されます。ルーターで IP アドレスを予約するか、競合を防ぐために非常に高い IP アドレスを設定してください。
+> + ジャンボフレームの使用は推奨されません。ジャンボフレームは一部の Docker で問題を引き起こすことが知られています。
+> + Unraid サーバーが UPS に接続されていない限り、'vm.dirty_ratio' を 20% 以上に設定しないでください。停電時にディスクに書き込まれていないデータが失われる可能性があります。
+> + 'vm.dirty_background_ratio' の値を 'vm.dirty_ratio' の 1/2 以上に設定することは、両方の値に一桁の数値を使用する場合を除き、推奨されません。
 :end
 
 :tips_tweaks_nic_flow_control_plug:
-> Set to 'Yes' to disable NIC Flow Control.  NIC Flow Control was originally implemented to help in
-> networks with mixed speed devices.  It doesn't seem to be as necessary on today's networks.  If you
-> have a managed switch, flow control can generally be turned on and off on the switch.  If you have
-> a consumer grade switch, you won't have that level of control.  Flow Control has been known to create
-> network issues in certain circumstances.  It is recommended to disable Flow Control if you experience network issues.
+> NIC フロー制御を無効にするには 'Yes' に設定します。NIC フロー制御は元々、異なる速度のデバイスが混在する
+> ネットワークを支援するために実装されました。今日のネットワークではもはや必要ないようです。マネージド
+> スイッチをお持ちの場合、フロー制御は通常スイッチ上でオン/オフを切り替えることができます。コンシューマー
+> グレードのスイッチをお持ちの場合、そのレベルの制御はできません。フロー制御は特定の状況でネットワーク
+> 問題を引き起こすことが知られています。ネットワーク問題が発生している場合は、フロー制御を無効にすることをお勧めします。
+>
+> 任意の設定から 'Default' に変更するには再起動が必要です。
 :end
 
 :tips_tweaks_nic_offload_plug:
-> Set to 'Yes' to disable NIC offloads.  Offloads were developed to offload some network processing
-> to the NIC and off the main CPU and deal with large packets.  This was intended to save some CPU processing
-> load and increase network throughput.  TSO offload has been known to cause network issues in certain circumstances.
-> It is recommended to disable NIC Offloads if you experience network issues.
+> NIC オフロードを無効にするには 'Yes' に設定します。オフロードは、一部のネットワーク処理を
+> NIC にオフロードしてメイン CPU から切り離し、大きなパケットを処理するために開発されました。これは CPU 処理
+> 負荷を軽減し、ネットワークスループットを向上させることを目的としていました。TSO オフロードは特定の状況でネットワーク問題を引き起こすことが知られています。
+> ネットワーク問題が発生している場合は、NIC オフロードを無効にすることをお勧めします。
+>
+> 任意の設定から 'Default' に変更するには再起動が必要です。
 :end
 
 :tips_tweaks_rx_buffer_plug:
-> Select the size of the NIC Rx ring buffer.  Some NICs have a limit on the size of the Rx ring buffer.  The default value of 256 is recommended.
+> NIC Rx リングバッファのサイズを選択します。一部の NIC には Rx リングバッファのサイズに制限があります。デフォルト値の '256' が推奨されます。
+>
+> 任意の設定から 'Default' に変更するには再起動が必要です。
 :end
 
 :tips_tweaks_tx_buffer_plug:
-> Select the size of the NIC Tx ring buffer.  Some NICs have a limit on the size of the Tx ring buffer.  The default value of 256 is recommended.
+> NIC Tx リングバッファのサイズを選択します。一部の NIC には Tx リングバッファのサイズに制限があります。デフォルト値の '256' が推奨されます。
+>
+> 任意の設定から 'Default' に変更するには再起動が必要です。
 :end
 
 :tips_tweaks_nics_plug:
-> List the NICs to apply the above settings separated by commas.  If you have multiple NICs that are bonded, be sure to include all of them.  Flow Control, TSO, and NIC buffer settings will
-> be applied to these NICs.
+> 上記の設定を適用する NIC をカンマで区切ってリストします。ボンディングされた複数の NIC がある場合は、それらすべてを含めてください。フロー制御、TSO、および NIC バッファ設定が
+> これらの NIC に適用されます。
 :end
 
 :tips_tweaks_dirty_background_plug:
-> For streaming and gaming VMs, set the values low in the single digits.  Recommended values are: vm.dirty_background_ratio=2% and vm.dirty_ratio=3%.
-> If you have large amounts of RAM, smaller is better.
-> Caution: Don't increase these values beyond the default settings unless you have a UPS that will reliably shut down Unraid.
+> 推奨値は：'vm.dirty_background_ratio' を 3%、'vm.dirty_ratio' を 5% に設定します。
+> 大量の RAM がある場合は、'vm.dirty_background_ratio' を 1%、'vm.dirty_ratio' を 2% に設定します。
+> 注意：Unraid を確実にシャットダウンできる UPS がない限り、これらの値をデフォルト設定以上に増やさないでください。
 >
-> Set the 'vm.dirty_background_ratio' as a percentage of total RAM memory.
-> The default setting of 10% is recommended in most cases.  If you have a media streaming or gaming VM, use a value of 2%.  If you experience OOM errors, it is recommended you set this to 1%.
+> 'vm.dirty_background_ratio' を総 RAM のパーセンテージとして設定します。
+> 大量の RAM がない限り、デフォルト設定の 3% が推奨されます。メディアストリーミングまたはゲーム用 VM を実行する場合は、1% の値を使用してください。
 :end
 
 :tips_tweaks_dirty_ratio_plug:
-> Set the 'vm.dirty_ratio' as a percentage of total RAM memory.
-> Setting this too high may cause Linux to terminate some processes to gain more memory.  The default setting of 20% is recommended in most cases.  If you have a media streaming or gaming VM, use a value of 3%.  If you experience OOM errors, it is recommended you set this to 2%.
+> 'vm.dirty_ratio' を総 RAM のパーセンテージとして設定します。
+> これを高く設定しすぎると、Linux がより多くのメモリを獲得するために一部のプロセスを終了させる可能性があります。大量の RAM がない限り、デフォルト設定の 5% が推奨されます。
 :end
 
 :tips_tweaks_writeback_plug:
-> The default is 200 centiseconds (2 seconds) to control how often the kernel checks for dirty data to flush in the background.
+> デフォルトは '200 センチ秒'（2 秒）で、カーネルがバックグラウンドでフラッシュするダーティデータをチェックする頻度を制御します。
 :end
 
 :tips_tweaks_expire_plug:
-> The default is 1000 centiseconds (10 seconds) to specify how long data can stay dirty before it is considered for write-back.
+> デフォルトは '1000 センチ秒'（10 秒）で、データがライトバックの対象と見なされる前にダーティ状態を維持できる時間を指定します。
 :end
 
 :tips_tweaks_max_watches_plug:
-> If inotify fails to start because there are not enough user watches, increase the max_user_watches.
+> ユーザーウォッチが不足しているために inotify の起動に失敗する場合は、max_user_watches を増やしてください。
 >
-> The default is 524288.
+> デフォルトは 524288 です。
 :end
 
 :tips_tweaks_max_instances_plug:
-> This is maximum number of inotify instances that a user can create.
+> これはユーザーが作成できる inotify インスタンスの最大数です。
 >
-> The default is 128.
+> デフォルトは 128 です。
 :end
 
 :tips_tweaks_max_files_plug:
-> This value is used by samba to set the maximum number of open files allowed in SMB shares.
+> この値は SAMBA によって使用され、SMB 共有フォルダで許可される開いているファイルの最大数を設定します。
 >
-> The default is 40960 and the allowed range is 40960 to 65535.
+> デフォルトは '40960' で、許可される範囲は '40960 から 65535' です。
 :end
 
 :tips_tweak_turbo_plug:
-> Set to 'Yes' to enable the Intel Turbo or AMD Performance Boost Mode.
+> Intel Turbo または AMD Performance Boost モードを有効にするには 'Yes' に設定します。無効にするには 'No' に設定します。以下で設定した時刻に基づいて Turbo/AMD Performance Boost モードのオン/オフを切り替えるには 'Schedule' に設定します。
 :end
 
 :tips_tweaks_turbo_state_off_plug:
-> Enter the time you want to set Intel Turbo/AMD Performance Boost Off in 24 hour format hh:mm.
+> Intel Turbo/AMD Performance Boost をオフにする時刻を 24 時間形式 hh:mm で入力します。
 :end
 
 :tips_tweaks_turbo_state_on_plug:
-> Enter the time you want to set Intel Turbo/AMD Performance Boost On in 24 hour format hh:mm.
+> Intel Turbo/AMD Performance Boost をオンにする時刻を 24 時間形式 hh:mm で入力します。
 :end
 
 :tips_tweaks_cpu_governor_plug:
-> Select the CPU Scaling Governor you want to use.
+> 使用する通常の CPU スケーリングガバナーを選択します。
 >
-> + "Power Save" - default for the Intel Pstate driver.  Scales CPU frequency based on load.
-> + "On Demand" - default for ACPI CPU Freq driver.  Scales CPU frequency based on load.  Frequency stepping is aggressive.
-> + "Conservative" - Scales CPU frequency based on load.  Frequency stepping is gentler.  Can cause some latency.
-> + "Performance" - set all CPUs at full frequency regardless of load.  This can have a positive influence on performance and latency.
-> + "Scheduled" - At start time set governor to "Performance".  At stop time set governor to "Powersave" or "On Demand" depending on driver used.
+> + **Power Save** - 最大限の省電力のために CPU を最低周波数にロックします。
+> + **On Demand** - ACPI CPUFreq ドライバのデフォルトです。負荷に基づいて CPU 周波数をスケーリングします。周波数変更は積極的です。
+> + **Conservative** - 負荷に基づいて CPU 周波数をスケーリングします。より穏やかな周波数変更。レイテンシが発生する可能性があります。
+> + **Performance** - 負荷に関係なく CPU を最高周波数にロックします。パフォーマンスとレイテンシを改善できます。
+> + **Schedutil** - Linux スケジューラを使用して負荷に基づいて CPU 周波数をスケーリングします。
 >
-> You can now set the CPU governor with the rc.tweaks script.  Use the command:
+> 'rc.tweaks' スクリプトで CPU ガバナーを設定できるようになりました。次のコマンドを使用します：
 > /usr/local/sbin/rc.tweaks set_governor 'governor'
-> The 'governor' choices are: 'ondemand', 'performance', 'powersave', and 'conservative'.
+> 'governor' の選択肢は：'ondemand'、'performance'、'powersave'、'conservative'、および 'schedutil' です。
 :end
-
 
 :tips_tweaks_power_save_cpu_governor_plug:
-> Select the Power Saving CPU Scaling Governor you want to use.
+> 使用する省電力 CPU スケーリングガバナーを選択します。
 >
-> + "Power Save" - Scales CPU frequency based on load.
-> + "On Demand" - Default for ACPI CPU Freq driver.  Scales CPU frequency based on load.  Frequency stepping is aggressive.
-> + "Conservative" - Scales CPU frequency based on load.  Frequency stepping is gentler.  Can cause some latency.
-> + "Schedutil" - Set all CPUs frequency scaling to schedutil.  This sets CPU frequency based on the Linux scheduler.  Note: This is still in development.
-:end
-
-:tips_tweak_turbo_plug:
-> Set to 'Yes' to enable the Intel Turbo or AMD Performance Boost Mode.
+> + **Power Save** - 最大限の省電力のために CPU を最低周波数にロックします。
+> + **On Demand** - ACPI CPUFreq ドライバのデフォルトです。負荷に基づいて CPU 周波数をスケーリングします。周波数変更は積極的です。
+> + **Conservative** - 負荷に基づいて CPU 周波数をスケーリングします。より穏やかな周波数変更。レイテンシが発生する可能性があります。
+> + **Schedutil** - Linux スケジューラを使用して負荷に基づいて CPU 周波数をスケーリングします。
 :end
 
 :tips_tweaks_scheduled_plug:
-> Set to 'Yes' to enable scheduled CPU Power Saving mode based on the times set below for Normal and Power Saving modes.
+> 以下で設定した通常モードと省電力モードの時刻に基づいて、スケジュールされた CPU 省電力モードを有効にするには 'Yes' に設定します。
 :end
 
-
 :tips_tweaks_cpu_state_plug:
-> Enter the time you want to set the governor to "Power Save" for Intel Pstate or "On Demand" in 24 hour format hh:mm.
+> ガバナーを選択した省電力モードに設定する時刻を 24 時間形式 hh:mm で入力します。
 :end
 
 :tips_tweaks_performance_plug:
-> Enter the time you want to set the governor to "Performance" in 24 hour format hh:mm.
+> ガバナーを通常の CPU スケーリングガバナーに設定する時刻を 24 時間形式 hh:mm で入力します。
 :end
 
-
 :tips_tweaks_syslog_archive_plug:
-> Set to 'Yes' to enable the capture and archive of syslogs and run a diagnostics on shutdown.  Logs and diagnostics are saved to /boot/logs/.
+> syslog のキャプチャとアーカイブを有効にし、シャットダウン時に診断を実行するには 'Yes' に設定します。ログと診断は '/boot/logs/' に保存されます。
 :end
 
 :tips_tweaks_number_syslogs_plug:
-> Set the number of syslogs to save in the archive.
-> Set zero to save only last syslog.  Set to -1 to save all logs.  Default setting is 10.
+> アーカイブに保存する syslog の数を設定します。
+> 最後の syslog のみを保存するには '0' に設定します。すべてのログを保存するには '-1' に設定します。デフォルト設定は '10' です。
 :end
 
 :tips_tweaks_kill_processes_plug:
-> Enter the names of processes to kill before stopping the array, separated by commas.  For example, 'ssh' and 'bash'.  These processes can keep the array disks from unmounting causing Unraid to hang when the array is being stopped.
+> アレイを停止する前に終了するプロセスの名前をカンマで区切って入力します。例：'ssh' および 'bash'。これらのプロセスは、アレイディスクのアンマウントを妨げ、アレイの停止時に Unraid がハングする原因となる可能性があります。
 >
-> Note: Be careful with the processes you kill here.  You could lose data!
+> 注意：ここで終了するプロセスには注意してください。データが失われる可能性があります！
 :end
-
-
-; Note: February 10, 2024 - 79 missing translations

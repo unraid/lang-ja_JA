@@ -1,357 +1,339 @@
-A registration replacement key has been created for USB Flash GUID=
-About=
-Alert Message=
-alert=
-Alerts=
-All Categories=
-An email has been sent to=
-and=
-Anonymize diagnostics=
-Anytime=
-Archived Notifications=
-Are you sure=
-Array has been Reset=Array has been **Reset**
-Array must be Started to change permissions=Array must be **Started** to change permissions
-Array must be Stopped to change=Array must be **Stopped** to change
-Array slots=
-Array=
-Author=
-Beta=
-Blacklisted USB Flash GUID=
-Branch=
-By using this software, you agree with our=
-Cache slots=
-Cannot connect to key-server=
-Check for Updates=
-Clear Log=
-click Install Key=click <i>Install Key</i>
-collecting diagnostic information this may take several minutes=collecting diagnostic information (this may take several minutes)
-Component=
-Creating Flash backup=
-Creation error=
-Credits=
-Data slots=
-Delete all notifications=
-Delete Modprobe config=
-Delete notification=
-Deprecated Only=
-Developer=
-Diagnostics=
-Disks=
-Display Settings=
-Downgrade OS=
-Downloading=
-Driver=
-Edit Modprobe config=
-End-User License Agreement=
-Enter URL of language pack XML file=
-Error accessing your physical USB Flash boot device=
-Error reporting level=
-Errors Only=
-EULA=
-Event=
-Expiration=
-Extend=
-extended=
-Flash backup=
-Get Trial Key=
-Hardware Profile=
-Hide Details=
-If you do not receive an email, please check your spam or junk-email folder=
-Importance=
-Important=
-Install Language=
-Install=
-Installed languages=
-Insufficient free disk space available=
-Invalid Trial Installation=Invalid *Trial* Installation
-It will collect all of the system hardware information, remove any serial numbers, and securely upload it to LimeTech=
-Key file URL=
-Language support added=
-Language support deleted=
-Language=
-Log file cleared=
-Log size=
-LOG size=
-Log Viewer new=Log Viewer (new)
-Missing Key File=
-Missing Language=
-Modprobed config file=Modprobe.d config file
-Network Settings=
-New Config=
-New Permissions=
-Next=
-No filter=
-No notifications present=
-No personal information such as user names, passwords, or any other file contents is included in the hardware profile=No personal information such as user names, passwords, or any other file contents is included in the hardware profile
-normal=
-Notices Only=
-Notices=
-Only ZIP files are allowed=
-Page Map=
-Parity slots=
-PHP Info=
-PHP Information=
-PHP Log File=
-PHP Settings=
-Please check your=
-please configure=
-Please provide diagnostics when experiencing problems=
-Please select a language before proceeding=
-Please=
-Pool slots=
-Post these in the forums=
-Preserve current assignments=
-previous=
-Privacy Policy=
-Processes=
-Purchase Key=
-Rebuild Modules=
-Registered GUID=
-Registered on=
-Registered to=
-registering USB Flash GUID=
-Release has been withdrawn=
-Remove custom modprobed configuration=Remove custom modprobe.d configuration?
-Remove the installed language=
-Replaceable=
-Request Extension=
-Request Trial Extension=
-Restore=
-Save Modprobe config=
-See=
-Select language file=
-Select language=
-Select View=
-Show Details=
-Show errors on screen=
-slots=
-Stable=
-State=
-Subject=
-Support page=
-System Devices=
-System Drivers=
-System Update Check=
-Text=
-Thank you for choosing Unraid OS=
-Thank you for registering USB Flash GUID=
-Thank you for trying Unraid OS=
-The registered GUID does not match the USB Flash boot device GUID=
-There is a physical problem accessing your USB Flash boot device=
-this may take several minutes=
-This release has been withdrawn for use with Trial keys=This release has been withdrawn for use with *Trial* keys
-This server has %s attached storage device=
-This server has %s attached storage devices=
-This utility is used for troubleshooting purposes=
-This will delete all notification files=
-This will delete the selected notification files=
-This will update folder file permissions=This will update folder & file permissions
-Time=
-To install a registration key, paste the key file URL in the box below and click Install Key=To install a registration key, paste the key file URL in the box below and click **Install Key**
-to select your language=
-Trial key expires on=***Trial*** key expires on
-Trial=
-Update OS=
-Upgrade Key=
-Uploaded=
-uploading hardware information=
-Uploading=
-Use this to develop language packs=
-Use this to install official language packs=
-User Shares=
-User=
-Vars=
-VFIO-PCI Log=
-View Log=
-View VFIO-PCI Log=
-warning=
-Warnings Only=
-Warnings=
-webGUI=
-When received, please paste the URL into the Key file URL box and=When received, please paste the URL into the *Key file URL* box and
-Wrong File Extension=
-You havent sent Limetech your hardware profile yet=You haven't sent Limetech your hardware profile yet
-Your hardware profile was last submitted on=
-Your Trial key has expired=Your *Trial* key has expired
-Your Trial key requires an internet connection=Your *Trial* key requires an internet connection
+A registration replacement key has been created for USB Flash GUID=USB Flash GUID の登録置換キーが作成されました
+About=について
+Alert Message=アラートメッセージ
+alert=アラート
+Alerts=アラート
+All Categories=すべてのカテゴリ
+An email has been sent to=メールが送信されました：
+and=および
+Anonymize diagnostics=診断情報を匿名化
+Anytime=いつでも
+Archived Notifications=アーカイブされた通知
+Are you sure=よろしいですか
+Array has been Reset=アレイが**リセット**されました
+Array must be Started to change permissions=権限を変更するにはアレイを**起動**する必要があります
+Array must be Stopped to change=変更するにはアレイを**停止**する必要があります
+Array slots=アレイスロット
+Array=アレイ
+Author=作成者
+Beta=ベータ
+Blacklisted USB Flash GUID=ブラックリストに登録された USB Flash GUID
+Branch=ブランチ
+By using this software, you agree with our=このソフトウェアを使用することにより、次の内容に同意したものとみなされます
+Cache slots=キャッシュスロット
+Cannot connect to key-server=キーサーバーに接続できません
+Check for Updates=アップデートを確認
+Clear Log=ログをクリア
+click Install Key=<i>キーをインストール</i>をクリック
+collecting diagnostic information this may take several minutes=診断情報を収集中（数分かかる場合があります）
+Component=コンポーネント
+Creating Flash backup=Flash バックアップを作成中
+Creation error=作成エラー
+Credits=クレジット
+Data slots=データスロット
+Delete all notifications=すべての通知を削除
+Delete Modprobe config='Modprobe.d' 設定を削除
+Delete notification=通知を削除
+Deprecated Only=非推奨のみ
+Developer=開発者
+Diagnostics=診断
+Disks=ディスク
+Display Settings=表示設定
+Downgrade OS=OS をダウングレード
+Downloading=ダウンロード中
+Driver=ドライバー
+Edit Modprobe config='Modprobe.d' 設定を編集
+End-User License Agreement=エンドユーザー使用許諾契約
+Enter URL of language pack XML file=言語パック XML ファイルの URL を入力
+Error accessing your physical USB Flash boot device=物理 USB Flash ブートデバイスへのアクセスエラー
+Error reporting level=エラー報告レベル
+Errors Only=エラーのみ
+EULA=使用許諾契約
+Event=イベント
+Expiration=有効期限
+Extend=延長
+extended=延長済み
+Flash backup=Flash バックアップ
+Get Trial Key=トライアルキーを取得
+Hardware Profile=ハードウェアプロファイル
+Hide Details=詳細を非表示
+If you do not receive an email, please check your spam or junk-email folder=メールが届かない場合は、迷惑メールフォルダを確認してください
+Importance=重要度
+Important=重要
+Install Language=言語をインストール
+Install=インストール
+Installed languages=インストール済み言語
+Insufficient free disk space available=ディスクの空き容量が不足しています
+Invalid Trial Installation=無効な*トライアル*インストール
+It will collect all of the system hardware information, remove any serial numbers, and securely upload it to LimeTech=すべてのシステムハードウェア情報を収集し、シリアル番号を削除して、LimeTech に安全にアップロードします
+Key file URL=キーファイル URL
+Language support added=言語サポートが追加されました
+Language support deleted=言語サポートが削除されました
+Language=言語
+Log file cleared=ログファイルがクリアされました
+Log size=ログサイズ
+LOG size=ログサイズ
+Log Viewer new=ログビューアー（新）
+Missing Key File=キーファイルが見つかりません
+Missing Language=言語が見つかりません
+Modprobed config file='Modprobe.d' 設定ファイル
+Network Settings=ネットワーク設定
+New Config=新しい設定
+New Permissions=新しい権限
+Next=次へ
+No filter=フィルターなし
+No notifications present=通知がありません
+No personal information such as user names, passwords, or any other file contents is included in the hardware profile=ハードウェアプロファイルには、ユーザー名、パスワード、その他のファイル内容などの個人情報は含まれません
+normal=通常
+Notices Only=通知のみ
+Notices=通知
+Only ZIP files are allowed=ZIP ファイルのみ許可されています
+Open Terminal=ターミナルを開く
+Page Map=ページマップ
+Parity slots=パリティスロット
+PHP Info=PHP 情報
+PHP Information=PHP 情報
+PHP Log File=PHP ログファイル
+PHP Settings=PHP 設定
+Please check your=確認してください：
+please configure=設定してください
+Please provide diagnostics when experiencing problems=問題が発生した場合は診断情報を提供してください
+Please select a language before proceeding=続行する前に言語を選択してください
+Please=お願いします
+Pool slots=プールスロット
+Post these in the forums=これらをフォーラムに投稿
+Preserve current assignments=現在の割り当てを保持
+previous=前へ
+Privacy Policy=プライバシーポリシー
+Processes=プロセス
+Purchase Key=キーを購入
+Rebuild Modules=モジュールを再構築
+Registered GUID=登録済み GUID
+Registered on=登録日
+Registered to=登録先
+registering USB Flash GUID=USB Flash GUID を登録中
+Release has been withdrawn=リリースが撤回されました
+Remove custom modprobed configuration=カスタム 'Modprobe.d' 設定を削除しますか？
+Remove the installed language=インストールされた言語を削除
+Replaceable=交換可能
+Request Extension=延長をリクエスト
+Request Trial Extension=トライアル延長をリクエスト
+Restore=復元
+Save Modprobe config='Modprobe.d' 設定を保存
+See=参照
+Select language file=言語ファイルを選択
+Select language=言語を選択
+Select View=ビューを選択
+Show Details=詳細を表示
+Show errors on screen=画面にエラーを表示
+slots=スロット
+Stable=安定版
+State=状態
+Subject=件名
+Support page=サポートページ
+System Devices=システムデバイス
+System Drivers=システムドライバー
+System Update Check=システムアップデート確認
+Text=テキスト
+Thank you for choosing Unraid OS=Unraid OS をお選びいただきありがとうございます
+Thank you for registering USB Flash GUID=USB Flash GUID を登録していただきありがとうございます
+Thank you for trying Unraid OS=Unraid OS をお試しいただきありがとうございます
+The registered GUID does not match the USB Flash boot device GUID=登録された GUID が USB Flash ブートデバイスの GUID と一致しません
+There is a physical problem accessing your USB Flash boot device=USB Flash ブートデバイスへのアクセスに物理的な問題があります
+this may take several minutes=これには数分かかる場合があります
+This release has been withdrawn for use with Trial keys=このリリースは*トライアル*キーでの使用が撤回されました
+This server has %s attached storage device=このサーバーには **%s** 個のストレージデバイスが接続されています
+This server has %s attached storage devices=このサーバーには **%s** 個のストレージデバイスが接続されています
+This utility is used for troubleshooting purposes=このユーティリティはトラブルシューティング目的で使用されます
+This will delete all notification files=これによりすべての通知ファイルが削除されます
+This will delete the selected notification files=これにより選択した通知ファイルが削除されます
+This will update folder file permissions=これによりフォルダとファイルの権限が更新されます
+Time=時刻
+To install a registration key, paste the key file URL in the box below and click Install Key=登録キーをインストールするには、下のボックスにキーファイル URL を貼り付けて**キーをインストール**をクリックしてください
+to select your language=言語を選択してください
+Trial key expires on=***トライアル***キーの有効期限：
+Trial=トライアル
+Update OS=OS をアップデート
+Upgrade Key=キーをアップグレード
+Uploaded=アップロード完了
+uploading hardware information=ハードウェア情報をアップロード中
+Uploading=アップロード中
+Use this to develop language packs=これを使用して言語パックを開発
+Use this to install official language packs=これを使用して公式言語パックをインストール
+User Shares=ユーザー共有フォルダ
+User=ユーザー
+Vars=変数
+VFIO-PCI Log=VFIO-PCI ログ
+View Log=ログを表示
+View VFIO-PCI Log=VFIO-PCI ログを表示
+warning=警告
+Warnings Only=警告のみ
+Warnings=警告
+webGUI=WebGUI
+When received, please paste the URL into the Key file URL box and=受信したら、*キーファイル URL* ボックスに URL を貼り付けて
+Wrong File Extension=ファイル拡張子が間違っています
+You havent sent Limetech your hardware profile yet=まだ Limetech にハードウェアプロファイルを送信していません
+Your hardware profile was last submitted on=ハードウェアプロファイルの最終送信日：
+Your Trial key has expired=*トライアル*キーの有効期限が切れました
+Your Trial key requires an internet connection=*トライアル*キーにはインターネット接続が必要です
 
 ; Sysdevs text - added May 18, 2020
-A reboot is required to apply changes=
-ALERT=
-Bind selected to VFIO at Boot=
-CPU Thread Pairings=
-Changes saved=
-Function Level Reset FLR supported=Function Level Reset (FLR) supported
-In use by Unraid=
-Kernel driver in use vfio-pci=Kernel driver in use: vfio-pci
-No changes=
-PCI Devices and IOMMU Groups=
-PCI Devices No IOMMU Groups Available=PCI Devices (No IOMMU Groups Available)
-Reboot to take effect=
-SCSI Devices=
-The below list doesnt not reflect the way IOMMU would naturally group devices=The below list doesn't not reflect the way IOMMU would naturally group devices
-This controller is bound to vfio, connected USB devices are not visible=
-This controller is bound to vfio, connected drives are not visible=
-To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=To see natural IOMMU groups for your hardware, go to the [VM Manager] page and set the **PCIe ACS override** setting to **Disabled**
-USB Devices=
-Your system has booted with the PCIe ACS Override setting enabled=
+A reboot is required to apply changes=変更を適用するには再起動が必要です
+ALERT=アラート
+Bind selected to VFIO at Boot=起動時に選択したものを VFIO にバインド
+CPU Thread Pairings=CPU スレッドペアリング
+Changes saved=変更が保存されました
+Function Level Reset FLR supported=機能レベルリセット（FLR）がサポートされています
+In use by Unraid=Unraid が使用中
+Kernel driver in use vfio-pci=使用中のカーネルドライバー: vfio-pci
+No changes=変更なし
+PCI Devices and IOMMU Groups=PCI デバイスと IOMMU グループ
+PCI Devices No IOMMU Groups Available=PCI デバイス（IOMMU グループは利用できません）
+Reboot to take effect=再起動して有効化
+SCSI Devices=SCSI デバイス
+The below list doesnt not reflect the way IOMMU would naturally group devices=以下のリストは、IOMMU がデバイスを自然にグループ化する方法を反映していません
+This controller is bound to vfio, connected USB devices are not visible=このコントローラーは vfio にバインドされており、接続された USB デバイスは表示されません
+This controller is bound to vfio, connected drives are not visible=このコントローラーは vfio にバインドされており、接続されたドライブは表示されません
+To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=ハードウェアの自然な IOMMU グループを表示するには、[仮想マシンマネージャー] ページに移動し、**PCIe ACS オーバーライド**設定を**無効**に設定してください。
+USB Devices=USB デバイス
+Your system has booted with the PCIe ACS Override setting enabled=システムは PCIe ACS オーバーライド設定を有効にして起動しました
 
 :diagnostics_1_plug:
-This utility is used for troubleshooting purposes. It will collect all of the system information and configuration files, and package these files in a single ZIP file which can be saved locally.
-Subsequently, this file can be included in your correspondence with Limetech or the Unraid forum.
+このユーティリティはトラブルシューティング目的で使用されます。すべてのシステム情報と設定ファイルを収集し、これらのファイルをローカルに保存できる単一の ZIP ファイルにパッケージ化します。
+その後、このファイルを Limetech または Unraid フォーラムとの通信に含めることができます。
 
-This will help others to quickly get the inside information of your system and provide better support to your problem. The following information
-and configuration files are collected:
+これにより、他の人がシステムの内部情報を迅速に取得し、問題に対してより良いサポートを提供できるようになります。以下の情報と設定ファイルが収集されます：
 :end
 
 :diagnostics_2_plug:
 + */config*
-  <br>copy all *\*.cfg files*, *go* file and the *super.dat* file. These are configuration files.
+  <br>すべての *\*.cfg ファイル*、*go* ファイル、および *super.dat* ファイルをコピーします。これらは設定ファイルです。
 + */config/shares*
-  <br>copy all *\*.cfg* files. These are user share settings files.
-+ *Syslog file(s)*
-  <br>copy the current *syslog* file and any previous existing *syslog* files.
-+ *System*
-  <br>save output of the following commands:
-  <br>lsscsi, lspci, lsusb, free, lsof, ps, ethtool & ifconfig.
-  <br>display of iommu groups.
-  <br>display of command line parameters (e.g. pcie acs override, pci stubbing, etc).
-  <br>save system variables.
-+ *SMART reports*
-  <br>save a SMART report of each individual disk present in your system.
+  <br>すべての *\*.cfg* ファイルをコピーします。これらはユーザー共有フォルダ設定ファイルです。
++ *Syslog ファイル*
+  <br>現在の *syslog* ファイルと以前に存在する *syslog* ファイルをコピーします。
++ *システム*
+  <br>以下のコマンドの出力を保存します：
+  <br>lsscsi、lspci、lsusb、free、lsof、ps、ethtool、ifconfig。
+  <br>IOMMU グループの表示。
+  <br>コマンドラインパラメータの表示（例：PCIe ACS オーバーライド、PCI スタビングなど）。
+  <br>システム変数を保存します。
++ *SMART レポート*
+  <br>システムに存在する各ディスクの SMART レポートを保存します。
 + *Docker*
-  <br>save files *docker.log*, *libvirtd.log*, *libvirt/qemu/\*.log* and *vfio-pci*.
+  <br>ファイル *docker.log*、*libvirtd.log*、*libvirt/qemu/\*.log*、および *vfio-pci* を保存します。
 :end
 
 :diagnostics_3_plug:
-Clicking **Download** will start the collection process and then instruct your browser to save the zip file locally.
+**ダウンロード**をクリックすると、収集プロセスが開始され、ブラウザに zip ファイルをローカルに保存するよう指示されます。
 
-*No personal information such as user names, passwords, or any other file contents not specified above is included
-by Unraid OS; however, your server name, IP address, and user share names* **will** *be included.*
+*Unraid OS では、上記で指定されていないユーザー名、パスワード、その他のファイル内容などの個人情報は含まれません。ただし、サーバー名、IP アドレス、およびユーザー共有フォルダ名*は**含まれます**。*
 
-*Note that 3rd-party plugins **may** or may not store personal information in plugin-specific configuration files and/or output
-to the system log.*
+*サードパーティのプラグインは、プラグイン固有の設定ファイルやシステムログ出力に個人情報を保存する**場合があります**。*
 
-*Use* **Anonymize diagnostics** *when publishing the diagnostics file in the public forum. In private communication with Limetech it is recommended to uncheck this setting and capture all information unaltered.*
+*公開フォーラムで診断ファイルを公開する場合は、* **診断情報を匿名化** *を使用してください。Limetech との非公開通信では、この設定のチェックを外して、すべての情報を変更せずにキャプチャすることをお勧めします。*
 :end
 
 :newconfig_plug:
-This is a utility to reset the array disk configuration so that all disks appear as "New" disks, as
-if it were a fresh new server.
+これは、すべてのディスクが「新しい」ディスクとして表示されるようにアレイディスク設定をリセットするユーティリティです。まるで新しいサーバーであるかのようになります。
 
-This is useful when you have added or removed multiple drives and wish to rebuild parity based on
-the new configuration.
+これは、複数のドライブを追加または削除し、新しい設定に基づいてパリティを再構築する場合に便利です。
 
-Use the *'Preserve current assignments'* selection to populate the desired disk slots ***after*** the array has been reset. By default **no** disk slots are populated.
+*「現在の割り当てを保持」*選択を使用して、アレイがリセットされた***後***に目的のディスクスロットを設定します。デフォルトでは、ディスクスロットは設定**されません**。
 
-**DO NOT USE THIS UTILITY THINKING IT WILL REBUILD A FAILED DRIVE** - it will have the opposite
-effect of making it ***impossible*** to rebuild an existing failed drive - you have been warned!
+**故障したドライブを再構築するためにこのユーティリティを使用しないでください** - 既存の故障したドライブを再構築することが***不可能***になるという逆の効果があります - 警告しました！
 :end
 
 :newperms_1_plug:
-This is a mandatory one-time action to be taken after upgrading from a pre-5.0 Unraid server release to Unraid v5 or a later release.
-Select **ALL DISKS** when performing this one-time action.
+これは、5.0 より前の Unraid サーバーリリースから Unraid v5 以降のリリースにアップグレードした後に実行する必要がある必須の一度限りのアクションです。
+この一度限りのアクションを実行する場合は、**すべてのディスク**を選択してください。
 
-This utility is also useful for restoring default ownership/permissions on files and
-directories when transitioning back from Active Directory to non-Active Directory integration.
+このユーティリティは、Active Directory から非 Active Directory 統合に移行する際に、ファイルとディレクトリのデフォルトの所有権/権限を復元する場合にも役立ちます。
 
-The utility starts a background process that goes to each of your data disks and cache disks and selected user shares
-and changes file and directory ownership to *nobody/users* (i.e., uid/gid to 99/100), and sets permissions
-as follows:
+このユーティリティは、各データディスクとキャッシュディスク、および選択したユーザー共有フォルダに移動し、ファイルとディレクトリの所有権を *nobody/users*（つまり、uid/gid を 99/100）に変更し、次のように権限を設定するバックグラウンドプロセスを開始します：
 :end
 
 :newperms_2_plug:
-For directories:
+ディレクトリの場合：
   drwxrwxrwx
 
-For read/write files:
+読み書き可能ファイルの場合：
   -rw-rw-rw-
 
-For readonly files:
+読み取り専用ファイルの場合：
   -r--r--r--
 :end
 
 :newperms_3_plug:
-Clicking **Start** will open another window and start the background process.
+**開始**をクリックすると、別のウィンドウが開き、バックグラウンドプロセスが開始されます。
 
-Closing the window before completion will terminate the background process - so don't do that. This process can take a long time if you have many files.
+完了前にウィンドウを閉じると、バックグラウンドプロセスが終了します - そのため、閉じないでください。多数のファイルがある場合、このプロセスには長時間かかる場合があります。
 
-Note that this tool may negatively affect any docker containers if you allow your appdata share to be included.
+appdata 共有フォルダを含めることを許可すると、このツールは Docker コンテナに悪影響を与える可能性があることに注意してください。
 :end
 
 :registration_1_plug:
-Your server will not be usable until you purchase a Registration key or install a free 30-day *Trial* key. A *Trial*
-key provides all the functionality of a *Pro* Registration key.
+登録キーを購入するか、無料の 30 日間*トライアル*キーをインストールするまで、サーバーは使用できません。*トライアル*キーは、*Pro* 登録キーのすべての機能を提供します。
 
-Registration keys are bound to your USB Flash boot device serial number (GUID).  Please use a high quality name brand device
-at least 1GB in size.
+登録キーは、USB Flash ブートデバイスのシリアル番号（GUID）にバインドされています。少なくとも 1GB のサイズの高品質な名前ブランドデバイスを使用してください。
 
-Note: USB memory card readers are generally **not** supported because most do not present unique serial numbers.
+注意：USB メモリカードリーダーは、ほとんどが一意のシリアル番号を提供しないため、一般的に**サポートされていません**。
 :end
 
 :registration_2_plug:
-+ Please make sure your [server time](DateTime) is accurate to within 5 minutes.
-+ Please make sure there is a [DNS server](NetworkSettings) specified.
++ [サーバー時刻](DateTime) が 5 分以内に正確であることを確認してください。
++ [DNS サーバー](NetworkSettings) が指定されていることを確認してください。
 :end
 
 :registration_3_plug:
-Your *Trial* key includes all the functionality and device support of a *Pro* Registration key.
+*トライアル*キーには、*Pro* 登録キーのすべての機能とデバイスサポートが含まれています。
 
-After your *Trial* key has reached expiration, your server **still functions normally** until the next time you **Stop** the array.
+*トライアル*キーの有効期限が切れた後も、次にアレイを**停止**するまで、サーバーは**正常に機能します**。
 
-At that point, you may either purchase a Registration key, or request a *Trial* extension.
+その時点で、登録キーを購入するか、*トライアル*延長をリクエストできます。
 :end
 
 :registration_4_plug:
-To continue using Unraid OS you may purchase a Registration key. Alternately, you may request a *Trial* extension key.
+Unraid OS を引き続き使用するには、登録キーを購入できます。または、*トライアル*延長キーをリクエストすることもできます。
 
-Most *Trial* extension requests are processed immediately but please allow up to one business day to receive your *Trial* extension key.
+ほとんどの*トライアル*延長リクエストはすぐに処理されますが、*トライアル*延長キーを受け取るまで最大 1 営業日お待ちください。
 :end
 
 :registration_5_plug:
-It is not possible to use a *Trial* key with an existing Unraid OS installation.
+既存の Unraid OS インストールで*トライアル*キーを使用することはできません。
 
-You may purchase a Registration key corresponding to this USB Flash device to continue using this installation.
+このインストールを引き続き使用するには、この USB Flash デバイスに対応する登録キーを購入できます。
 
-For more information, please [Contact Support](https://lime-technology.com/contact).
+詳細については、[サポートに連絡](https://lime-technology.com/contact) してください。
 :end
 
 :registration_6_plug:
-It appears that your Registration key file is corrupted or missing.  The key file should be located in the
-[config](/Registration/Browse?dir&#61;/boot/config) directory on your USB Flash boot device.
+登録キーファイルが破損しているか、見つかりません。キーファイルは、USB Flash ブートデバイスの [config](/Registration/Browse?dir&#61;/boot/config) ディレクトリにある必要があります。
 
-If you do not have a backup copy of your Registration key file, [Contact Support](https://lime-technology.com/contact).
+登録キーファイルのバックアップコピーがない場合は、[サポートに連絡](https://lime-technology.com/contact) してください。
 
-If this was a *Trial* installation, you may purchase a Registration key.
+これが*トライアル*インストールの場合は、登録キーを購入できます。
 :end
 
 :registration_7_plug:
-*Trial* installations are only valid with the originally registered USB Flash device.
+*トライアル*インストールは、最初に登録された USB Flash デバイスでのみ有効です。
 
-To continue using this installation with this USB Flash device, you may purchase a Registration key.
+この USB Flash デバイスでこのインストールを引き続き使用するには、登録キーを購入できます。
 :end
 
 :registration_8_plug:
-The Registration key file does not correspond to the USB Flash boot device.
-Please copy the correct key file to the [config](/Registration/Browse?dir&#61;/boot/config) directory
-on your USB Flash boot device. If you do not have a backup copy of your key file, [Contact Support](https://lime-technology.com/contact).
+登録キーファイルが USB Flash ブートデバイスと一致しません。
+正しいキーファイルを USB Flash ブートデバイスの [config](/Registration/Browse?dir&#61;/boot/config) ディレクトリにコピーしてください。キーファイルのバックアップコピーがない場合は、[サポートに連絡](https://lime-technology.com/contact) してください。
 
-If you want to replace your Registration key with a new key bound to this USB Flash device, click Replace Key below. An original key may be
-replaced anytime. Thereafter, a replacement key may be replaced again after one year has passed.  If you require
-another replacement key sooner, [Contact Support](https://lime-technology.com/contact).
+この USB Flash デバイスにバインドされた新しいキーで登録キーを置き換える場合は、下の「エラーを修正」をクリックしてください。元のキーはいつでも置き換えることができます。その後、置換キーは 1 年後に再度置き換えることができます。より早く別の置換キーが必要な場合は、[サポートに連絡](https://lime-technology.com/contact) してください。
 
-**Note:** Replacing a Registration key results in permanently *blacklisting* the previous USB Flash GUID.
+**注意：**登録キーを置き換えると、以前の USB Flash GUID が永久に*ブラックリストに登録*されます。
 :end
 
 :registration_9_plug:
-This USB Flash boot device has been *blacklisted*. This can occur as a result of transfering your Registration key to
-a replacement USB Flash device, and you are currently booted from your old USB Flash device.
+この USB Flash ブートデバイスは*ブラックリストに登録*されています。これは、登録キーを置換 USB Flash デバイスに転送し、現在古い USB Flash デバイスから起動している場合に発生する可能性があります。
 
-A USB Flash device may also be *blacklisted* if there is no serial number, or if we discover the serial number
-is not unique (this is common with USB card readers).
+シリアル番号がない場合、またはシリアル番号が一意でないことが判明した場合（これは USB カードリーダーでよくあります）、USB Flash デバイスも*ブラックリストに登録*される可能性があります。
 
-For more information, please [Contact Support](https://lime-technology.com/contact).
+詳細については、[サポートに連絡](https://lime-technology.com/contact) してください。
 :end
-
-; Note: May 31, 2025 - 194 missing translations

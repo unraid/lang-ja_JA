@@ -1,42 +1,40 @@
+Display Events=表示イベント数
+File Activity=ファイルアクティビティ
+File Activity Monitoring=ファイルアクティビティ監視
+Start File Activity=ファイルアクティビティを開始
+Stop File Activity Monitoring=ファイルアクティビティ監視を停止
+Clear the File Activity log=ファイルアクティビティログをクリア
+Refresh Page=ページを更新
+Enable File Activity Monitoring=ファイルアクティビティ監視を有効化
+Enable for Unassigned Devices=未割り当てデバイスで有効化
+Enable for Cache and Pool Disks=キャッシュとプールディスクで有効化
 ;
 ; Help
 ;
-:file_activity_loggging_plug:
-> File Activity Logging:
+:file_activity_logging_plug:
+> ファイルアクティビティ監視:
 >
-> File read/write/modify activity is monitored and logged on the array using inotify and is displayed by disk, UD disks, and cache.
-> You need to start the File Activity in order to log the disk activity.
-> File Activity is intended to be running for short periods so you can check disk activity.
-> A server with a lot of file activity can fill the log space.
-> The 'appdata' directory is excluded.
+> ファイルのオープン、読み取り、書き込み、変更アクティビティはinotifyを使用してアレイ上で監視およびログ記録され、ディスクまたは共有フォルダ、UDディスク、キャッシュごとに表示されます。
+> ディスクアクティビティをログに記録するには、ファイルアクティビティを開始する必要があります。
+> ファイルアクティビティは、ディスクアクティビティを確認できるように短期間実行することを目的としています。
+> 多くのファイルアクティビティがあるサーバーでは、ログスペースがいっぱいになる可能性があります。
+> 'appdata'、'docker'、'syslogs'、'system'ディレクトリ（大文字小文字を区別しない）は除外されます。
 >
-> Note: File Activity logging is stopped if the array is stopped.
+> 注意: ファイルアクティビティ監視は、アレイが停止すると停止され、有効になっている場合はアレイが起動すると再起動されます。
 :end
 
 :file_activity_enable_logging_plug:
-> Set to 'Yes' to enable File Activity logging when the server is started.
+> サーバー起動時にファイルアクティビティ監視を有効にするには**Yes**に設定してください。
 :end
 
 :file_activity_enable_ud_plug:
-> Set to 'Yes' to enable File Activity logging for Unassigned Devices if the Unassigned Devices plugin is installed.
+> Unassigned Devicesプラグインがインストールされている場合、未割り当てデバイスのファイルアクティビティ監視を有効にするには**Yes**に設定してください。
 :end
 
 :file_activity_enable_cache_plug:
-> Set to **Yes** to enable File Activity monitoring for the Cache and Pool Disks.  Pool disks only apply in Unraid 6.9.
+> キャッシュとプールディスクのファイルアクティビティ監視を有効にするには**Yes**に設定してください。
 :end
 
 :file_activity_display_events_plug:
-> This is the number of file events shown on disks and shares from the File Activity log for each share or disk.
+> これは、各共有フォルダまたはディスクのファイルアクティビティログから、ディスクと共有フォルダに表示されるファイルイベントの数です。
 :end
-
-; Note: December 8, 2024 - 10 missing translations
-Display Events=
-File Activity=
-File Activity Monitoring=
-Start File Activity=
-Stop File Activity Monitoring=
-Clear the File Activity log=
-Refresh Page=
-Enable File Activity Monitoring=
-Enable for Unassigned Devices=
-Enable for Cache and Pool Disks=
